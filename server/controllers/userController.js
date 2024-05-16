@@ -1,8 +1,11 @@
-import generateId from '../scripts/generateId'
+import generateId from '../scripts/generateId.js'
 
-const fs = require('fs')
-const path = require('path')
-const dbPath = path.join(__dirname, '../..', 'db', 'players.json')
+import fs from 'fs'
+import path from 'path'
+import { fileURLToPath } from 'url'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const dbPath = path.join(__dirname, '..', 'db', 'users.json')
 
 async function signUp(req, res) {
 
@@ -10,6 +13,11 @@ async function signUp(req, res) {
 
     try {
         const { name, email, password } = req.body
+
+        if (!fs.existsSync(dbPath)) {
+            fs.writeFileSync(dbPath, '[]')
+        }
+
         if (fs.existsSync(dbPath)) {
             const data = fs.readFileSync(dbPath, 'utf-8')
             users = data ? JSON.parse(data) : []

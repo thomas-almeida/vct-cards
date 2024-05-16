@@ -8,7 +8,7 @@ function generateUniqueId(users) {
 }
 
 function generateExtenseId(users) {
-    
+
     const letters = 'abcdefghijklmnopqrstuvwxyz';
     const numbers = '0123456789';
 
@@ -19,7 +19,7 @@ function generateExtenseId(users) {
             const randomLetter = Math.floor(Math.random() * letters.length)
             userId += letters[randomLetter]
         }
-    
+
         for (let i = 0; i < 3; i++) {
             const randomNumber = Math.floor(Math.random() * numbers.length)
             userId += numbers[randomNumber]
@@ -28,8 +28,6 @@ function generateExtenseId(users) {
 
     return userId
 }
-
-generateUserId()
 
 export default {
     generateUniqueId,

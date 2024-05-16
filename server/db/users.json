@@ -1,0 +1,17 @@
+[
+  {
+    "id": "nqthgf627",
+    "name": "Thomas",
+    "email": "thom@gmail.com",
+    "password": "Git@2033",
+    "team": {
+      "id": "",
+      "name": "",
+      "players": [],
+      "picture": "",
+      "country": ""
+    },
+    "coins": 0,
+    "credits": 0
+  }
+]
