@@ -1,3 +1,4 @@
+import generateId from '../scripts/generateId'
 const api = require('axios')
 const cheerio = require('cheerio')
 const fs = require('fs')
@@ -6,16 +7,8 @@ const path = require('path')
 const dbPath = path.join(__dirname, '../..', 'db', 'players.json')
 
 
-function generateUniqueId(users) {
-    let id = -1
-    do {
-        id++
-    } while (users.some(user => user.id === id))
-    return id
-}
-
 async function bruteCollect() {
-    const response = await api.get('https://www.vlr.gg/stats/?event_group_id=all&event_id=2004&series_id=all&region=all&country=all&min_rounds=200&min_rating=1550&agent=all&map_id=all&timespan=60d')
+    const response = await api.get('https://www.vlr.gg/stats')
     const $ = cheerio.load(response.data)
 
     const playerRow = $('tr')
@@ -44,14 +37,14 @@ async function bruteCollect() {
         let classimg = $element.find('.mod-player i').attr("class")
         let imageCountry = `https://www.vlr.gg/img/icons/flags/16/${classimg}`
 
-        playerData.id = generateUniqueId(players)
+        playerData.id = generateId.generateUniqueId(players)
 
         playerData.name = `${$element.find('.text-of').text().trim().replace(/\n/g, '').replace(/\t/g, '')} ${$element.find('.stats-player-country').text().trim().replace(/\n/g, '').replace(/\t/g, '')}`;
-        playerData.rating = $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(0, 4)
-        playerData.acs = $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(4, 9)
-        playerData.kd = $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(9, 13)
-        playerData.kast = $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(13, 16)
-        playerData.adr = $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(16, 21)
+        playerData.rating = $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(0, 4) ?  $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(0, 4) : '0.45'
+        playerData.acs = $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(4, 9) ? $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(4, 9) : '100'
+        playerData.kd = $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(9, 13) ? $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(9, 13) : '0.50'
+        playerData.kast = $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(13, 16) ? $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(13, 16) : '25%'
+        playerData.adr = $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(16, 21) ? $element.find('.mod-color-sq div:nth-child(1)').text().trim().slice(16, 21) : '40'
         playerData.agents = `https://www.vlr.gg/${$element.find('.mod-agents div img').attr("src")}`
         playerData.country = `${imageCountry.replace('flag mod-', '')}.png`
         playerData.link = `https://www.vlr.gg${$element.find('.mod-player a').attr("href")}`
@@ -111,12 +104,13 @@ async function calculateOverAll() {
 
     const data = fs.readFileSync(dbPath, 'utf-8')
     players = data ? JSON.parse(data) : []
-    
+
 
     players.forEach(async (player, index) => {
+        
+        const currentPlayer = players[index]
 
         // OV = (Rating - 0.00) / (1.50 - 0.00) * 100
-        const currentPlayer = players[index]
         let overall = ((currentPlayer.rating - 0.00) / (1.5 - 0.00) * 100)
 
         currentPlayer.overall = overall.toFixed(0)
@@ -124,6 +118,8 @@ async function calculateOverAll() {
     })
 }
 
+
 //bruteCollect()
 //collectImages()
 //calculateOverAll()
+
