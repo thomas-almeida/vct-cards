@@ -12,7 +12,7 @@ async function signUp(req, res) {
     let users = []
 
     try {
-        const { name, email, password } = req.body
+        const { name, email, teamName, password } = req.body
 
         if (!fs.existsSync(dbPath)) {
             fs.writeFileSync(dbPath, '[]')
@@ -35,20 +35,21 @@ async function signUp(req, res) {
             name,
             email,
             password,
+            level: 1,
+            xp: 0,
             team: {
-                id: '',
-                name: '',
+                id: id,
+                name: teamName,
                 players: [],
                 picture: '',
-                country: ''
             },
-            coins: 0,
+            coins: 2500,
             credits: 0
         }
 
         users.push(newUser)
         fs.writeFileSync(dbPath, JSON.stringify(users, null, 2))
-        console.log(`user [${id}]${name} has been registered`)
+        console.log(`user [${id}]${name} has been registered, team ${teamName}`)
         return res.status(201).json(newUser)
 
     } catch (error) {

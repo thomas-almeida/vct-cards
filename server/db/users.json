@@ -1,17 +1,168 @@
 [
   {
-    "id": "nqthgf627",
-    "name": "Thomas",
+    "id": "bevfhu611",
+    "name": "Thom",
     "email": "thom@gmail.com",
     "password": "Git@2033",
+    "level": 1,
+    "xp": 0,
     "team": {
-      "id": "",
-      "name": "",
-      "players": [],
-      "picture": "",
-      "country": ""
+      "id": "bevfhu611",
+      "name": "Autobois",
+      "players": [
+        [
+          {
+            "id": 145,
+            "name": "keznit",
+            "overall": "73",
+            "acs": "251.1",
+            "kd": "1.16",
+            "kast": "70%",
+            "adr": "168.5",
+            "agents": "https://www.vlr.gg//img/vlr/game/agents/raze.png",
+            "country": {
+              "name": "Chile",
+              "flag": "https://www.vlr.gg/img/icons/flags/16/cl.png"
+            },
+            "link": "https://www.vlr.gg/player/2462/keznit",
+            "playerPicture": "https://owcdn.net/img/66403b45d7584.png",
+            "teamPicture": "https://owcdn.net/img/63976677069e1.png",
+            "rating": "1.09",
+            "teamName": "KRÜ Esports",
+            "teamLink": "https://www.vlr.gg/team/2355/kr-esports",
+            "role": "Duelista"
+          },
+          {
+            "id": 375,
+            "name": "tdawgg",
+            "overall": "66",
+            "acs": "196.3",
+            "kd": "0.96",
+            "kast": "72%",
+            "adr": "131.6",
+            "agents": "https://www.vlr.gg//img/vlr/game/agents/sova.png",
+            "country": {
+              "name": "United States",
+              "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
+            },
+            "link": "https://www.vlr.gg/player/3007/tdawgg",
+            "playerPicture": "https://owcdn.net/img/64fcfd3cdcca5.png",
+            "teamPicture": "https://owcdn.net/img/63e9a11797f41.png",
+            "rating": "0.99",
+            "teamName": "QoR",
+            "teamLink": "https://www.vlr.gg/team/6985/qor",
+            "role": "Iniciador"
+          },
+          {
+            "id": 414,
+            "name": "PIGGY",
+            "overall": "65",
+            "acs": "190.0",
+            "kd": "0.92",
+            "kast": "75%",
+            "adr": "125.0",
+            "agents": "https://www.vlr.gg//img/vlr/game/agents/breach.png",
+            "country": {
+              "name": "United States",
+              "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
+            },
+            "link": "https://www.vlr.gg/player/14024/piggy",
+            "playerPicture": "https://owcdn.net/img/6540cf3eda305.png",
+            "teamPicture": "https://owcdn.net/img/636c5939906a3.png",
+            "rating": "0.97",
+            "teamName": "Mizzou Esports",
+            "teamLink": "https://www.vlr.gg/team/8614/mizzou-esports",
+            "role": "Iniciador"
+          },
+          {
+            "id": 29,
+            "name": "zeldris",
+            "overall": "80",
+            "acs": "281.7",
+            "kd": "1.33",
+            "kast": "74%",
+            "adr": "179.2",
+            "agents": "https://www.vlr.gg//img/vlr/game/agents/jett.png",
+            "country": {
+              "name": "United States",
+              "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
+            },
+            "link": "https://www.vlr.gg/player/13831/zeldris",
+            "playerPicture": "https://owcdn.net/img/65a83f8ec619e.png",
+            "teamPicture": "https://owcdn.net/img/63e9a11797f41.png",
+            "rating": "1.20",
+            "teamName": "QoR",
+            "teamLink": "https://www.vlr.gg/team/6985/qor",
+            "role": "Duelista"
+          },
+          {
+            "id": 24,
+            "name": "Korsonix",
+            "overall": "81",
+            "acs": "203.6",
+            "kd": "1.31",
+            "kast": "83%",
+            "adr": "130.7",
+            "agents": "https://www.vlr.gg//img/vlr/game/agents/breach.png",
+            "country": {
+              "name": "United States",
+              "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
+            },
+            "link": "https://www.vlr.gg/player/6450/korsonix",
+            "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+            "teamPicture": "https://owcdn.net/img/636dafd3a1796.png",
+            "rating": "1.21",
+            "teamName": "UST Esports",
+            "teamLink": "https://www.vlr.gg/team/10505/ust-esports",
+            "role": "Iniciador"
+          },
+          {
+            "id": 40,
+            "name": "wedid",
+            "overall": "79",
+            "acs": "222.5",
+            "kd": "1.16",
+            "kast": "75%",
+            "adr": "147.5",
+            "agents": "https://www.vlr.gg//img/vlr/game/agents/omen.png",
+            "country": {
+              "name": "Poland",
+              "flag": "https://www.vlr.gg/img/icons/flags/16/pl.png"
+            },
+            "link": "https://www.vlr.gg/player/1856/wedid",
+            "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+            "teamPicture": "https://owcdn.net/img/63d552c5dd028.png",
+            "rating": "1.18",
+            "teamName": "Turtle Troop",
+            "teamLink": "https://www.vlr.gg/team/11836/turtle-troop",
+            "role": "Controlador"
+          },
+          {
+            "id": 114,
+            "name": "zekken",
+            "overall": "74",
+            "acs": "251.4",
+            "kd": "1.16",
+            "kast": "73%",
+            "adr": "159.8",
+            "agents": "https://www.vlr.gg//img/vlr/game/agents/raze.png",
+            "country": {
+              "name": "United States",
+              "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
+            },
+            "link": "https://www.vlr.gg/player/4004/zekken",
+            "playerPicture": "https://owcdn.net/img/6416956f0da1e.png",
+            "teamPicture": "https://owcdn.net/img/62875027c8e06.png",
+            "rating": "1.11",
+            "teamName": "Sentinels",
+            "teamLink": "https://www.vlr.gg/team/2/sentinels",
+            "role": "Duelista"
+          }
+        ]
+      ],
+      "picture": "https://owcdn.net/img/61b8888cc3860.png"
     },
-    "coins": 0,
+    "coins": 2500,
     "credits": 0
   }
 ]

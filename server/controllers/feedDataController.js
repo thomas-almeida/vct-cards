@@ -1,4 +1,5 @@
 import generateId from '../scripts/generateId.js'
+import agentData from '../scripts/agents.js'
 
 import api from 'axios'
 import cheerio from 'cheerio'
@@ -9,6 +10,7 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const dbPath = path.join(__dirname, '..', 'db', 'players.json')
 const dbTeams = path.join(__dirname, '..', 'db', 'teams.json')
+const dbCountries = path.join(__dirname, '..', 'db', 'countries.json')
 
 
 async function bruteCollect() {
@@ -31,6 +33,7 @@ async function bruteCollect() {
             agents: '',
             country: '',
             link: '',
+            teamLink: '',
             playerPicture: '',
             teamPicture: '',
             teamName: '',
@@ -86,7 +89,7 @@ async function collectImages() {
             let playerImage = $element.find('.wf-avatar img').attr("src")
             let playerName = $element.find('.wf-title').text().trim().replace(/\n/g, '').replace(/\t/g, '')
             let teamImage = $element.find('.wf-module-item img').attr("src")
-            let teamName = $element.find('.wf-module-item').attr("href")
+            let teamLink = $element.find('.wf-module-item').attr("href")
 
             if (playerImage.includes('ph/sil')) {
                 playerImage = 'https://www.vlr.gg/img/base/ph/sil.png'
@@ -96,14 +99,15 @@ async function collectImages() {
 
             console.log({
                 img: 'https:' + teamImage,
-                name: teamName
+                name: teamLink
             })
 
             currentPlayer.playerPicture = playerImage
             currentPlayer.teamPicture = `https:${teamImage}`
-            //currentPlayer.teamName = `https://www.vlr.gg${teamName}`
+            currentPlayer.teamLink = `https://www.vlr.gg${teamLink}`
             currentPlayer.name = playerName
-            fs.writeFileSync(dbPath, JSON.stringify(players, null, 2))
+
+            // fs.writeFileSync(dbPath, JSON.stringify(players, null, 2))
         })
 
     })
@@ -118,6 +122,7 @@ async function getTeamFullName() {
 
     players.forEach(async (player, index) => {
         const currentPlayer = players[index]
+        console.log(player.teamName)
         const response = await api.get(player.teamName)
         const $ = cheerio.load(response.data)
         const teamInfo = $('.team-header')
@@ -125,10 +130,11 @@ async function getTeamFullName() {
         teamInfo.each((_, element) => {
             const $element = $(element)
             let teamName = $element.find('.team-header-name h1').text()
+            let teamCountry = $element.find('.team-header-country').text()
             console.log(teamName)
             currentPlayer.teamName = teamName
 
-            fs.writeFileSync(dbPath, JSON.stringify(players, null, 2))
+            //fs.writeFileSync(dbPath, JSON.stringify(players, null, 2))
         })
 
     })
@@ -163,7 +169,7 @@ async function feedTeams() {
 
     const data = fs.readFileSync(dbPath, 'utf-8')
     const teamData = fs.readFileSync(dbTeams, 'utf-8')
-    
+
     players = data ? JSON.parse(data) : []
     vutTeams = teamData ? JSON.parse(teamData) : []
 
@@ -187,7 +193,10 @@ async function feedTeams() {
             teamName: '',
             teamPicture: '',
             teamPlayers: [],
-            teamOverall: 0
+            teamOverall: 0,
+            teamCountry: '',
+            link: '',
+            region: ''
         }
 
         teamInfo.teamName = teamNames[i]
@@ -195,6 +204,7 @@ async function feedTeams() {
             if (players[index].teamName === teamNames[i]) {
                 teamInfo.teamPlayers.push(players[index])
                 teamInfo.teamPicture = players[index].teamPicture
+                teamInfo.link = players[index].teamLink
             }
         })
         teamInfo.teamOverall = (teamInfo.teamPlayers.reduce((sum, player) => sum + parseInt(player.overall), 0) / teamInfo.teamPlayers.length).toFixed(0)
@@ -207,8 +217,157 @@ async function feedTeams() {
 
 }
 
+function onlyBruteCaps(string) {
+    return string.replace(/[^A-Z]+/g, " ")
+}
+
+async function feedCountries() {
+    let players = []
+    let countries = []
+    let allCountries = []
+    let country = {}
+
+    const data = fs.readFileSync(dbPath, 'utf-8')
+    const countrieData = fs.readFileSync(dbCountries, 'utf-8')
+
+    players = data ? JSON.parse(data) : []
+    countries = countrieData ? JSON.parse(countrieData) : []
+
+    players.forEach(async (player, index) => {
+
+        const currentPlayer = players[index]
+        const response = await api.get(player.link)
+        const $ = cheerio.load(response.data)
+
+        const playerInfo = $('.player-header')
+
+        playerInfo.each((_, element) => {
+            const $element = $(element)
+
+            let countryName = ""
+            let classimg = $element.find('.ge-text-light').children().attr("class")
+            let imageCountry = `https://www.vlr.gg/img/icons/flags/16/${classimg}`
+            let countryBruteData = onlyBruteCaps($element.find('.ge-text-light').text().trim().replace(/\n/g, '').replace(/\t/g, ''))
+            let flag = `${imageCountry.replace('flag mod-', '')}.png`
+
+            countries.forEach(country => {
+                if (countryBruteData.toLowerCase().includes(country.name.toLowerCase())) {
+                    countryName = country.name
+                }
+            })
+
+            country = {
+                name: countryName,
+                flag: flag
+            }
+
+            allCountries.push(country)
+            currentPlayer.country = country
+            fs.writeFileSync(dbPath, JSON.stringify(players), null, 2)
+        })
+
+
+    })
+
+}
+
+async function groupTeamsByRegion() {
+
+    let teams = []
+    const data = fs.readFileSync(dbTeams, 'utf-8')
+    teams = data ? JSON.parse(data) : []
+
+    teams.forEach(async (team, index) => {
+        const currentTeam = teams[index]
+        if (currentTeam.link !== '') {
+            const response = await api.get(currentTeam.link)
+            const $ = cheerio.load(response.data)
+            const teamData = $('.team-header')
+
+            let region = {
+                name: '',
+                flag: ''
+            }
+
+            let flagUrl = 'https://www.vlr.gg/img/icons/flags/16/'
+            teamData.each((_, element) => {
+                const $element = $(element)
+                let name = $element.find('.team-header-country').text().trim()
+                let flag = $element.find('.team-header-country i').attr("class")
+
+                region.name = name
+                region.flag = `${flagUrl}${flag.replace('flag mod-', '')}.png`
+
+                currentTeam.region = region
+
+                console.log(currentTeam)
+                fs.writeFileSync(dbTeams, JSON.stringify(teams), null, 2)
+            })
+        }
+    })
+
+}
+
+function teamPerRegion() {
+    let teams = []
+    let regions = {}
+    let flags = {}
+
+    const data = fs.readFileSync(dbTeams, 'utf-8')
+    teams = data ? JSON.parse(data) : []
+
+    teams.forEach((team, index) => {
+
+        let regionName = teams[index].region.name
+        let regionFlag = teams[index].region.flag
+
+        if (regions[regionName] !== undefined) {
+            regions[regionName]++
+        } else {
+            regions[regionName] = 1
+        }
+
+        if (flags[regionFlag] !== undefined) {
+            flags[regionFlag]++
+        } else {
+            flags[regionFlag] = 1
+        }
+
+    })
+
+    console.log({
+        region: Object.keys(regions),
+        flag: Object.keys(flags)
+    })
+}
+
+function addAgentRole() {
+
+    let teams = []
+    const data = fs.readFileSync(dbTeams, 'utf-8')
+    teams = data ? JSON.parse(data) : []
+
+    teams.forEach((team, index) => {
+        team.teamPlayers.forEach((player, index) => {
+            let currentPlayer = player
+            let agentName = player.agents.slice(40).replace('.png', '')
+            agentData.agents.forEach(agent => {
+                if (agentName === agent.name.toLocaleLowerCase()) {
+                    currentPlayer.role = agent.role
+                    fs.writeFileSync(dbTeams, JSON.stringify(teams), null, 2)
+                }
+            })
+        })
+    })
+
+}
+
 //bruteCollect()
 //collectImages()
 //calculateOverAll()
 //getTeamFullName()
-feedTeams()
+//feedTeams()
+//feedCountries()
+//groupTeamsByRegion()
+//teamPerRegion()
+addAgentRole()

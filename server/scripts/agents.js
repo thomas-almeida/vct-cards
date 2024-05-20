@@ -1,4 +1,4 @@
-export const agents = [
+const agents = [
     {
         id: 1,
         name: 'Brimstone',
@@ -116,3 +116,8 @@ export const agents = [
     },
 
 ]
+
+
+export default {
+    agents
+}
