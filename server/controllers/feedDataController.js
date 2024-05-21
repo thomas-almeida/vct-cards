@@ -10,7 +10,6 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const dbPath = path.join(__dirname, '..', 'db', 'players.json')
 const dbTeams = path.join(__dirname, '..', 'db', 'teams.json')
-const dbCountries = path.join(__dirname, '..', 'db', 'countries.json')
 
 
 async function bruteCollect() {
@@ -219,56 +218,6 @@ async function feedTeams() {
 
 function onlyBruteCaps(string) {
     return string.replace(/[^A-Z]+/g, " ")
-}
-
-async function feedCountries() {
-    let players = []
-    let countries = []
-    let allCountries = []
-    let country = {}
-
-    const data = fs.readFileSync(dbPath, 'utf-8')
-    const countrieData = fs.readFileSync(dbCountries, 'utf-8')
-
-    players = data ? JSON.parse(data) : []
-    countries = countrieData ? JSON.parse(countrieData) : []
-
-    players.forEach(async (player, index) => {
-
-        const currentPlayer = players[index]
-        const response = await api.get(player.link)
-        const $ = cheerio.load(response.data)
-
-        const playerInfo = $('.player-header')
-
-        playerInfo.each((_, element) => {
-            const $element = $(element)
-
-            let countryName = ""
-            let classimg = $element.find('.ge-text-light').children().attr("class")
-            let imageCountry = `https://www.vlr.gg/img/icons/flags/16/${classimg}`
-            let countryBruteData = onlyBruteCaps($element.find('.ge-text-light').text().trim().replace(/\n/g, '').replace(/\t/g, ''))
-            let flag = `${imageCountry.replace('flag mod-', '')}.png`
-
-            countries.forEach(country => {
-                if (countryBruteData.toLowerCase().includes(country.name.toLowerCase())) {
-                    countryName = country.name
-                }
-            })
-
-            country = {
-                name: countryName,
-                flag: flag
-            }
-
-            allCountries.push(country)
-            currentPlayer.country = country
-            fs.writeFileSync(dbPath, JSON.stringify(players), null, 2)
-        })
-
-
-    })
-
 }
 
 async function groupTeamsByRegion() {
