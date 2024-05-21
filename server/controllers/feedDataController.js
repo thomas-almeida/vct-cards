@@ -395,6 +395,8 @@ function addPriceToAPlayer() {
 
 }
 
+
+
 //bruteCollect()
 //collectImages()
 //calculateOverAll()
@@ -404,4 +406,4 @@ function addPriceToAPlayer() {
 //groupTeamsByRegion()
 //teamPerRegion()
 //addAgentRole()
-addPriceToAPlayer()
+//addPriceToAPlayer()

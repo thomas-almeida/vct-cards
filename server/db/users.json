@@ -160,6 +160,16 @@
           }
         ]
       ],
+      "packs": [
+        {
+          "id": "aaa",
+          "name": "Ameriacs PACK",
+          "description": "pacote que contém jogadores do VCT américas",
+          "value": 20000,
+          "content": [],
+          "isOpened": false
+        }
+      ],
       "picture": "https://owcdn.net/img/61b8888cc3860.png"
     },
     "coins": 2500,
