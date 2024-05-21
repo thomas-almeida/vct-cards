@@ -13,5 +13,6 @@ api.get('/users/get-user-by-id/:id', userController.getUser)
 api.get('/game/sort-players-by-region/:userId/:region', playerController.playersByRegion)
 api.get('/game/get-team-pictures', playerController.getTeamPictures)
 api.post('/game/choose-team-picture', playerController.chooseTeamPicture)
+api.post('/game/buy-pack', playerController.buyPack)
 
 export default api

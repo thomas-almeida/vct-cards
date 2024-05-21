@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const teamsDB = path.join(__dirname, '..', 'db', 'teams.json')
 const usersDB = path.join(__dirname, '..', 'db', 'users.json')
+const packsDB = path.join(__dirname, '..', 'db', 'packs.json')
 
 async function playersByRegion(req, res) {
 
@@ -160,8 +161,68 @@ async function chooseTeamPicture(req, res) {
     }
 }
 
+async function buyPack(req, res) {
+    try {
+
+        let users = []
+        let packs = []
+
+        const { userId, packId } = req.body
+        const usersData = fs.readFileSync(usersDB, 'utf-8')
+        const packsData = fs.readFileSync(packsDB, 'utf-8')
+        users = usersData ? JSON.parse(usersData) : []
+        packs = packsData ? JSON.parse(packsData) : []
+
+        const userExist = users.some(user => user.id === userId)
+        let targetPack
+        let targetUser
+
+        if (!userExist) {
+            res.status(409).json({ message: 'user not found' })
+        }
+
+        users.forEach((user, index) => {
+            if (users[index].id === userId) {
+                targetUser = users[index]
+            }
+        })
+
+        packs.forEach((pack, index) => {
+            if (packs[index].id === packId) {
+                targetPack = packs[index]
+            }
+        })
+
+        if (targetUser.coins >= targetPack.value) {
+
+            let newCoinsBalance = targetUser.coins - targetPack.value
+            targetUser.coins = newCoinsBalance
+            targetUser.packs.push(targetPack)
+            fs.writeFileSync(usersDB, JSON.stringify(users), null, 2)
+
+            console.log(`User [${targetUser.id}]:${targetUser.name} bought a new pack: [${targetPack.id}]${targetPack.name}`)
+
+            res.status(200).json({
+                message: 'success',
+                user: targetUser
+            })
+
+        } else {
+            res.status(409).json({
+                message: 'user not have coins for this transaction'
+            })
+        }
+
+
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({ message: 'internal server error' })
+    }
+}
+
 export default {
     playersByRegion,
     getTeamPictures,
-    chooseTeamPicture
+    chooseTeamPicture,
+    buyPack
 }

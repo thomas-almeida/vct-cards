@@ -10,7 +10,7 @@ const packsDB = path.join(__dirname, '..', 'db', 'packs.json')
 
 //pacote de regiao
 //pacote de time (bem mais caro)
-//pacote por OV (preço relativo)
+//✅ pacote por OV (preço relativo)
 
 async function createNewPacks() {
 
