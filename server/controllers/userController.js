@@ -43,7 +43,7 @@ async function signUp(req, res) {
                 players: [],
                 picture: '',
             },
-            coins: 2500,
+            coins: 250,
             credits: 0
         }
 

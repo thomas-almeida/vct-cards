@@ -362,6 +362,39 @@ function addAgentRole() {
 
 }
 
+function addPriceToAPlayer() {
+
+    let players = []
+    const data = fs.readFileSync(dbPath, 'utf-8')
+    players = data ? JSON.parse(data) : []
+
+    players.forEach((player, index) => {
+
+        let playerOverall = players[index].overall
+        let coinUnit = 0
+
+        if (playerOverall < 40) {
+            coinUnit = 4
+        } else if (playerOverall >= 40 && playerOverall < 59) {
+            coinUnit = 6
+        } else if (playerOverall >= 50 && playerOverall < 69) {
+            coinUnit = 8
+        } else if (playerOverall >= 69 && playerOverall < 79) {
+            coinUnit = 12
+        } else if (playerOverall >= 79 && playerOverall < 89) {
+            coinUnit = 15
+        } else if (playerOverall >= 89) {
+            coinUnit = 18
+        }
+
+        let playerValue = playerOverall * coinUnit
+        players[index].value = playerValue
+
+        fs.writeFileSync(dbPath, JSON.stringify(players), null, 2)
+    })
+
+}
+
 //bruteCollect()
 //collectImages()
 //calculateOverAll()
@@ -370,4 +403,5 @@ function addAgentRole() {
 //feedCountries()
 //groupTeamsByRegion()
 //teamPerRegion()
-addAgentRole()
+//addAgentRole()
+addPriceToAPlayer()
