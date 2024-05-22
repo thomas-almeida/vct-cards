@@ -10,159 +10,282 @@
       "id": "bevfhu611",
       "name": "Autobois",
       "players": [
-        [
-          {
-            "id": 145,
-            "name": "keznit",
-            "overall": "73",
-            "acs": "251.1",
-            "kd": "1.16",
-            "kast": "70%",
-            "adr": "168.5",
-            "agents": "https://www.vlr.gg//img/vlr/game/agents/raze.png",
-            "country": {
-              "name": "Chile",
-              "flag": "https://www.vlr.gg/img/icons/flags/16/cl.png"
-            },
-            "link": "https://www.vlr.gg/player/2462/keznit",
-            "playerPicture": "https://owcdn.net/img/66403b45d7584.png",
-            "teamPicture": "https://owcdn.net/img/63976677069e1.png",
-            "rating": "1.09",
-            "teamName": "KRÜ Esports",
-            "teamLink": "https://www.vlr.gg/team/2355/kr-esports",
-            "role": "Duelista"
+        {
+          "id": 15,
+          "name": "zander",
+          "overall": "83",
+          "acs": "263.1",
+          "kd": "1.36",
+          "kast": "81%",
+          "adr": "169.2",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/viper.png",
+          "country": {
+            "name": "Canada",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/ca.png"
           },
-          {
-            "id": 375,
-            "name": "tdawgg",
-            "overall": "66",
-            "acs": "196.3",
-            "kd": "0.96",
-            "kast": "72%",
-            "adr": "131.6",
-            "agents": "https://www.vlr.gg//img/vlr/game/agents/sova.png",
-            "country": {
-              "name": "United States",
-              "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
-            },
-            "link": "https://www.vlr.gg/player/3007/tdawgg",
-            "playerPicture": "https://owcdn.net/img/64fcfd3cdcca5.png",
-            "teamPicture": "https://owcdn.net/img/63e9a11797f41.png",
-            "rating": "0.99",
-            "teamName": "QoR",
-            "teamLink": "https://www.vlr.gg/team/6985/qor",
-            "role": "Iniciador"
+          "link": "https://www.vlr.gg/player/8082/zander",
+          "playerPicture": "https://owcdn.net/img/65a1dde2ae314.png",
+          "teamPicture": "https://owcdn.net/img/63d91e60a84bc.png",
+          "rating": "1.24",
+          "teamName": "M80",
+          "teamLink": "https://www.vlr.gg/team/11001/m80",
+          "role": "Controlador",
+          "value": 1245
+        },
+        {
+          "id": 204,
+          "name": "erde",
+          "overall": "70",
+          "acs": "210.3",
+          "kd": "1.06",
+          "kast": "69%",
+          "adr": "136.4",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/skye.png",
+          "country": {
+            "name": "Chile",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/cl.png"
           },
-          {
-            "id": 414,
-            "name": "PIGGY",
-            "overall": "65",
-            "acs": "190.0",
-            "kd": "0.92",
-            "kast": "75%",
-            "adr": "125.0",
-            "agents": "https://www.vlr.gg//img/vlr/game/agents/breach.png",
-            "country": {
-              "name": "United States",
-              "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
-            },
-            "link": "https://www.vlr.gg/player/14024/piggy",
-            "playerPicture": "https://owcdn.net/img/6540cf3eda305.png",
-            "teamPicture": "https://owcdn.net/img/636c5939906a3.png",
-            "rating": "0.97",
-            "teamName": "Mizzou Esports",
-            "teamLink": "https://www.vlr.gg/team/8614/mizzou-esports",
-            "role": "Iniciador"
+          "link": "https://www.vlr.gg/player/29242/erde",
+          "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+          "teamPicture": "https://owcdn.net/img/639441ed93cc5.png",
+          "rating": "1.05",
+          "teamName": "Furious Gaming",
+          "teamLink": "https://www.vlr.gg/team/361/furious-gaming",
+          "role": "Iniciador",
+          "value": 840
+        },
+        {
+          "id": 375,
+          "name": "tdawgg",
+          "overall": "66",
+          "acs": "196.3",
+          "kd": "0.96",
+          "kast": "72%",
+          "adr": "131.6",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/sova.png",
+          "country": {
+            "name": "United States",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
           },
-          {
-            "id": 29,
-            "name": "zeldris",
-            "overall": "80",
-            "acs": "281.7",
-            "kd": "1.33",
-            "kast": "74%",
-            "adr": "179.2",
-            "agents": "https://www.vlr.gg//img/vlr/game/agents/jett.png",
-            "country": {
-              "name": "United States",
-              "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
-            },
-            "link": "https://www.vlr.gg/player/13831/zeldris",
-            "playerPicture": "https://owcdn.net/img/65a83f8ec619e.png",
-            "teamPicture": "https://owcdn.net/img/63e9a11797f41.png",
-            "rating": "1.20",
-            "teamName": "QoR",
-            "teamLink": "https://www.vlr.gg/team/6985/qor",
-            "role": "Duelista"
+          "link": "https://www.vlr.gg/player/3007/tdawgg",
+          "playerPicture": "https://owcdn.net/img/64fcfd3cdcca5.png",
+          "teamPicture": "https://owcdn.net/img/63e9a11797f41.png",
+          "rating": "0.99",
+          "teamName": "QoR",
+          "teamLink": "https://www.vlr.gg/team/6985/qor",
+          "role": "Iniciador",
+          "value": 528
+        },
+        {
+          "id": 529,
+          "name": "jawgemo",
+          "overall": "61",
+          "acs": "217.4",
+          "kd": "0.94",
+          "kast": "63%",
+          "adr": "146.2",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/raze.png",
+          "country": {
+            "name": "Cambodia",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/kh.png"
           },
-          {
-            "id": 24,
-            "name": "Korsonix",
-            "overall": "81",
-            "acs": "203.6",
-            "kd": "1.31",
-            "kast": "83%",
-            "adr": "130.7",
-            "agents": "https://www.vlr.gg//img/vlr/game/agents/breach.png",
-            "country": {
-              "name": "United States",
-              "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
-            },
-            "link": "https://www.vlr.gg/player/6450/korsonix",
-            "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
-            "teamPicture": "https://owcdn.net/img/636dafd3a1796.png",
-            "rating": "1.21",
-            "teamName": "UST Esports",
-            "teamLink": "https://www.vlr.gg/team/10505/ust-esports",
-            "role": "Iniciador"
+          "link": "https://www.vlr.gg/player/3993/jawgemo",
+          "playerPicture": "https://owcdn.net/img/64169400bfed7.png",
+          "teamPicture": "https://owcdn.net/img/62a409ad29351.png",
+          "rating": "0.92",
+          "teamName": "Evil Geniuses",
+          "teamLink": "https://www.vlr.gg/team/5248/evil-geniuses",
+          "role": "Duelista",
+          "value": 488
+        },
+        {
+          "id": 209,
+          "name": "Shondex",
+          "overall": "70",
+          "acs": "226.2",
+          "kd": "1.16",
+          "kast": "73%",
+          "adr": "150.0",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/killjoy.png",
+          "country": {
+            "name": "Turkey",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/tr.png"
           },
-          {
-            "id": 40,
-            "name": "wedid",
-            "overall": "79",
-            "acs": "222.5",
-            "kd": "1.16",
-            "kast": "75%",
-            "adr": "147.5",
-            "agents": "https://www.vlr.gg//img/vlr/game/agents/omen.png",
-            "country": {
-              "name": "Poland",
-              "flag": "https://www.vlr.gg/img/icons/flags/16/pl.png"
-            },
-            "link": "https://www.vlr.gg/player/1856/wedid",
-            "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
-            "teamPicture": "https://owcdn.net/img/63d552c5dd028.png",
-            "rating": "1.18",
-            "teamName": "Turtle Troop",
-            "teamLink": "https://www.vlr.gg/team/11836/turtle-troop",
-            "role": "Controlador"
+          "link": "https://www.vlr.gg/player/25902/shondex",
+          "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+          "teamPicture": "https://owcdn.net/img/60e52a39979eb.png",
+          "rating": "1.05",
+          "teamName": "1337",
+          "teamLink": "https://www.vlr.gg/team/14662/1337",
+          "role": "Sentinela",
+          "value": 840
+        },
+        {
+          "id": 434,
+          "name": "deigara",
+          "overall": "64",
+          "acs": "187.2",
+          "kd": "0.93",
+          "kast": "72%",
+          "adr": "124.3",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/kayo.png",
+          "country": {
+            "name": "Argentina",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/ar.png"
           },
-          {
-            "id": 114,
-            "name": "zekken",
-            "overall": "74",
-            "acs": "251.4",
-            "kd": "1.16",
-            "kast": "73%",
-            "adr": "159.8",
-            "agents": "https://www.vlr.gg//img/vlr/game/agents/raze.png",
-            "country": {
-              "name": "United States",
-              "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
-            },
-            "link": "https://www.vlr.gg/player/4004/zekken",
-            "playerPicture": "https://owcdn.net/img/6416956f0da1e.png",
-            "teamPicture": "https://owcdn.net/img/62875027c8e06.png",
-            "rating": "1.11",
-            "teamName": "Sentinels",
-            "teamLink": "https://www.vlr.gg/team/2/sentinels",
-            "role": "Duelista"
-          }
-        ]
+          "link": "https://www.vlr.gg/player/11046/deigara",
+          "playerPicture": "https://owcdn.net/img/6468f5f6b4aa8.png",
+          "teamPicture": "https://owcdn.net/img/65e447b0c2415.png",
+          "rating": "0.96",
+          "teamName": "9z Team",
+          "teamLink": "https://www.vlr.gg/team/367/9z-team",
+          "role": "Iniciador",
+          "value": 512
+        },
+        {
+          "id": 533,
+          "name": "CTC",
+          "overall": "61",
+          "acs": "184.9",
+          "kd": "0.95",
+          "kast": "69%",
+          "adr": "118.8",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/killjoy.png",
+          "country": {
+            "name": "Brazil",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/br.png"
+          },
+          "link": "https://www.vlr.gg/player/3433/ctc",
+          "playerPicture": "https://owcdn.net/img/65e0a6d65837a.png",
+          "teamPicture": "https://owcdn.net/img/63876c258b1e3.png",
+          "rating": "0.92",
+          "teamName": "RED Canids",
+          "teamLink": "https://www.vlr.gg/team/1124/red-canids",
+          "role": "Sentinela",
+          "value": 488
+        },
+        {
+          "id": 519,
+          "name": "Troizyxgod",
+          "overall": "62",
+          "acs": "187.6",
+          "kd": "0.87",
+          "kast": "64%",
+          "adr": "127.4",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/viper.png",
+          "country": {
+            "name": "Ukraine",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/ua.png"
+          },
+          "link": "https://www.vlr.gg/player/41390/troizyxgod",
+          "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+          "teamPicture": "https://owcdn.net/img/65da42b4528ea.png",
+          "rating": "0.93",
+          "teamName": "Sila4i",
+          "teamLink": "https://www.vlr.gg/team/12958/sila4i",
+          "role": "Controlador",
+          "value": 496
+        },
+        {
+          "id": 628,
+          "name": "zolters",
+          "overall": "57",
+          "acs": "175.2",
+          "kd": "0.88",
+          "kast": "69%",
+          "adr": "112.8",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/sova.png",
+          "country": {
+            "name": "Germany",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/de.png"
+          },
+          "link": "https://www.vlr.gg/player/5197/zolters",
+          "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+          "teamPicture": "https:/img/vlr/tmp/vlr.png",
+          "rating": "0.85",
+          "teamName": "ONLINERS",
+          "teamLink": "https://www.vlr.gg/team/12948/onliners",
+          "role": "Iniciador",
+          "value": 342
+        },
+        {
+          "id": 642,
+          "name": "skyppervz",
+          "overall": "55",
+          "acs": "167.1",
+          "kd": "0.78",
+          "kast": "65%",
+          "adr": "118.0",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/gekko.png",
+          "country": {
+            "name": "Chile",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/cl.png"
+          },
+          "link": "https://www.vlr.gg/player/29240/skyppervz",
+          "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+          "teamPicture": "https://owcdn.net/img/639441ed93cc5.png",
+          "rating": "0.83",
+          "teamName": "Furious Gaming",
+          "teamLink": "https://www.vlr.gg/team/361/furious-gaming",
+          "role": "Iniciador",
+          "value": 330
+        },
+        {
+          "id": 450,
+          "name": "deNaro",
+          "overall": "64",
+          "acs": "159.5",
+          "kd": "0.83",
+          "kast": "72%",
+          "adr": "103.4",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/sova.png",
+          "country": {
+            "name": "Brazil",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/br.png"
+          },
+          "link": "https://www.vlr.gg/player/1684/denaro",
+          "playerPicture": "https://owcdn.net/img/632c9150b7da0.png",
+          "teamPicture": "https://owcdn.net/img/61d39894f3d3a.png",
+          "rating": "0.96",
+          "teamName": "TBK Esports",
+          "teamLink": "https://www.vlr.gg/team/6946/tbk-esports",
+          "role": "Iniciador",
+          "value": 512
+        },
+        {
+          "id": 505,
+          "name": "Logan",
+          "overall": "62",
+          "acs": "193.7",
+          "kd": "0.96",
+          "kast": "70%",
+          "adr": "128.2",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/cypher.png",
+          "country": {
+            "name": "United States",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
+          },
+          "link": "https://www.vlr.gg/player/5093/logan",
+          "playerPicture": "https://owcdn.net/img/662719676fca8.png",
+          "teamPicture": "https://owcdn.net/img/66246f3924ef8.png",
+          "rating": "0.93",
+          "teamName": "Burger Boyz",
+          "teamLink": "https://www.vlr.gg/team/15250/burger-boyz",
+          "role": "Sentinela",
+          "value": 496
+        }
       ],
       "picture": "https://owcdn.net/img/61b8888cc3860.png"
     },
     "packs": [
+      {
+        "id": "xegrwv059",
+        "name": "Begginner Pack",
+        "description": "Pacote de primeiros jogadores",
+        "value": 0,
+        "isOpened": true,
+        "content": []
+      },
       {
         "id": "xegrwv059",
         "name": "Begginner Pack",
@@ -6575,7 +6698,7 @@
         ]
       }
     ],
-    "coins": 15500,
+    "coins": 10500,
     "credits": 0
   }
 ]

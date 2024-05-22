@@ -71,7 +71,9 @@ async function playersByRegion(req, res) {
         users.forEach((user, index) => {
 
             if (users[index].id === userId) {
-                users[index].team.players.push(randomPlayers)
+                randomPlayers.forEach(player => {
+                    users[index].team.players.push(player)
+                })
             }
 
             fs.writeFileSync(usersDB, JSON.stringify(users), null, 2)
@@ -220,9 +222,64 @@ async function buyPack(req, res) {
     }
 }
 
+async function openPack(req, res) {
+    try {
+
+        const { userId, packId } = req.body
+
+        let users = []
+        const usersData = fs.readFileSync(usersDB, 'utf-8')
+        users = usersData ? JSON.parse(usersData) : []
+
+        const userExist = users.some(user => user.id === userId)
+
+        let targetUser
+        let randomPackPlayer = []
+
+        users.forEach((user, index) => {
+            if (users[index].id === userId) {
+                targetUser = users[index]
+                targetUser.packs.forEach((pack, index) => {
+                    if (pack.id === packId) {
+                        
+                        pack.isOpened = true
+
+                        while (randomPackPlayer.length < 5) {
+                            let index = Math.floor(Math.random() * pack.content.length)
+                            let playerInPack = pack.content[index]
+                            randomPackPlayer.push(playerInPack)
+                        }
+
+                        console.log(randomPackPlayer)
+
+                        randomPackPlayer.forEach(player => {
+                            users[index].team.players.push(player)
+                        })
+
+                        pack.value = 0
+                        pack.content = []
+
+                        fs.writeFileSync(usersDB, JSON.stringify(users), null, 2)
+                    }
+                })
+            }
+        })
+
+        return res.status(200).json({
+            message: 'success',
+            pack: targetUser
+        })
+
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({ message: 'internal server error' })
+    }
+}
+
 export default {
     playersByRegion,
     getTeamPictures,
     chooseTeamPicture,
-    buyPack
+    buyPack,
+    openPack
 }
