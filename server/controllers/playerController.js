@@ -232,17 +232,21 @@ async function openPack(req, res) {
         users = usersData ? JSON.parse(usersData) : []
 
         const userExist = users.some(user => user.id === userId)
+        
+        if (!userExist) {
+            res.status(409).json({ message: 'user not found' })
+        }
 
         let targetUser
         let randomPackPlayer = []
 
         users.forEach((user, index) => {
             if (users[index].id === userId) {
+
                 targetUser = users[index]
+
                 targetUser.packs.forEach((pack, index) => {
                     if (pack.id === packId) {
-                        
-                        pack.isOpened = true
 
                         while (randomPackPlayer.length < 5) {
                             let index = Math.floor(Math.random() * pack.content.length)
@@ -250,15 +254,13 @@ async function openPack(req, res) {
                             randomPackPlayer.push(playerInPack)
                         }
 
-                        console.log(randomPackPlayer)
-
                         randomPackPlayer.forEach(player => {
                             users[index].team.players.push(player)
                         })
 
-                        pack.value = 0
-                        pack.content = []
+                        targetUser.packs.splice(index, 1)
 
+                        console.log(`player [${targetUser.id}]:${targetUser.name} open ${pack.id}:${pack.name} pack`)
                         fs.writeFileSync(usersDB, JSON.stringify(users), null, 2)
                     }
                 })
