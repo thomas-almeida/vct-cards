@@ -1,5 +1,8 @@
 ## VUT - VALORANT ULTIMATE TEAM
+
 Projeto de card game que visa ser semelhante á ULTIMATE TEAM (FIFA) e FOOTBALL MANAGER, voltado para jogadores valorant.
+
+!(image)['shots/home-shot.png']
 
 > _disclaimer: este jogo é para fins de entretenimento e portfólio dos envolvidos._
 
