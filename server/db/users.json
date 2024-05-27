@@ -1,19 +1,19 @@
 [
   {
-    "id": "xejyxp581",
+    "id": "oeonez113",
     "name": "Thom",
     "email": "thom@gmail.com",
     "password": "Git@2033",
     "level": 1,
     "xp": 0,
     "team": {
-      "id": "xejyxp581",
+      "id": "oeonez113",
       "name": "Autobois",
       "players": [],
       "picture": ""
     },
     "packs": [],
-    "coins": 250000,
+    "coins": 250,
     "credits": 0
   }
 ]
