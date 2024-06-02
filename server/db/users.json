@@ -9,11 +9,144 @@
     "team": {
       "id": "oeonez113",
       "name": "Autobois",
-      "players": [],
-      "picture": ""
+      "players": [
+        {
+          "id": 210,
+          "name": "seven",
+          "overall": "70",
+          "acs": "201.9",
+          "kd": "1.02",
+          "kast": "76%",
+          "adr": "131.6",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/skye.png",
+          "country": {
+            "name": "Mexico",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/mx.png"
+          },
+          "link": "https://www.vlr.gg/player/8376/seven",
+          "playerPicture": "https://owcdn.net/img/635487e78f189.png",
+          "teamPicture": "https://owcdn.net/img/60aeaad44872e.png",
+          "rating": "1.05",
+          "teamName": "TSM",
+          "teamLink": "https://www.vlr.gg/team/106/tsm",
+          "role": "Iniciador",
+          "value": 840
+        },
+        {
+          "id": 644,
+          "name": "riku",
+          "overall": "55",
+          "acs": "184.4",
+          "kd": "0.82",
+          "kast": "64%",
+          "adr": "125.5",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/gekko.png",
+          "country": {
+            "name": "United States",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
+          },
+          "link": "https://www.vlr.gg/player/3012/riku",
+          "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+          "teamPicture": "https://owcdn.net/img/65c7c59374d54.png",
+          "rating": "0.83",
+          "teamName": "Dough Bros",
+          "teamLink": "https://www.vlr.gg/team/13232/dough-bros",
+          "role": "Iniciador",
+          "value": 330
+        },
+        {
+          "id": 59,
+          "name": "Instxnct",
+          "overall": "77",
+          "acs": "238.5",
+          "kd": "1.20",
+          "kast": "74%",
+          "adr": "157.9",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/raze.png",
+          "country": {
+            "name": "Canada",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/ca.png"
+          },
+          "link": "https://www.vlr.gg/player/10060/instxnct",
+          "playerPicture": "https://owcdn.net/img/650228aac4f68.png",
+          "teamPicture": "https://owcdn.net/img/653fbdd4e0d9a.png",
+          "rating": "1.15",
+          "teamName": "St. Clair Saints",
+          "teamLink": "https://www.vlr.gg/team/9975/st-clair-saints",
+          "role": "Duelista",
+          "value": 924
+        },
+        {
+          "id": 427,
+          "name": "adverso",
+          "overall": "65",
+          "acs": "206.2",
+          "kd": "0.93",
+          "kast": "67%",
+          "adr": "135.7",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/sova.png",
+          "country": {
+            "name": "Chile",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/cl.png"
+          },
+          "link": "https://www.vlr.gg/player/3826/adverso",
+          "playerPicture": "https://owcdn.net/img/63b46378e0d69.png",
+          "teamPicture": "https://owcdn.net/img/63806ade7442d.png",
+          "rating": "0.97",
+          "teamName": "All Knights",
+          "teamLink": "https://www.vlr.gg/team/364/all-knights",
+          "role": "Iniciador",
+          "value": 520
+        },
+        {
+          "id": 37,
+          "name": "Zanatsu",
+          "overall": "79",
+          "acs": "272.8",
+          "kd": "1.31",
+          "kast": "76%",
+          "adr": "177.3",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/raze.png",
+          "country": {
+            "name": "Brazil",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/br.png"
+          },
+          "link": "https://www.vlr.gg/player/3455/zanatsu",
+          "playerPicture": "https://owcdn.net/img/65e0a6b77f994.png",
+          "teamPicture": "https://owcdn.net/img/63876c258b1e3.png",
+          "rating": "1.18",
+          "teamName": "RED Canids",
+          "teamLink": "https://www.vlr.gg/team/1124/red-canids",
+          "role": "Duelista",
+          "value": 948
+        },
+        {
+          "id": 251,
+          "name": "pollo",
+          "overall": "69",
+          "acs": "211.6",
+          "kd": "1.08",
+          "kast": "69%",
+          "adr": "141.8",
+          "agents": "https://www.vlr.gg//img/vlr/game/agents/killjoy.png",
+          "country": {
+            "name": "Brazil",
+            "flag": "https://www.vlr.gg/img/icons/flags/16/br.png"
+          },
+          "link": "https://www.vlr.gg/player/2486/pollo",
+          "playerPicture": "https://owcdn.net/img/63cff8ea88111.png",
+          "teamPicture": "https://owcdn.net/img/65c89a8a1f301.png",
+          "rating": "1.03",
+          "teamName": "OLIMPO",
+          "teamLink": "https://www.vlr.gg/team/14470/olimpo",
+          "role": "Sentinela",
+          "value": 0
+        }
+      ],
+      "picture": "https://owcdn.net/img/632be843b7d51.png"
     },
     "packs": [],
-    "coins": 250,
+    "coins": 25342,
     "credits": 0
   }
 ]

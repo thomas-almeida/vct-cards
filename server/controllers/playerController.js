@@ -232,7 +232,7 @@ async function openPack(req, res) {
         users = usersData ? JSON.parse(usersData) : []
 
         const userExist = users.some(user => user.id === userId)
-        
+
         if (!userExist) {
             res.status(409).json({ message: 'user not found' })
         }
@@ -278,10 +278,56 @@ async function openPack(req, res) {
     }
 }
 
+async function sellPlayer(req, res) {
+    try {
+
+        const { userId, playerId } = req.body
+
+        let users = []
+        const usersData = fs.readFileSync(usersDB, 'utf-8')
+        users = usersData ? JSON.parse(usersData) : []
+
+        let targetUser
+        let targetPlayer
+
+        users.forEach((user, index) => {
+
+            if (users[index] === userId) {
+                targetUser = users[index]
+            }
+
+            users[index].team.players.forEach((player, id) => {
+
+                if (player.id === playerId) {
+                    targetPlayer = player
+                    users[index].coins += targetPlayer.value
+                    users[index].team.players.splice(id, 1)
+
+                    res.status(200).json({
+                        message: 'success',
+                        coinsGained: targetPlayer.value,
+                        user: users[index]
+                    })
+
+                    fs.writeFileSync(usersDB, JSON.stringify(users, null, 2))
+                }
+            })
+
+        })
+
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({
+            message: "Internal server Error"
+        })
+    }
+}
+
 export default {
     playersByRegion,
     getTeamPictures,
     chooseTeamPicture,
     buyPack,
-    openPack
+    openPack,
+    sellPlayer
 }
