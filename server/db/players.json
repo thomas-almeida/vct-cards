@@ -19,7 +19,8 @@
     "teamName": "Apeks",
     "teamLink": "https://www.vlr.gg/team/11479/apeks",
     "role": "Controlador",
-    "value": 1728
+    "value": 1728,
+    "inMarket": false
   },
   {
     "id": 2,
@@ -41,7 +42,8 @@
     "teamName": "Team Falcons Vega",
     "teamLink": "https://www.vlr.gg/team/9314/team-falcons-vega",
     "role": "Controlador",
-    "value": 1710
+    "value": 1710,
+    "inMarket": false
   },
   {
     "id": 3,
@@ -63,7 +65,8 @@
     "teamName": "Shopify Rebellion",
     "teamLink": "https://www.vlr.gg/team/14278/shopify-rebellion",
     "role": "Duelista",
-    "value": 1692
+    "value": 1692,
+    "inMarket": false
   },
   {
     "id": 4,
@@ -85,7 +88,8 @@
     "teamName": "UC Irvine",
     "teamLink": "https://www.vlr.gg/team/10577/uc-irvine",
     "role": "Iniciador",
-    "value": 1320
+    "value": 1320,
+    "inMarket": false
   },
   {
     "id": 5,
@@ -107,7 +111,8 @@
     "teamName": "SAGAZ",
     "teamLink": "https://www.vlr.gg/team/13683/sagaz",
     "role": "Duelista",
-    "value": 1305
+    "value": 1305,
+    "inMarket": false
   },
   {
     "id": 6,
@@ -129,7 +134,8 @@
     "teamName": "Moist x Shopify",
     "teamLink": "https://www.vlr.gg/team/13188/moist-x-shopify",
     "role": "Duelista",
-    "value": 1290
+    "value": 1290,
+    "inMarket": false
   },
   {
     "id": 7,
@@ -151,7 +157,8 @@
     "teamName": "St. Clair Saints",
     "teamLink": "https://www.vlr.gg/team/9975/st-clair-saints",
     "role": "Iniciador",
-    "value": 1275
+    "value": 1275,
+    "inMarket": false
   },
   {
     "id": 8,
@@ -173,7 +180,8 @@
     "teamName": "Revenant Esports",
     "teamLink": "https://www.vlr.gg/team/8369/revenant-esports",
     "role": "Duelista",
-    "value": 1275
+    "value": 1275,
+    "inMarket": false
   },
   {
     "id": 9,
@@ -195,7 +203,8 @@
     "teamName": "Revenant Esports",
     "teamLink": "https://www.vlr.gg/team/8369/revenant-esports",
     "role": "Iniciador",
-    "value": 1260
+    "value": 1260,
+    "inMarket": false
   },
   {
     "id": 10,
@@ -217,7 +226,8 @@
     "teamName": "Metizport",
     "teamLink": "https://www.vlr.gg/team/12489/metizport",
     "role": "Iniciador",
-    "value": 1260
+    "value": 1260,
+    "inMarket": false
   },
   {
     "id": 11,
@@ -239,7 +249,8 @@
     "teamName": "Blinn",
     "teamLink": "https://www.vlr.gg/team/9613/blinn",
     "role": "Controlador",
-    "value": 1245
+    "value": 1245,
+    "inMarket": false
   },
   {
     "id": 12,
@@ -261,7 +272,8 @@
     "teamName": "Six Karma",
     "teamLink": "https://www.vlr.gg/team/4094/six-karma",
     "role": "Iniciador",
-    "value": 1245
+    "value": 1245,
+    "inMarket": false
   },
   {
     "id": 13,
@@ -283,7 +295,8 @@
     "teamName": "Leviatán",
     "teamLink": "https://www.vlr.gg/team/2359/leviat-n",
     "role": "Duelista",
-    "value": 1245
+    "value": 1245,
+    "inMarket": false
   },
   {
     "id": 14,
@@ -305,7 +318,8 @@
     "teamName": "Team Liquid Brazil",
     "teamLink": "https://www.vlr.gg/team/7055/team-liquid-brazil",
     "role": "Sentinela",
-    "value": 1245
+    "value": 1245,
+    "inMarket": false
   },
   {
     "id": 15,
@@ -327,7 +341,8 @@
     "teamName": "M80",
     "teamLink": "https://www.vlr.gg/team/11001/m80",
     "role": "Controlador",
-    "value": 1245
+    "value": 1245,
+    "inMarket": false
   },
   {
     "id": 16,
@@ -349,7 +364,8 @@
     "teamName": "Apeks",
     "teamLink": "https://www.vlr.gg/team/11479/apeks",
     "role": "Controlador",
-    "value": 1245
+    "value": 1245,
+    "inMarket": false
   },
   {
     "id": 17,
@@ -371,7 +387,8 @@
     "teamName": "MIBR GC",
     "teamLink": "https://www.vlr.gg/team/8050/mibr-gc",
     "role": "Iniciador",
-    "value": 1230
+    "value": 1230,
+    "inMarket": false
   },
   {
     "id": 18,
@@ -393,7 +410,8 @@
     "teamName": "MIBR GC",
     "teamLink": "https://www.vlr.gg/team/8050/mibr-gc",
     "role": "Duelista",
-    "value": 1230
+    "value": 1230,
+    "inMarket": false
   },
   {
     "id": 19,
@@ -415,7 +433,8 @@
     "teamName": "JiJieHao",
     "teamLink": "https://www.vlr.gg/team/14469/jijiehao",
     "role": "Controlador",
-    "value": 1215
+    "value": 1215,
+    "inMarket": false
   },
   {
     "id": 20,
@@ -437,7 +456,8 @@
     "teamName": "100 Thieves",
     "teamLink": "https://www.vlr.gg/team/120/100-thieves",
     "role": "Duelista",
-    "value": 1215
+    "value": 1215,
+    "inMarket": false
   },
   {
     "id": 21,
@@ -459,7 +479,8 @@
     "teamName": "VALIANT",
     "teamLink": "https://www.vlr.gg/team/10188/valiant",
     "role": "Controlador",
-    "value": 1215
+    "value": 1215,
+    "inMarket": false
   },
   {
     "id": 22,
@@ -481,7 +502,8 @@
     "teamName": "Blinn",
     "teamLink": "https://www.vlr.gg/team/9613/blinn",
     "role": "Duelista",
-    "value": 1215
+    "value": 1215,
+    "inMarket": false
   },
   {
     "id": 23,
@@ -503,7 +525,8 @@
     "teamName": "G2 Gozen",
     "teamLink": "https://www.vlr.gg/team/6530/g2-gozen",
     "role": "Duelista",
-    "value": 1215
+    "value": 1215,
+    "inMarket": false
   },
   {
     "id": 24,
@@ -525,7 +548,8 @@
     "teamName": "UST Esports",
     "teamLink": "https://www.vlr.gg/team/10505/ust-esports",
     "role": "Iniciador",
-    "value": 1215
+    "value": 1215,
+    "inMarket": false
   },
   {
     "id": 25,
@@ -547,7 +571,8 @@
     "teamName": "Oxygen Esports",
     "teamLink": "https://www.vlr.gg/team/10725/oxygen-esports",
     "role": "Sentinela",
-    "value": 1215
+    "value": 1215,
+    "inMarket": false
   },
   {
     "id": 26,
@@ -569,7 +594,8 @@
     "teamName": "FOCUSGG",
     "teamLink": "https://www.vlr.gg/team/15253/focusgg",
     "role": "Iniciador",
-    "value": 1215
+    "value": 1215,
+    "inMarket": false
   },
   {
     "id": 27,
@@ -591,7 +617,8 @@
     "teamName": "ORGLESS",
     "teamLink": "https://www.vlr.gg/team/14773/disguised",
     "role": "Duelista",
-    "value": 1215
+    "value": 1215,
+    "inMarket": false
   },
   {
     "id": 28,
@@ -613,7 +640,8 @@
     "teamName": "ROSE",
     "teamLink": "https://www.vlr.gg/team/11648/rose",
     "role": "Controlador",
-    "value": 1215
+    "value": 1215,
+    "inMarket": false
   },
   {
     "id": 29,
@@ -635,7 +663,8 @@
     "teamName": "QoR",
     "teamLink": "https://www.vlr.gg/team/6985/qor",
     "role": "Duelista",
-    "value": 1200
+    "value": 1200,
+    "inMarket": false
   },
   {
     "id": 30,
@@ -657,7 +686,8 @@
     "teamName": "St. Clair Saints",
     "teamLink": "https://www.vlr.gg/team/9975/st-clair-saints",
     "role": "Sentinela",
-    "value": 1200
+    "value": 1200,
+    "inMarket": false
   },
   {
     "id": 31,
@@ -679,7 +709,8 @@
     "teamName": "MLT Esports",
     "teamLink": "https://www.vlr.gg/team/8030/mlt-esports",
     "role": "Duelista",
-    "value": 1200
+    "value": 1200,
+    "inMarket": false
   },
   {
     "id": 32,
@@ -701,7 +732,8 @@
     "teamName": "Moist x Shopify",
     "teamLink": "https://www.vlr.gg/team/13188/moist-x-shopify",
     "role": "Controlador",
-    "value": 1200
+    "value": 1200,
+    "inMarket": false
   },
   {
     "id": 33,
@@ -723,7 +755,8 @@
     "teamName": "9z Team",
     "teamLink": "https://www.vlr.gg/team/367/9z-team",
     "role": "Iniciador",
-    "value": 1185
+    "value": 1185,
+    "inMarket": false
   },
   {
     "id": 34,
@@ -745,7 +778,8 @@
     "teamName": "JiJieHao",
     "teamLink": "https://www.vlr.gg/team/14469/jijiehao",
     "role": "Duelista",
-    "value": 1185
+    "value": 1185,
+    "inMarket": false
   },
   {
     "id": 35,
@@ -767,7 +801,8 @@
     "teamName": "KPI Shine",
     "teamLink": "https://www.vlr.gg/team/12624/kpi-shine",
     "role": "Controlador",
-    "value": 1185
+    "value": 1185,
+    "inMarket": false
   },
   {
     "id": 36,
@@ -789,7 +824,8 @@
     "teamName": "9z Team",
     "teamLink": "https://www.vlr.gg/team/367/9z-team",
     "role": "Controlador",
-    "value": 1185
+    "value": 1185,
+    "inMarket": false
   },
   {
     "id": 37,
@@ -811,7 +847,8 @@
     "teamName": "RED Canids",
     "teamLink": "https://www.vlr.gg/team/1124/red-canids",
     "role": "Duelista",
-    "value": 1185
+    "value": 1185,
+    "inMarket": false
   },
   {
     "id": 38,
@@ -833,7 +870,8 @@
     "teamName": "Apeks",
     "teamLink": "https://www.vlr.gg/team/11479/apeks",
     "role": "Duelista",
-    "value": 1185
+    "value": 1185,
+    "inMarket": false
   },
   {
     "id": 39,
@@ -855,7 +893,8 @@
     "teamName": "Mookah Rabbits",
     "teamLink": "https://www.vlr.gg/team/15077/mookah-rabbits",
     "role": "Iniciador",
-    "value": 1185
+    "value": 1185,
+    "inMarket": false
   },
   {
     "id": 40,
@@ -877,7 +916,8 @@
     "teamName": "Turtle Troop",
     "teamLink": "https://www.vlr.gg/team/11836/turtle-troop",
     "role": "Controlador",
-    "value": 1185
+    "value": 1185,
+    "inMarket": false
   },
   {
     "id": 41,
@@ -899,7 +939,8 @@
     "teamName": "RED Canids",
     "teamLink": "https://www.vlr.gg/team/1124/red-canids",
     "role": "Controlador",
-    "value": 1185
+    "value": 1185,
+    "inMarket": false
   },
   {
     "id": 42,
@@ -921,7 +962,8 @@
     "teamName": "VisionZ",
     "teamLink": "https://www.vlr.gg/team/14710/visionz",
     "role": "Controlador",
-    "value": 1185
+    "value": 1185,
+    "inMarket": false
   },
   {
     "id": 43,
@@ -943,7 +985,8 @@
     "teamName": "Cicadas Gaming",
     "teamLink": "https://www.vlr.gg/team/13599/cicadas-gaming",
     "role": "Controlador",
-    "value": 936
+    "value": 936,
+    "inMarket": false
   },
   {
     "id": 44,
@@ -965,7 +1008,8 @@
     "teamName": "M80",
     "teamLink": "https://www.vlr.gg/team/11001/m80",
     "role": "Duelista",
-    "value": 936
+    "value": 936,
+    "inMarket": false
   },
   {
     "id": 45,
@@ -987,7 +1031,8 @@
     "teamName": "Stellae Gaming",
     "teamLink": "https://www.vlr.gg/team/10727/stellae-gaming",
     "role": "Duelista",
-    "value": 936
+    "value": 936,
+    "inMarket": false
   },
   {
     "id": 46,
@@ -1009,7 +1054,8 @@
     "teamName": "BLVKHVND",
     "teamLink": "https://www.vlr.gg/team/15399/blvkhvnd",
     "role": "Controlador",
-    "value": 936
+    "value": 936,
+    "inMarket": false
   },
   {
     "id": 47,
@@ -1031,7 +1077,8 @@
     "teamName": "Moist x Shopify",
     "teamLink": "https://www.vlr.gg/team/13188/moist-x-shopify",
     "role": "Sentinela",
-    "value": 936
+    "value": 936,
+    "inMarket": false
   },
   {
     "id": 48,
@@ -1053,7 +1100,8 @@
     "teamName": "Oblivion Force",
     "teamLink": "https://www.vlr.gg/team/3108/oblivion-force",
     "role": "Controlador",
-    "value": 936
+    "value": 936,
+    "inMarket": false
   },
   {
     "id": 49,
@@ -1075,7 +1123,8 @@
     "teamName": "Galorys",
     "teamLink": "https://www.vlr.gg/team/10755/galorys",
     "role": "Duelista",
-    "value": 936
+    "value": 936,
+    "inMarket": false
   },
   {
     "id": 50,
@@ -1097,7 +1146,8 @@
     "teamName": "Turtle Troop",
     "teamLink": "https://www.vlr.gg/team/11836/turtle-troop",
     "role": "Duelista",
-    "value": 936
+    "value": 936,
+    "inMarket": false
   },
   {
     "id": 51,
@@ -1119,7 +1169,8 @@
     "teamName": "All Knights",
     "teamLink": "https://www.vlr.gg/team/364/all-knights",
     "role": "Duelista",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 52,
@@ -1141,7 +1192,8 @@
     "teamName": "Permitta Unicorns",
     "teamLink": "https://www.vlr.gg/team/15707/permitta-unicorns",
     "role": "Iniciador",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 53,
@@ -1163,7 +1215,8 @@
     "teamName": "TAMU Maroon",
     "teamLink": "https://www.vlr.gg/team/2785/tamu-maroon",
     "role": "Duelista",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 54,
@@ -1185,7 +1238,8 @@
     "teamName": "Team Falcons",
     "teamLink": "https://www.vlr.gg/team/7969/team-falcons",
     "role": "Duelista",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 55,
@@ -1207,7 +1261,8 @@
     "teamName": "Zero MarksMen Black",
     "teamLink": "https://www.vlr.gg/team/5832/zero-marksmen-black",
     "role": "Duelista",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 56,
@@ -1229,7 +1284,8 @@
     "teamName": "Team Falcons",
     "teamLink": "https://www.vlr.gg/team/7969/team-falcons",
     "role": "Sentinela",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 57,
@@ -1251,7 +1307,8 @@
     "teamName": "100 Thieves",
     "teamLink": "https://www.vlr.gg/team/120/100-thieves",
     "role": "Iniciador",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 58,
@@ -1273,7 +1330,8 @@
     "teamName": "FNATIC",
     "teamLink": "https://www.vlr.gg/team/2593/fnatic",
     "role": "Iniciador",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 59,
@@ -1295,7 +1353,8 @@
     "teamName": "St. Clair Saints",
     "teamLink": "https://www.vlr.gg/team/9975/st-clair-saints",
     "role": "Duelista",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 60,
@@ -1317,7 +1376,8 @@
     "teamName": "FUT Esports",
     "teamLink": "https://www.vlr.gg/team/1184/fut-esports",
     "role": "Sentinela",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 61,
@@ -1339,7 +1399,8 @@
     "teamName": "BOBA",
     "teamLink": "https://www.vlr.gg/team/15327/boba",
     "role": "Controlador",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 62,
@@ -1361,7 +1422,8 @@
     "teamName": "Cloud9",
     "teamLink": "https://www.vlr.gg/team/188/cloud9",
     "role": "Duelista",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 63,
@@ -1383,7 +1445,8 @@
     "teamName": "FENNEL",
     "teamLink": "https://www.vlr.gg/team/2934/fennel",
     "role": "Iniciador",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 64,
@@ -1405,7 +1468,8 @@
     "teamName": "Apeks",
     "teamLink": "https://www.vlr.gg/team/11479/apeks",
     "role": "Iniciador",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 65,
@@ -1427,7 +1491,8 @@
     "teamName": "Team Falcons Vega",
     "teamLink": "https://www.vlr.gg/team/9314/team-falcons-vega",
     "role": "Controlador",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 66,
@@ -1449,7 +1514,8 @@
     "teamName": "Natus Vincere",
     "teamLink": "https://www.vlr.gg/team/4915/natus-vincere",
     "role": "Controlador",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 67,
@@ -1471,7 +1537,8 @@
     "teamName": "100 Thieves",
     "teamLink": "https://www.vlr.gg/team/120/100-thieves",
     "role": "Controlador",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 68,
@@ -1493,7 +1560,8 @@
     "teamName": "Galakticos",
     "teamLink": "https://www.vlr.gg/team/4762/galakticos",
     "role": "Controlador",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 69,
@@ -1515,7 +1583,8 @@
     "teamName": "Arena Internet Cafe",
     "teamLink": "https://www.vlr.gg/team/15289/arena-internet-cafe",
     "role": "Duelista",
-    "value": 924
+    "value": 924,
+    "inMarket": false
   },
   {
     "id": 70,
@@ -1537,7 +1606,8 @@
     "teamName": "Apeks",
     "teamLink": "https://www.vlr.gg/team/11479/apeks",
     "role": "Sentinela",
-    "value": 912
+    "value": 912,
+    "inMarket": false
   },
   {
     "id": 71,
@@ -1559,7 +1629,8 @@
     "teamName": "BOBA",
     "teamLink": "https://www.vlr.gg/team/15327/boba",
     "role": "Duelista",
-    "value": 912
+    "value": 912,
+    "inMarket": false
   },
   {
     "id": 72,
@@ -1581,7 +1652,8 @@
     "teamName": "M80",
     "teamLink": "https://www.vlr.gg/team/11001/m80",
     "role": "Controlador",
-    "value": 912
+    "value": 912,
+    "inMarket": false
   },
   {
     "id": 73,
@@ -1603,7 +1675,8 @@
     "teamName": "KRÜ Esports",
     "teamLink": "https://www.vlr.gg/team/2355/kr-esports",
     "role": "Iniciador",
-    "value": 912
+    "value": 912,
+    "inMarket": false
   },
   {
     "id": 74,
@@ -1625,7 +1698,8 @@
     "teamName": "Rex Regum Qeon",
     "teamLink": "https://www.vlr.gg/team/878/rex-regum-qeon",
     "role": "Duelista",
-    "value": 912
+    "value": 912,
+    "inMarket": false
   },
   {
     "id": 75,
@@ -1647,7 +1721,8 @@
     "teamName": "St. Clair Saints",
     "teamLink": "https://www.vlr.gg/team/9975/st-clair-saints",
     "role": "Iniciador",
-    "value": 912
+    "value": 912,
+    "inMarket": false
   },
   {
     "id": 76,
@@ -1669,7 +1744,8 @@
     "teamName": "DRX",
     "teamLink": "https://www.vlr.gg/team/8185/drx",
     "role": "Controlador",
-    "value": 912
+    "value": 912,
+    "inMarket": false
   },
   {
     "id": 77,
@@ -1691,7 +1767,8 @@
     "teamName": "DRX",
     "teamLink": "https://www.vlr.gg/team/8185/drx",
     "role": "Controlador",
-    "value": 912
+    "value": 912,
+    "inMarket": false
   },
   {
     "id": 78,
@@ -1713,7 +1790,8 @@
     "teamName": "MAD Lions KOI",
     "teamLink": "https://www.vlr.gg/team/14475/mad-lions-koi",
     "role": "Duelista",
-    "value": 912
+    "value": 912,
+    "inMarket": false
   },
   {
     "id": 79,
@@ -1735,7 +1813,8 @@
     "teamName": "Odd 1 OUT",
     "teamLink": "https://www.vlr.gg/team/13226/odd-1-out",
     "role": "Sentinela",
-    "value": 912
+    "value": 912,
+    "inMarket": false
   },
   {
     "id": 80,
@@ -1757,7 +1836,8 @@
     "teamName": "VALIANT",
     "teamLink": "https://www.vlr.gg/team/10188/valiant",
     "role": "Duelista",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 81,
@@ -1779,7 +1859,8 @@
     "teamName": "Fisher Falcons",
     "teamLink": "https://www.vlr.gg/team/15121/fisher-falcons",
     "role": "Duelista",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 82,
@@ -1801,7 +1882,8 @@
     "teamName": "Paper Rex",
     "teamLink": "https://www.vlr.gg/team/624/paper-rex",
     "role": "Duelista",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 83,
@@ -1823,7 +1905,8 @@
     "teamName": "Hero Base",
     "teamLink": "https://www.vlr.gg/team/15117/hero-base",
     "role": "Iniciador",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 84,
@@ -1845,7 +1928,8 @@
     "teamName": "Hero Base",
     "teamLink": "https://www.vlr.gg/team/15117/hero-base",
     "role": "Duelista",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 85,
@@ -1867,7 +1951,8 @@
     "teamName": "G2 Gozen",
     "teamLink": "https://www.vlr.gg/team/6530/g2-gozen",
     "role": "Iniciador",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 86,
@@ -1889,7 +1974,8 @@
     "teamName": "Oxygen Esports",
     "teamLink": "https://www.vlr.gg/team/10725/oxygen-esports",
     "role": "Duelista",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 87,
@@ -1911,7 +1997,8 @@
     "teamName": "Odd 1 OUT",
     "teamLink": "https://www.vlr.gg/team/13226/odd-1-out",
     "role": "Controlador",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 88,
@@ -1933,7 +2020,8 @@
     "teamName": "Mookah Rabbits",
     "teamLink": "https://www.vlr.gg/team/15077/mookah-rabbits",
     "role": "Controlador",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 89,
@@ -1955,7 +2043,8 @@
     "teamName": "All Knights",
     "teamLink": "https://www.vlr.gg/team/364/all-knights",
     "role": "Sentinela",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 90,
@@ -1977,7 +2066,8 @@
     "teamName": "EDGE",
     "teamLink": "https://www.vlr.gg/team/8448/bobo",
     "role": "Sentinela",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 91,
@@ -1999,7 +2089,8 @@
     "teamName": "SK Gaming",
     "teamLink": "https://www.vlr.gg/team/14479/sk-gaming",
     "role": "Duelista",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 92,
@@ -2021,7 +2112,8 @@
     "teamName": "BLVKHVND",
     "teamLink": "https://www.vlr.gg/team/15399/blvkhvnd",
     "role": "Duelista",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 93,
@@ -2043,7 +2135,8 @@
     "teamName": "BLVKHVND",
     "teamLink": "https://www.vlr.gg/team/15399/blvkhvnd",
     "role": "Controlador",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 94,
@@ -2065,7 +2158,8 @@
     "teamName": "Passion Project",
     "teamLink": "https://www.vlr.gg/team/14718/passion-project",
     "role": "Duelista",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 95,
@@ -2087,7 +2181,8 @@
     "teamName": "Natus Vincere",
     "teamLink": "https://www.vlr.gg/team/4915/natus-vincere",
     "role": "Iniciador",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 96,
@@ -2109,7 +2204,8 @@
     "teamName": "M80",
     "teamLink": "https://www.vlr.gg/team/11001/m80",
     "role": "Iniciador",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 97,
@@ -2131,7 +2227,8 @@
     "teamName": "Arena Internet Cafe",
     "teamLink": "https://www.vlr.gg/team/15289/arena-internet-cafe",
     "role": "Sentinela",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 98,
@@ -2153,7 +2250,8 @@
     "teamName": "Karmine Corp GC",
     "teamLink": "https://www.vlr.gg/team/12255/karmine-corp-gc",
     "role": "Iniciador",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 99,
@@ -2175,7 +2273,8 @@
     "teamName": "JFT",
     "teamLink": "https://www.vlr.gg/team/13849/jft",
     "role": "Iniciador",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 100,
@@ -2197,7 +2296,8 @@
     "teamName": "Sentinels",
     "teamLink": "https://www.vlr.gg/team/2/sentinels",
     "role": "Sentinela",
-    "value": 900
+    "value": 900,
+    "inMarket": false
   },
   {
     "id": 101,
@@ -2219,7 +2319,8 @@
     "teamName": "Twisted Minds Orchid",
     "teamLink": "https://www.vlr.gg/team/12934/twisted-minds-orchid",
     "role": "Sentinela",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 102,
@@ -2241,7 +2342,8 @@
     "teamName": "Team Liquid Brazil",
     "teamLink": "https://www.vlr.gg/team/7055/team-liquid-brazil",
     "role": "Duelista",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 103,
@@ -2263,7 +2365,8 @@
     "teamName": "BLVKHVND",
     "teamLink": "https://www.vlr.gg/team/15399/blvkhvnd",
     "role": "Iniciador",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 104,
@@ -2285,7 +2388,8 @@
     "teamName": "Van Lyn ",
     "teamLink": "https://www.vlr.gg/team/11455/van-lyn",
     "role": "Controlador",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 105,
@@ -2307,7 +2411,8 @@
     "teamName": "Onyx Ravens",
     "teamLink": "https://www.vlr.gg/team/6159/onyx-ravens",
     "role": "Iniciador",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 106,
@@ -2329,7 +2434,8 @@
     "teamName": "Team Secret",
     "teamLink": "https://www.vlr.gg/team/6199/team-secret",
     "role": "Iniciador",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 107,
@@ -2351,7 +2457,8 @@
     "teamName": "Blinn",
     "teamLink": "https://www.vlr.gg/team/9613/blinn",
     "role": "Sentinela",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 108,
@@ -2373,7 +2480,8 @@
     "teamName": "Team Heretics",
     "teamLink": "https://www.vlr.gg/team/1001/team-heretics",
     "role": "Sentinela",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 109,
@@ -2395,7 +2503,8 @@
     "teamName": "Team Vitality",
     "teamLink": "https://www.vlr.gg/team/2059/team-vitality",
     "role": "Iniciador",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 110,
@@ -2417,7 +2526,8 @@
     "teamName": "Paper Rex",
     "teamLink": "https://www.vlr.gg/team/624/paper-rex",
     "role": "Duelista",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 111,
@@ -2439,7 +2549,8 @@
     "teamName": "Akroma",
     "teamLink": "https://www.vlr.gg/team/12256/akroma",
     "role": "Duelista",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 112,
@@ -2461,7 +2572,8 @@
     "teamName": "Cicadas Gaming",
     "teamLink": "https://www.vlr.gg/team/13599/cicadas-gaming",
     "role": "Sentinela",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 113,
@@ -2483,7 +2595,8 @@
     "teamName": "Sentinels",
     "teamLink": "https://www.vlr.gg/team/2/sentinels",
     "role": "Controlador",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 114,
@@ -2505,7 +2618,8 @@
     "teamName": "Sentinels",
     "teamLink": "https://www.vlr.gg/team/2/sentinels",
     "role": "Duelista",
-    "value": 888
+    "value": 888,
+    "inMarket": false
   },
   {
     "id": 115,
@@ -2527,7 +2641,8 @@
     "teamName": "JiJieHao",
     "teamLink": "https://www.vlr.gg/team/14469/jijiehao",
     "role": "Iniciador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 116,
@@ -2549,7 +2664,8 @@
     "teamName": "Team Falcons",
     "teamLink": "https://www.vlr.gg/team/7969/team-falcons",
     "role": "Controlador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 117,
@@ -2571,7 +2687,8 @@
     "teamName": "Oblivion Force",
     "teamLink": "https://www.vlr.gg/team/3108/oblivion-force",
     "role": "Controlador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 118,
@@ -2593,7 +2710,8 @@
     "teamName": "SK Gaming",
     "teamLink": "https://www.vlr.gg/team/14479/sk-gaming",
     "role": "Sentinela",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 119,
@@ -2615,7 +2733,8 @@
     "teamName": "CGN Esports",
     "teamLink": "https://www.vlr.gg/team/5214/cgn-esports",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 120,
@@ -2637,7 +2756,8 @@
     "teamName": "100 Thieves",
     "teamLink": "https://www.vlr.gg/team/120/100-thieves",
     "role": "Iniciador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 121,
@@ -2659,7 +2779,8 @@
     "teamName": "Team Secret",
     "teamLink": "https://www.vlr.gg/team/6199/team-secret",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 122,
@@ -2681,7 +2802,8 @@
     "teamName": "Odd 1 OUT",
     "teamLink": "https://www.vlr.gg/team/13226/odd-1-out",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 123,
@@ -2703,7 +2825,8 @@
     "teamName": "Hero Base",
     "teamLink": "https://www.vlr.gg/team/15117/hero-base",
     "role": "Controlador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 124,
@@ -2725,7 +2848,8 @@
     "teamName": "Paper Rex",
     "teamLink": "https://www.vlr.gg/team/624/paper-rex",
     "role": "Iniciador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 125,
@@ -2747,7 +2871,8 @@
     "teamName": "BOOM Esports",
     "teamLink": "https://www.vlr.gg/team/466/boom-esports",
     "role": "Sentinela",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 126,
@@ -2769,7 +2894,8 @@
     "teamName": "ARF TEAM",
     "teamLink": "https://www.vlr.gg/team/8925/arf-team",
     "role": "Iniciador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 127,
@@ -2791,7 +2917,8 @@
     "teamName": "Odd 1 OUT",
     "teamLink": "https://www.vlr.gg/team/13226/odd-1-out",
     "role": "Iniciador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 128,
@@ -2813,7 +2940,8 @@
     "teamName": "Karmine Corp",
     "teamLink": "https://www.vlr.gg/team/8877/karmine-corp",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 129,
@@ -2835,7 +2963,8 @@
     "teamName": "Chipi Chapa's",
     "teamLink": "https://www.vlr.gg/team/14429/chipi-chapas",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 130,
@@ -2857,7 +2986,8 @@
     "teamName": "Paw Pals",
     "teamLink": "https://www.vlr.gg/team/14724/paw-pals",
     "role": "Controlador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 131,
@@ -2879,7 +3009,8 @@
     "teamName": "BBL Esports",
     "teamLink": "https://www.vlr.gg/team/397/bbl-esports",
     "role": "Sentinela",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 132,
@@ -2901,7 +3032,8 @@
     "teamName": "FUT Esports",
     "teamLink": "https://www.vlr.gg/team/1184/fut-esports",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 133,
@@ -2923,7 +3055,8 @@
     "teamName": "FUT Esports",
     "teamLink": "https://www.vlr.gg/team/1184/fut-esports",
     "role": "Iniciador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 134,
@@ -2945,7 +3078,8 @@
     "teamName": "BLEED",
     "teamLink": "https://www.vlr.gg/team/6387/bleed",
     "role": "Controlador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 135,
@@ -2967,7 +3101,8 @@
     "teamName": "TBK Esports",
     "teamLink": "https://www.vlr.gg/team/6946/tbk-esports",
     "role": "Sentinela",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 136,
@@ -2989,7 +3124,8 @@
     "teamName": "Team Heretics",
     "teamLink": "https://www.vlr.gg/team/1001/team-heretics",
     "role": "Iniciador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 137,
@@ -3011,7 +3147,8 @@
     "teamName": "LOUD",
     "teamLink": "https://www.vlr.gg/team/6961/loud",
     "role": "Controlador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 138,
@@ -3033,7 +3170,8 @@
     "teamName": "JFT",
     "teamLink": "https://www.vlr.gg/team/13849/jft",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 139,
@@ -3055,7 +3193,8 @@
     "teamName": "Rex Regum Qeon",
     "teamLink": "https://www.vlr.gg/team/878/rex-regum-qeon",
     "role": "Iniciador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 140,
@@ -3077,7 +3216,8 @@
     "teamName": "Gen.G",
     "teamLink": "https://www.vlr.gg/team/17/gen-g",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 141,
@@ -3099,7 +3239,8 @@
     "teamName": "G2 Esports",
     "teamLink": "https://www.vlr.gg/team/11058/g2-esports",
     "role": "Controlador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 142,
@@ -3121,7 +3262,8 @@
     "teamName": "iPGN",
     "teamLink": "https://www.vlr.gg/team/15197/ipgn",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 143,
@@ -3143,7 +3285,8 @@
     "teamName": "Brewton Parker College",
     "teamLink": "https://www.vlr.gg/team/15350/brewton-parker-college",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 144,
@@ -3165,7 +3308,8 @@
     "teamName": "Galakticos",
     "teamLink": "https://www.vlr.gg/team/4762/galakticos",
     "role": "Controlador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 145,
@@ -3187,7 +3331,8 @@
     "teamName": "KRÜ Esports",
     "teamLink": "https://www.vlr.gg/team/2355/kr-esports",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 146,
@@ -3209,7 +3354,8 @@
     "teamName": "VALIANT",
     "teamLink": "https://www.vlr.gg/team/10188/valiant",
     "role": "Iniciador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 147,
@@ -3231,7 +3377,8 @@
     "teamName": "SaD Esports",
     "teamLink": "https://www.vlr.gg/team/13920/sad-esports",
     "role": "Iniciador",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 148,
@@ -3253,7 +3400,8 @@
     "teamName": "Legacy",
     "teamLink": "https://www.vlr.gg/team/15021/legacy",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 149,
@@ -3275,7 +3423,8 @@
     "teamName": "Team Falcons Vega",
     "teamLink": "https://www.vlr.gg/team/9314/team-falcons-vega",
     "role": "Duelista",
-    "value": 876
+    "value": 876,
+    "inMarket": false
   },
   {
     "id": 150,
@@ -3297,7 +3446,8 @@
     "teamName": "BOBO",
     "teamLink": "https://www.vlr.gg/team/8448/bobo",
     "role": "Controlador",
-    "value": 864
+    "value": 864,
+    "inMarket": false
   },
   {
     "id": 151,
@@ -3319,7 +3469,8 @@
     "teamName": "TeamOrangeGaming",
     "teamLink": "https://www.vlr.gg/team/9042/teamorangegaming",
     "role": "Iniciador",
-    "value": 864
+    "value": 864,
+    "inMarket": false
   },
   {
     "id": 152,
@@ -3341,7 +3492,8 @@
     "teamName": "Arena Internet Cafe",
     "teamLink": "https://www.vlr.gg/team/15289/arena-internet-cafe",
     "role": "Iniciador",
-    "value": 864
+    "value": 864,
+    "inMarket": false
   },
   {
     "id": 153,
@@ -3363,7 +3515,8 @@
     "teamName": "QoR",
     "teamLink": "https://www.vlr.gg/team/6985/qor",
     "role": "Sentinela",
-    "value": 864
+    "value": 864,
+    "inMarket": false
   },
   {
     "id": 154,
@@ -3385,7 +3538,8 @@
     "teamName": "ORGLESS",
     "teamLink": "https://www.vlr.gg/team/14805/orgless",
     "role": "Controlador",
-    "value": 864
+    "value": 864,
+    "inMarket": false
   },
   {
     "id": 155,
@@ -3407,7 +3561,8 @@
     "teamName": "Team Liquid Brazil",
     "teamLink": "https://www.vlr.gg/team/7055/team-liquid-brazil",
     "role": "Controlador",
-    "value": 864
+    "value": 864,
+    "inMarket": false
   },
   {
     "id": 156,
@@ -3429,7 +3584,8 @@
     "teamName": "9z Team",
     "teamLink": "https://www.vlr.gg/team/367/9z-team",
     "role": "Controlador",
-    "value": 864
+    "value": 864,
+    "inMarket": false
   },
   {
     "id": 157,
@@ -3451,7 +3607,8 @@
     "teamName": "Leviatán",
     "teamLink": "https://www.vlr.gg/team/2359/leviat-n",
     "role": "Controlador",
-    "value": 864
+    "value": 864,
+    "inMarket": false
   },
   {
     "id": 158,
@@ -3473,7 +3630,8 @@
     "teamName": "Turtle Troop",
     "teamLink": "https://www.vlr.gg/team/11836/turtle-troop",
     "role": "Iniciador",
-    "value": 864
+    "value": 864,
+    "inMarket": false
   },
   {
     "id": 159,
@@ -3495,7 +3653,8 @@
     "teamName": "OLIMPO",
     "teamLink": "https://www.vlr.gg/team/14470/olimpo",
     "role": "Iniciador",
-    "value": 864
+    "value": 864,
+    "inMarket": false
   },
   {
     "id": 160,
@@ -3517,7 +3676,8 @@
     "teamName": "VisionZ",
     "teamLink": "https://www.vlr.gg/team/14710/visionz",
     "role": "Iniciador",
-    "value": 864
+    "value": 864,
+    "inMarket": false
   },
   {
     "id": 161,
@@ -3539,7 +3699,8 @@
     "teamName": "TAMU Maroon",
     "teamLink": "https://www.vlr.gg/team/2785/tamu-maroon",
     "role": "Sentinela",
-    "value": 864
+    "value": 864,
+    "inMarket": false
   },
   {
     "id": 162,
@@ -3561,7 +3722,8 @@
     "teamName": "Burgerville",
     "teamLink": "https://www.vlr.gg/team/14660/burgerville",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 163,
@@ -3583,7 +3745,8 @@
     "teamName": "Burger Boyz",
     "teamLink": "https://www.vlr.gg/team/15250/burger-boyz",
     "role": "Iniciador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 164,
@@ -3605,7 +3768,8 @@
     "teamName": "Moist x Shopify",
     "teamLink": "https://www.vlr.gg/team/13188/moist-x-shopify",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 165,
@@ -3627,7 +3791,8 @@
     "teamName": "NOVO Esports",
     "teamLink": "https://www.vlr.gg/team/13161/novo-esports",
     "role": "Duelista",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 166,
@@ -3649,7 +3814,8 @@
     "teamName": "FOKUS",
     "teamLink": "https://www.vlr.gg/team/6882/fokus",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 167,
@@ -3671,7 +3837,8 @@
     "teamName": "SK Gaming",
     "teamLink": "https://www.vlr.gg/team/14479/sk-gaming",
     "role": "Iniciador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 168,
@@ -3693,7 +3860,8 @@
     "teamName": "MLT Esports",
     "teamLink": "https://www.vlr.gg/team/8030/mlt-esports",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 169,
@@ -3715,7 +3883,8 @@
     "teamName": "Team Falcons",
     "teamLink": "https://www.vlr.gg/team/7969/team-falcons",
     "role": "Iniciador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 170,
@@ -3737,7 +3906,8 @@
     "teamName": "Natus Vincere",
     "teamLink": "https://www.vlr.gg/team/4915/natus-vincere",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 171,
@@ -3759,7 +3929,8 @@
     "teamName": "Permitta Unicorns",
     "teamLink": "https://www.vlr.gg/team/15707/permitta-unicorns",
     "role": "Sentinela",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 172,
@@ -3781,7 +3952,8 @@
     "teamName": "TBK Esports",
     "teamLink": "https://www.vlr.gg/team/6946/tbk-esports",
     "role": "Sentinela",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 173,
@@ -3803,7 +3975,8 @@
     "teamName": "FNATIC",
     "teamLink": "https://www.vlr.gg/team/2593/fnatic",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 174,
@@ -3825,7 +3998,8 @@
     "teamName": "VALIANT",
     "teamLink": "https://www.vlr.gg/team/10188/valiant",
     "role": "Sentinela",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 175,
@@ -3847,7 +4021,8 @@
     "teamName": "Cicadas Gaming",
     "teamLink": "https://www.vlr.gg/team/13599/cicadas-gaming",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 176,
@@ -3869,7 +4044,8 @@
     "teamName": "FOCUSGG",
     "teamLink": "https://www.vlr.gg/team/15253/focusgg",
     "role": "Iniciador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 177,
@@ -3891,7 +4067,8 @@
     "teamName": "Gen.G",
     "teamLink": "https://www.vlr.gg/team/17/gen-g",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 178,
@@ -3913,7 +4090,8 @@
     "teamName": "ZETA DIVISION",
     "teamLink": "https://www.vlr.gg/team/5448/zeta-division",
     "role": "Sentinela",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 179,
@@ -3935,7 +4113,8 @@
     "teamName": "SLT Seongnam",
     "teamLink": "https://www.vlr.gg/team/12446/slt-seongnam",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 180,
@@ -3957,7 +4136,8 @@
     "teamName": "Mookah Rabbits",
     "teamLink": "https://www.vlr.gg/team/15077/mookah-rabbits",
     "role": "Duelista",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 181,
@@ -3979,7 +4159,8 @@
     "teamName": "St. Clair Saints",
     "teamLink": "https://www.vlr.gg/team/9975/st-clair-saints",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 182,
@@ -4001,7 +4182,8 @@
     "teamName": "iPGN",
     "teamLink": "https://www.vlr.gg/team/15197/ipgn",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 183,
@@ -4023,7 +4205,8 @@
     "teamName": "Blinn",
     "teamLink": "https://www.vlr.gg/team/9613/blinn",
     "role": "Iniciador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 184,
@@ -4045,7 +4228,8 @@
     "teamName": "G2 Esports",
     "teamLink": "https://www.vlr.gg/team/11058/g2-esports",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 185,
@@ -4067,7 +4251,8 @@
     "teamName": "CGN Esports",
     "teamLink": "https://www.vlr.gg/team/5214/cgn-esports",
     "role": "Iniciador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 186,
@@ -4089,7 +4274,8 @@
     "teamName": "ARF TEAM",
     "teamLink": "https://www.vlr.gg/team/8925/arf-team",
     "role": "Sentinela",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 187,
@@ -4111,7 +4297,8 @@
     "teamName": "BLVKHVND",
     "teamLink": "https://www.vlr.gg/team/15399/blvkhvnd",
     "role": "Duelista",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 188,
@@ -4133,7 +4320,8 @@
     "teamName": "Permitta Unicorns",
     "teamLink": "https://www.vlr.gg/team/15707/permitta-unicorns",
     "role": "Duelista",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 189,
@@ -4155,7 +4343,8 @@
     "teamName": "BOBA",
     "teamLink": "https://www.vlr.gg/team/15327/boba",
     "role": "",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 190,
@@ -4177,7 +4366,8 @@
     "teamName": "Hero Base",
     "teamLink": "https://www.vlr.gg/team/15117/hero-base",
     "role": "Sentinela",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 191,
@@ -4199,7 +4389,8 @@
     "teamName": "TAMU Maroon",
     "teamLink": "https://www.vlr.gg/team/2785/tamu-maroon",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 192,
@@ -4221,7 +4412,8 @@
     "teamName": "Mizzou Esports",
     "teamLink": "https://www.vlr.gg/team/8614/mizzou-esports",
     "role": "Iniciador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 193,
@@ -4243,7 +4435,8 @@
     "teamName": "Galakticos",
     "teamLink": "https://www.vlr.gg/team/4762/galakticos",
     "role": "Duelista",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 194,
@@ -4265,7 +4458,8 @@
     "teamName": "Shopify Rebellion",
     "teamLink": "https://www.vlr.gg/team/14278/shopify-rebellion",
     "role": "Controlador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 195,
@@ -4287,7 +4481,8 @@
     "teamName": "Resonate",
     "teamLink": "https://www.vlr.gg/team/6422/resonate",
     "role": "Iniciador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 196,
@@ -4309,7 +4504,8 @@
     "teamName": "Underground Gaming",
     "teamLink": "https://www.vlr.gg/team/10431/underground-gaming",
     "role": "Duelista",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 197,
@@ -4331,7 +4527,8 @@
     "teamName": "FOCUSGG",
     "teamLink": "https://www.vlr.gg/team/15253/focusgg",
     "role": "Duelista",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 198,
@@ -4353,7 +4550,8 @@
     "teamName": "Onyx Ravens",
     "teamLink": "https://www.vlr.gg/team/6159/onyx-ravens",
     "role": "Duelista",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 199,
@@ -4375,7 +4573,8 @@
     "teamName": "Karmine Corp",
     "teamLink": "https://www.vlr.gg/team/8877/karmine-corp",
     "role": "Duelista",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 200,
@@ -4397,7 +4596,8 @@
     "teamName": "Stellae Gaming",
     "teamLink": "https://www.vlr.gg/team/10727/stellae-gaming",
     "role": "Iniciador",
-    "value": 852
+    "value": 852,
+    "inMarket": false
   },
   {
     "id": 201,
@@ -4419,7 +4619,8 @@
     "teamName": "Global Esports",
     "teamLink": "https://www.vlr.gg/team/918/global-esports",
     "role": "Duelista",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 202,
@@ -4441,7 +4642,8 @@
     "teamName": "Galorys",
     "teamLink": "https://www.vlr.gg/team/10755/galorys",
     "role": "Iniciador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 203,
@@ -4463,7 +4665,8 @@
     "teamName": "LOUD",
     "teamLink": "https://www.vlr.gg/team/6961/loud",
     "role": "Controlador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 204,
@@ -4485,7 +4688,8 @@
     "teamName": "Furious Gaming",
     "teamLink": "https://www.vlr.gg/team/361/furious-gaming",
     "role": "Iniciador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 205,
@@ -4507,7 +4711,8 @@
     "teamName": "Karmine Corp",
     "teamLink": "https://www.vlr.gg/team/8877/karmine-corp",
     "role": "Controlador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 206,
@@ -4529,7 +4734,8 @@
     "teamName": "G2 Esports",
     "teamLink": "https://www.vlr.gg/team/11058/g2-esports",
     "role": "Iniciador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 207,
@@ -4551,7 +4757,8 @@
     "teamName": "Resonate",
     "teamLink": "https://www.vlr.gg/team/6422/resonate",
     "role": "Duelista",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 208,
@@ -4573,7 +4780,8 @@
     "teamName": "https://www.vlr.gg/event/2068/the-funhaver-invitational-revival-3",
     "teamLink": "https://www.vlr.gg/team/13847/sad-purple",
     "role": "Controlador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 209,
@@ -4595,7 +4803,8 @@
     "teamName": "1337",
     "teamLink": "https://www.vlr.gg/team/14662/1337",
     "role": "Sentinela",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 210,
@@ -4617,7 +4826,8 @@
     "teamName": "TSM",
     "teamLink": "https://www.vlr.gg/team/106/tsm",
     "role": "Iniciador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 211,
@@ -4639,7 +4849,8 @@
     "teamName": "Acend Rising",
     "teamLink": "https://www.vlr.gg/team/9284/acend-rising",
     "role": "Controlador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 212,
@@ -4661,7 +4872,8 @@
     "teamName": "ORGLESS",
     "teamLink": "https://www.vlr.gg/team/14773/disguised",
     "role": "Iniciador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 213,
@@ -4683,7 +4895,8 @@
     "teamName": "OnlyFins",
     "teamLink": "https://www.vlr.gg/team/7932/onlyfins",
     "role": "Iniciador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 214,
@@ -4705,7 +4918,8 @@
     "teamName": "NOVO Esports",
     "teamLink": "https://www.vlr.gg/team/13161/novo-esports",
     "role": "Sentinela",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 215,
@@ -4727,7 +4941,8 @@
     "teamName": "Talon Esports",
     "teamLink": "https://www.vlr.gg/team/8304/talon-esports",
     "role": "Controlador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 216,
@@ -4749,7 +4964,8 @@
     "teamName": "FNATIC",
     "teamLink": "https://www.vlr.gg/team/2593/fnatic",
     "role": "Sentinela",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 217,
@@ -4771,7 +4987,8 @@
     "teamName": "Metizport",
     "teamLink": "https://www.vlr.gg/team/12489/metizport",
     "role": "Duelista",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 218,
@@ -4793,7 +5010,8 @@
     "teamName": "FLUFFY AIMERS",
     "teamLink": "https://www.vlr.gg/team/15606/fluffy-aimers",
     "role": "Controlador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 219,
@@ -4815,7 +5033,8 @@
     "teamName": "BOBO",
     "teamLink": "https://www.vlr.gg/team/8448/bobo",
     "role": "Duelista",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 220,
@@ -4837,7 +5056,8 @@
     "teamName": "Oxygen Esports",
     "teamLink": "https://www.vlr.gg/team/10725/oxygen-esports",
     "role": "Controlador",
-    "value": 840
+    "value": 840,
+    "inMarket": false
   },
   {
     "id": 221,
@@ -4859,7 +5079,8 @@
     "teamName": "Cloud9",
     "teamLink": "https://www.vlr.gg/team/188/cloud9",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 222,
@@ -4881,7 +5102,8 @@
     "teamName": "ORGLESS",
     "teamLink": "https://www.vlr.gg/team/14805/orgless",
     "role": "Sentinela",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 223,
@@ -4903,7 +5125,8 @@
     "teamName": "Colors Esport",
     "teamLink": "https://www.vlr.gg/team/11972/colors-esport",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 224,
@@ -4925,7 +5148,8 @@
     "teamName": "FENNEL GC",
     "teamLink": "https://www.vlr.gg/team/9516/fennel-gc",
     "role": "Duelista",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 225,
@@ -4947,7 +5171,8 @@
     "teamName": "MAD Lions KOI",
     "teamLink": "https://www.vlr.gg/team/14475/mad-lions-koi",
     "role": "Sentinela",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 226,
@@ -4969,7 +5194,8 @@
     "teamName": "NOVO Esports",
     "teamLink": "https://www.vlr.gg/team/13161/novo-esports",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 227,
@@ -4991,7 +5217,8 @@
     "teamName": "Paper Rex",
     "teamLink": "https://www.vlr.gg/team/624/paper-rex",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 228,
@@ -5013,7 +5240,8 @@
     "teamName": "FUT Esports",
     "teamLink": "https://www.vlr.gg/team/1184/fut-esports",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 229,
@@ -5035,7 +5263,8 @@
     "teamName": "Gamax Lite",
     "teamLink": "https://www.vlr.gg/team/12595/gamax-lite",
     "role": "Duelista",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 230,
@@ -5057,7 +5286,8 @@
     "teamName": "VX300 Gaming",
     "teamLink": "https://www.vlr.gg/team/9438/vx300-gaming",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 231,
@@ -5079,7 +5309,8 @@
     "teamName": "KRÜ Esports",
     "teamLink": "https://www.vlr.gg/team/2355/kr-esports",
     "role": "Sentinela",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 232,
@@ -5101,7 +5332,8 @@
     "teamName": "TSM",
     "teamLink": "https://www.vlr.gg/team/106/tsm",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 233,
@@ -5123,7 +5355,8 @@
     "teamName": "LOUD",
     "teamLink": "https://www.vlr.gg/team/6961/loud",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 234,
@@ -5145,7 +5378,8 @@
     "teamName": "Gamax Lite",
     "teamLink": "https://www.vlr.gg/team/12595/gamax-lite",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 235,
@@ -5167,7 +5401,8 @@
     "teamName": "FlyQuest RED",
     "teamLink": "https://www.vlr.gg/team/6456/flyquest-red",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 236,
@@ -5189,7 +5424,8 @@
     "teamName": "Blinn",
     "teamLink": "https://www.vlr.gg/team/9613/blinn",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 237,
@@ -5211,7 +5447,8 @@
     "teamName": "Xperion NXT",
     "teamLink": "https://www.vlr.gg/team/14529/xperion-nxt",
     "role": "Duelista",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 238,
@@ -5233,7 +5470,8 @@
     "teamName": "ZETA DIVISION",
     "teamLink": "https://www.vlr.gg/team/5448/zeta-division",
     "role": "Duelista",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 239,
@@ -5255,7 +5493,8 @@
     "teamName": "MIBR GC",
     "teamLink": "https://www.vlr.gg/team/8050/mibr-gc",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 240,
@@ -5277,7 +5516,8 @@
     "teamName": "Fisher Navy",
     "teamLink": "https://www.vlr.gg/team/10479/fisher-navy",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 241,
@@ -5299,7 +5539,8 @@
     "teamName": "YFP Gaming",
     "teamLink": "https://www.vlr.gg/team/5038/yfp-gaming",
     "role": "Sentinela",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 242,
@@ -5321,7 +5562,8 @@
     "teamName": "Turtle Troop",
     "teamLink": "https://www.vlr.gg/team/11836/turtle-troop",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 243,
@@ -5343,7 +5585,8 @@
     "teamName": "FlyQuest RED",
     "teamLink": "https://www.vlr.gg/team/6456/flyquest-red",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 244,
@@ -5365,7 +5608,8 @@
     "teamName": "Gen.G",
     "teamLink": "https://www.vlr.gg/team/17/gen-g",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 245,
@@ -5387,7 +5631,8 @@
     "teamName": "Sentinels",
     "teamLink": "https://www.vlr.gg/team/2/sentinels",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 246,
@@ -5409,7 +5654,8 @@
     "teamName": "KOI",
     "teamLink": "https://www.vlr.gg/team/7035/koi",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 247,
@@ -5431,7 +5677,8 @@
     "teamName": "CSUF Orange",
     "teamLink": "https://www.vlr.gg/team/10573/csuf-orange",
     "role": "Duelista",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 248,
@@ -5453,7 +5700,8 @@
     "teamName": "Metizport",
     "teamLink": "https://www.vlr.gg/team/12489/metizport",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 249,
@@ -5475,7 +5723,8 @@
     "teamName": "JiJieHao",
     "teamLink": "https://www.vlr.gg/team/14469/jijiehao",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 250,
@@ -5497,7 +5746,8 @@
     "teamName": "TSM",
     "teamLink": "https://www.vlr.gg/team/106/tsm",
     "role": "Duelista",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 251,
@@ -5519,7 +5769,8 @@
     "teamName": "OLIMPO",
     "teamLink": "https://www.vlr.gg/team/14470/olimpo",
     "role": "Sentinela",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 252,
@@ -5541,7 +5792,8 @@
     "teamName": "GIANTX",
     "teamLink": "https://www.vlr.gg/team/14419/giantx",
     "role": "Duelista",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 253,
@@ -5563,7 +5815,8 @@
     "teamName": "Team Falcons Vega",
     "teamLink": "https://www.vlr.gg/team/9314/team-falcons-vega",
     "role": "Sentinela",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 254,
@@ -5585,7 +5838,8 @@
     "teamName": "TBK Esports",
     "teamLink": "https://www.vlr.gg/team/6946/tbk-esports",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 255,
@@ -5607,7 +5861,8 @@
     "teamName": "ZETA DIVISION",
     "teamLink": "https://www.vlr.gg/team/5448/zeta-division",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 256,
@@ -5629,7 +5884,8 @@
     "teamName": "SAGAZ",
     "teamLink": "https://www.vlr.gg/team/13683/sagaz",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 257,
@@ -5651,7 +5907,8 @@
     "teamName": "ARF TEAM",
     "teamLink": "https://www.vlr.gg/team/8925/arf-team",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 258,
@@ -5673,7 +5930,8 @@
     "teamName": "SLT Seongnam",
     "teamLink": "https://www.vlr.gg/team/12446/slt-seongnam",
     "role": "Duelista",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 259,
@@ -5695,7 +5953,8 @@
     "teamName": "DRX",
     "teamLink": "https://www.vlr.gg/team/8185/drx",
     "role": "Sentinela",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 260,
@@ -5717,7 +5976,8 @@
     "teamName": "Team Secret",
     "teamLink": "https://www.vlr.gg/team/6199/team-secret",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 261,
@@ -5739,7 +5999,8 @@
     "teamName": "Global Esports",
     "teamLink": "https://www.vlr.gg/team/918/global-esports",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 262,
@@ -5761,7 +6022,8 @@
     "teamName": "Rex Regum Qeon",
     "teamLink": "https://www.vlr.gg/team/878/rex-regum-qeon",
     "role": "Sentinela",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 263,
@@ -5783,7 +6045,8 @@
     "teamName": "Team Heretics",
     "teamLink": "https://www.vlr.gg/team/1001/team-heretics",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 264,
@@ -5805,7 +6068,8 @@
     "teamName": "SAGAZ",
     "teamLink": "https://www.vlr.gg/team/13683/sagaz",
     "role": "Sentinela",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 265,
@@ -5827,7 +6091,8 @@
     "teamName": "Leviatán",
     "teamLink": "https://www.vlr.gg/team/2359/leviat-n",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 266,
@@ -5849,7 +6114,8 @@
     "teamName": "FENNEL GC",
     "teamLink": "https://www.vlr.gg/team/9516/fennel-gc",
     "role": "Sentinela",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 267,
@@ -5871,7 +6137,8 @@
     "teamName": "FENNEL",
     "teamLink": "https://www.vlr.gg/team/2934/fennel",
     "role": "Duelista",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 268,
@@ -5893,7 +6160,8 @@
     "teamName": "MAD Lions KOI",
     "teamLink": "https://www.vlr.gg/team/14475/mad-lions-koi",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 269,
@@ -5915,7 +6183,8 @@
     "teamName": "R8 Blue",
     "teamLink": "https://www.vlr.gg/team/15243/r8-blue",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 270,
@@ -5937,7 +6206,8 @@
     "teamName": "T1",
     "teamLink": "https://www.vlr.gg/team/14/t1",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 271,
@@ -5959,7 +6229,8 @@
     "teamName": "Team Vitality",
     "teamLink": "https://www.vlr.gg/team/2059/team-vitality",
     "role": "Controlador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 272,
@@ -5981,7 +6252,8 @@
     "teamName": "Global Esports",
     "teamLink": "https://www.vlr.gg/team/918/global-esports",
     "role": "Iniciador",
-    "value": 828
+    "value": 828,
+    "inMarket": false
   },
   {
     "id": 273,
@@ -6003,7 +6275,8 @@
     "teamName": "Hero Base",
     "teamLink": "https://www.vlr.gg/team/15117/hero-base",
     "role": "Controlador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 274,
@@ -6025,7 +6298,8 @@
     "teamName": "FlyQuest RED",
     "teamLink": "https://www.vlr.gg/team/6456/flyquest-red",
     "role": "Sentinela",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 275,
@@ -6047,7 +6321,8 @@
     "teamName": "Galakticos",
     "teamLink": "https://www.vlr.gg/team/4762/galakticos",
     "role": "Iniciador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 276,
@@ -6069,7 +6344,8 @@
     "teamName": "Team Heretics",
     "teamLink": "https://www.vlr.gg/team/1001/team-heretics",
     "role": "Iniciador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 277,
@@ -6091,7 +6367,8 @@
     "teamName": "DRX",
     "teamLink": "https://www.vlr.gg/team/8185/drx",
     "role": "Duelista",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 278,
@@ -6113,7 +6390,8 @@
     "teamName": "OnlyFins",
     "teamLink": "https://www.vlr.gg/team/7932/onlyfins",
     "role": "Iniciador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 279,
@@ -6135,7 +6413,8 @@
     "teamName": "TeamOrangeGaming",
     "teamLink": "https://www.vlr.gg/team/9042/teamorangegaming",
     "role": "Sentinela",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 280,
@@ -6157,7 +6436,8 @@
     "teamName": "DetonatioN FocusMe",
     "teamLink": "https://www.vlr.gg/team/278/detonation-focusme",
     "role": "Duelista",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 281,
@@ -6179,7 +6459,8 @@
     "teamName": "XLD Gaming",
     "teamLink": "https://www.vlr.gg/team/15074/xld-gaming",
     "role": "Iniciador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 282,
@@ -6201,7 +6482,8 @@
     "teamName": "Colors Esport",
     "teamLink": "https://www.vlr.gg/team/11972/colors-esport",
     "role": "Controlador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 283,
@@ -6223,7 +6505,8 @@
     "teamName": "Van Lyn ",
     "teamLink": "https://www.vlr.gg/team/11455/van-lyn",
     "role": "Iniciador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 284,
@@ -6245,7 +6528,8 @@
     "teamName": "XLD Gaming",
     "teamLink": "https://www.vlr.gg/team/15074/xld-gaming",
     "role": "Duelista",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 285,
@@ -6267,7 +6551,8 @@
     "teamName": "Team Liquid",
     "teamLink": "https://www.vlr.gg/team/474/team-liquid",
     "role": "Sentinela",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 286,
@@ -6289,7 +6574,8 @@
     "teamName": "SCARZ",
     "teamLink": "https://www.vlr.gg/team/282/scarz",
     "role": "Duelista",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 287,
@@ -6311,7 +6597,8 @@
     "teamName": "ORGLESS",
     "teamLink": "https://www.vlr.gg/team/14805/orgless",
     "role": "Controlador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 288,
@@ -6333,7 +6620,8 @@
     "teamName": "Shopify Rebellion",
     "teamLink": "https://www.vlr.gg/team/14278/shopify-rebellion",
     "role": "Duelista",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 289,
@@ -6355,7 +6643,8 @@
     "teamName": "Team Falcons Vega",
     "teamLink": "https://www.vlr.gg/team/9314/team-falcons-vega",
     "role": "Iniciador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 290,
@@ -6377,7 +6666,8 @@
     "teamName": "YFP Gaming",
     "teamLink": "https://www.vlr.gg/team/5038/yfp-gaming",
     "role": "Duelista",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 291,
@@ -6399,7 +6689,8 @@
     "teamName": "Team Liquid",
     "teamLink": "https://www.vlr.gg/team/474/team-liquid",
     "role": "Duelista",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 292,
@@ -6421,7 +6712,8 @@
     "teamName": "iPGN",
     "teamLink": "https://www.vlr.gg/team/15197/ipgn",
     "role": "Iniciador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 293,
@@ -6443,7 +6735,8 @@
     "teamName": "Twisted Minds Orchid",
     "teamLink": "https://www.vlr.gg/team/12934/twisted-minds-orchid",
     "role": "Duelista",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 294,
@@ -6465,7 +6758,8 @@
     "teamName": "All Knights",
     "teamLink": "https://www.vlr.gg/team/364/all-knights",
     "role": "Iniciador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 295,
@@ -6487,7 +6781,8 @@
     "teamName": "Requiem",
     "teamLink": "https://www.vlr.gg/team/14523/requiem",
     "role": "Controlador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 296,
@@ -6509,7 +6804,8 @@
     "teamName": "Dough Bros",
     "teamLink": "https://www.vlr.gg/team/13232/dough-bros",
     "role": "Sentinela",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 297,
@@ -6531,7 +6827,8 @@
     "teamName": "TAMU White",
     "teamLink": "https://www.vlr.gg/team/10530/tamu-white",
     "role": "Controlador",
-    "value": 544
+    "value": 544,
+    "inMarket": false
   },
   {
     "id": 298,
@@ -6553,7 +6850,8 @@
     "teamName": "Arena Internet Cafe",
     "teamLink": "https://www.vlr.gg/team/15289/arena-internet-cafe",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 299,
@@ -6575,7 +6873,8 @@
     "teamName": "Requiem",
     "teamLink": "https://www.vlr.gg/team/14523/requiem",
     "role": "Duelista",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 300,
@@ -6597,7 +6896,8 @@
     "teamName": "Underground Gaming",
     "teamLink": "https://www.vlr.gg/team/10431/underground-gaming",
     "role": "Sentinela",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 301,
@@ -6619,7 +6919,8 @@
     "teamName": "MAD Lions KOI",
     "teamLink": "https://www.vlr.gg/team/14475/mad-lions-koi",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 302,
@@ -6641,7 +6942,8 @@
     "teamName": "NRG Esports",
     "teamLink": "https://www.vlr.gg/team/1034/nrg-esports",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 303,
@@ -6663,7 +6965,8 @@
     "teamName": "Dough Bros",
     "teamLink": "https://www.vlr.gg/team/13232/dough-bros",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 304,
@@ -6685,7 +6988,8 @@
     "teamName": "Metizport",
     "teamLink": "https://www.vlr.gg/team/12489/metizport",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 305,
@@ -6707,7 +7011,8 @@
     "teamName": "SK Gaming",
     "teamLink": "https://www.vlr.gg/team/14479/sk-gaming",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 306,
@@ -6729,7 +7034,8 @@
     "teamName": "Permitta eSports",
     "teamLink": "https://www.vlr.gg/team/15707/permitta-unicorns",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 307,
@@ -6751,7 +7057,8 @@
     "teamName": "TSM",
     "teamLink": "https://www.vlr.gg/team/106/tsm",
     "role": "Sentinela",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 308,
@@ -6773,7 +7080,8 @@
     "teamName": "Natus Vincere",
     "teamLink": "https://www.vlr.gg/team/4915/natus-vincere",
     "role": "Duelista",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 309,
@@ -6795,7 +7103,8 @@
     "teamName": "KOI",
     "teamLink": "https://www.vlr.gg/team/7035/koi",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 310,
@@ -6817,7 +7126,8 @@
     "teamName": "9z Team",
     "teamLink": "https://www.vlr.gg/team/367/9z-team",
     "role": "Duelista",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 311,
@@ -6839,7 +7149,8 @@
     "teamName": "Fisher Falcons",
     "teamLink": "https://www.vlr.gg/team/15121/fisher-falcons",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 312,
@@ -6861,7 +7172,8 @@
     "teamName": "https://www.vlr.gg/event/2043/saudi-womens-eleague-2024-major-1",
     "teamLink": "https://www.vlr.gg/event/2043/saudi-womens-eleague-2024-major-1",
     "role": "Sentinela",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 313,
@@ -6883,7 +7195,8 @@
     "teamName": "Chipi Chapa's",
     "teamLink": "https://www.vlr.gg/team/14429/chipi-chapas",
     "role": "Duelista",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 314,
@@ -6905,7 +7218,8 @@
     "teamName": "NRG Esports",
     "teamLink": "https://www.vlr.gg/team/1034/nrg-esports",
     "role": "Duelista",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 315,
@@ -6927,7 +7241,8 @@
     "teamName": "OLIMPO",
     "teamLink": "https://www.vlr.gg/team/14470/olimpo",
     "role": "Duelista",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 316,
@@ -6949,7 +7264,8 @@
     "teamName": "Medal Esports",
     "teamLink": "https://www.vlr.gg/team/8484/medal-esports",
     "role": "Sentinela",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 317,
@@ -6971,7 +7287,8 @@
     "teamName": "Galakticos",
     "teamLink": "https://www.vlr.gg/team/4762/galakticos",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 318,
@@ -6993,7 +7310,8 @@
     "teamName": "FOCUSGG",
     "teamLink": "https://www.vlr.gg/team/15253/focusgg",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 319,
@@ -7015,7 +7333,8 @@
     "teamName": "ZETA DIVISION",
     "teamLink": "https://www.vlr.gg/team/5448/zeta-division",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 320,
@@ -7037,7 +7356,8 @@
     "teamName": "OnlyFins",
     "teamLink": "https://www.vlr.gg/team/7932/onlyfins",
     "role": "Sentinela",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 321,
@@ -7059,7 +7379,8 @@
     "teamName": "Evil Geniuses",
     "teamLink": "https://www.vlr.gg/team/5248/evil-geniuses",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 322,
@@ -7081,7 +7402,8 @@
     "teamName": "Medal Esports",
     "teamLink": "https://www.vlr.gg/team/8484/medal-esports",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 323,
@@ -7103,7 +7425,8 @@
     "teamName": "EDGE",
     "teamLink": "https://www.vlr.gg/team/15208/edge",
     "role": "Duelista",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 324,
@@ -7125,7 +7448,8 @@
     "teamName": "Cloud9",
     "teamLink": "https://www.vlr.gg/team/188/cloud9",
     "role": "Sentinela",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 325,
@@ -7147,7 +7471,8 @@
     "teamName": "FLUFFY AIMERS",
     "teamLink": "https://www.vlr.gg/team/15606/fluffy-aimers",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 326,
@@ -7169,7 +7494,8 @@
     "teamName": "BOOM Esports",
     "teamLink": "https://www.vlr.gg/team/466/boom-esports",
     "role": "Duelista",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 327,
@@ -7191,7 +7517,8 @@
     "teamName": "Bakim Corp",
     "teamLink": "https://www.vlr.gg/team/15155/bakim-corp",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 328,
@@ -7213,7 +7540,8 @@
     "teamName": "Legacy",
     "teamLink": "https://www.vlr.gg/team/15021/legacy",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 329,
@@ -7235,7 +7563,8 @@
     "teamName": "1337",
     "teamLink": "https://www.vlr.gg/team/14662/1337",
     "role": "Sentinela",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 330,
@@ -7257,7 +7586,8 @@
     "teamName": "Rub n' Pug",
     "teamLink": "https://www.vlr.gg/team/15216/rub-n-pug",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 331,
@@ -7279,7 +7609,8 @@
     "teamName": "SAGAZ",
     "teamLink": "https://www.vlr.gg/team/13683/sagaz",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 332,
@@ -7301,7 +7632,8 @@
     "teamName": "FENNEL GC",
     "teamLink": "https://www.vlr.gg/team/9516/fennel-gc",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 333,
@@ -7323,7 +7655,8 @@
     "teamName": "Team Liquid Brazil",
     "teamLink": "https://www.vlr.gg/team/7055/team-liquid-brazil",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 334,
@@ -7345,7 +7678,8 @@
     "teamName": "Together We Are Terrific",
     "teamLink": "https://www.vlr.gg/team/15011/together-we-are-terrific",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 335,
@@ -7367,7 +7701,8 @@
     "teamName": "Requiem",
     "teamLink": "https://www.vlr.gg/team/14523/requiem",
     "role": "Sentinela",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 336,
@@ -7389,7 +7724,8 @@
     "teamName": "BOOM Esports",
     "teamLink": "https://www.vlr.gg/team/466/boom-esports",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 337,
@@ -7411,7 +7747,8 @@
     "teamName": "CSUF Orange",
     "teamLink": "https://www.vlr.gg/team/10573/csuf-orange",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 338,
@@ -7433,7 +7770,8 @@
     "teamName": "Chipi Chapa's",
     "teamLink": "https://www.vlr.gg/team/14429/chipi-chapas",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 339,
@@ -7455,7 +7793,8 @@
     "teamName": "R8 Blue",
     "teamLink": "https://www.vlr.gg/team/15243/r8-blue",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 340,
@@ -7477,7 +7816,8 @@
     "teamName": "SAGAZ",
     "teamLink": "https://www.vlr.gg/team/13683/sagaz",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 341,
@@ -7499,7 +7839,8 @@
     "teamName": "Resonate",
     "teamLink": "https://www.vlr.gg/team/6422/resonate",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 342,
@@ -7521,7 +7862,8 @@
     "teamName": "KRÜ Esports",
     "teamLink": "https://www.vlr.gg/team/2355/kr-esports",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 343,
@@ -7543,7 +7885,8 @@
     "teamName": "M80",
     "teamLink": "https://www.vlr.gg/team/11001/m80",
     "role": "Sentinela",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 344,
@@ -7565,7 +7908,8 @@
     "teamName": "Karmine Corp GC",
     "teamLink": "https://www.vlr.gg/team/12255/karmine-corp-gc",
     "role": "Sentinela",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 345,
@@ -7587,7 +7931,8 @@
     "teamName": "Winthrop University",
     "teamLink": "https://www.vlr.gg/team/10448/winthrop-university",
     "role": "Duelista",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 346,
@@ -7609,7 +7954,8 @@
     "teamName": "Diamant Esports",
     "teamLink": "https://www.vlr.gg/team/8049/diamant-esports",
     "role": "Duelista",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 347,
@@ -7631,7 +7977,8 @@
     "teamName": "SaD Esports",
     "teamLink": "https://www.vlr.gg/team/13920/sad-esports",
     "role": "Duelista",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 348,
@@ -7653,7 +8000,8 @@
     "teamName": "SaD Esports",
     "teamLink": "https://www.vlr.gg/team/13920/sad-esports",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 349,
@@ -7675,7 +8023,8 @@
     "teamName": "SaD Esports",
     "teamLink": "https://www.vlr.gg/team/13920/sad-esports",
     "role": "",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 350,
@@ -7697,7 +8046,8 @@
     "teamName": "DRX",
     "teamLink": "https://www.vlr.gg/team/8185/drx",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 351,
@@ -7719,7 +8069,8 @@
     "teamName": "Moist x Shopify",
     "teamLink": "https://www.vlr.gg/team/13188/moist-x-shopify",
     "role": "Iniciador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 352,
@@ -7741,7 +8092,8 @@
     "teamName": "Fisher Falcons",
     "teamLink": "https://www.vlr.gg/team/15121/fisher-falcons",
     "role": "Controlador",
-    "value": 536
+    "value": 536,
+    "inMarket": false
   },
   {
     "id": 353,
@@ -7763,7 +8115,8 @@
     "teamName": "Twisted Minds Orchid",
     "teamLink": "https://www.vlr.gg/team/12934/twisted-minds-orchid",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 354,
@@ -7785,7 +8138,8 @@
     "teamName": "Karmine Corp GC",
     "teamLink": "https://www.vlr.gg/team/12255/karmine-corp-gc",
     "role": "Sentinela",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 355,
@@ -7807,7 +8161,8 @@
     "teamName": "Karmine Corp GC",
     "teamLink": "https://www.vlr.gg/team/12255/karmine-corp-gc",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 356,
@@ -7829,7 +8184,8 @@
     "teamName": "KOI",
     "teamLink": "https://www.vlr.gg/team/7035/koi",
     "role": "Iniciador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 357,
@@ -7851,7 +8207,8 @@
     "teamName": "MAD Lions KOI",
     "teamLink": "https://www.vlr.gg/team/14475/mad-lions-koi",
     "role": "Iniciador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 358,
@@ -7873,7 +8230,8 @@
     "teamName": "Fisher Ultra",
     "teamLink": "https://www.vlr.gg/team/13681/fisher-ultra",
     "role": "Iniciador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 359,
@@ -7895,7 +8253,8 @@
     "teamName": "Shopify Rebellion",
     "teamLink": "https://www.vlr.gg/team/14278/shopify-rebellion",
     "role": "Iniciador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 360,
@@ -7917,7 +8276,8 @@
     "teamName": "G2 Gozen",
     "teamLink": "https://www.vlr.gg/team/6530/g2-gozen",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 361,
@@ -7939,7 +8299,8 @@
     "teamName": "TBK Esports",
     "teamLink": "https://www.vlr.gg/team/6946/tbk-esports",
     "role": "Duelista",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 362,
@@ -7961,7 +8322,8 @@
     "teamName": "Rub n' Pug",
     "teamLink": "https://www.vlr.gg/team/15216/rub-n-pug",
     "role": "Duelista",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 363,
@@ -7983,7 +8345,8 @@
     "teamName": "JFT",
     "teamLink": "https://www.vlr.gg/team/13849/jft",
     "role": "Sentinela",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 364,
@@ -8005,7 +8368,8 @@
     "teamName": "https://www.vlr.gg/event/1944/challengers-league-2024-mena-resilience-split-1",
     "teamLink": "https://www.vlr.gg/event/1944/challengers-league-2024-mena-resilience-split-1",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 365,
@@ -8027,7 +8391,8 @@
     "teamName": "Winthrop University",
     "teamLink": "https://www.vlr.gg/team/10448/winthrop-university",
     "role": "Sentinela",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 366,
@@ -8049,7 +8414,8 @@
     "teamName": "BOOM Esports",
     "teamLink": "https://www.vlr.gg/team/466/boom-esports",
     "role": "Iniciador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 367,
@@ -8071,7 +8437,8 @@
     "teamName": "Oblivion Force",
     "teamLink": "https://www.vlr.gg/team/3108/oblivion-force",
     "role": "Duelista",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 368,
@@ -8093,7 +8460,8 @@
     "teamName": "All Knights",
     "teamLink": "https://www.vlr.gg/team/364/all-knights",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 369,
@@ -8115,7 +8483,8 @@
     "teamName": "Galorys",
     "teamLink": "https://www.vlr.gg/team/10755/galorys",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 370,
@@ -8137,7 +8506,8 @@
     "teamName": "Fisher Falcons",
     "teamLink": "https://www.vlr.gg/team/15121/fisher-falcons",
     "role": "Iniciador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 371,
@@ -8159,7 +8529,8 @@
     "teamName": "BOBA",
     "teamLink": "https://www.vlr.gg/team/15327/boba",
     "role": "Sentinela",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 372,
@@ -8181,7 +8552,8 @@
     "teamName": "Reckoning Esports",
     "teamLink": "https://www.vlr.gg/team/1033/reckoning-esports",
     "role": "Duelista",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 373,
@@ -8203,7 +8575,8 @@
     "teamName": "2Game Esports",
     "teamLink": "https://www.vlr.gg/team/15072/2game-esports",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 374,
@@ -8225,7 +8598,8 @@
     "teamName": "Gen.G",
     "teamLink": "https://www.vlr.gg/team/17/gen-g",
     "role": "Duelista",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 375,
@@ -8247,7 +8621,8 @@
     "teamName": "QoR",
     "teamLink": "https://www.vlr.gg/team/6985/qor",
     "role": "Iniciador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 376,
@@ -8269,7 +8644,8 @@
     "teamName": "Xperion NXT",
     "teamLink": "https://www.vlr.gg/team/14529/xperion-nxt",
     "role": "Sentinela",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 377,
@@ -8291,7 +8667,8 @@
     "teamName": "FOCUSGG",
     "teamLink": "https://www.vlr.gg/team/15253/focusgg",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 378,
@@ -8313,7 +8690,8 @@
     "teamName": "Paper Rex",
     "teamLink": "https://www.vlr.gg/team/624/paper-rex",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 379,
@@ -8335,7 +8713,8 @@
     "teamName": "QoR",
     "teamLink": "https://www.vlr.gg/team/6985/qor",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 380,
@@ -8357,7 +8736,8 @@
     "teamName": "Revenant Esports",
     "teamLink": "https://www.vlr.gg/team/8369/revenant-esports",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 381,
@@ -8379,7 +8759,8 @@
     "teamName": "FOKUS",
     "teamLink": "https://www.vlr.gg/team/6882/fokus",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 382,
@@ -8401,7 +8782,8 @@
     "teamName": "Formulation Gaming",
     "teamLink": "https://www.vlr.gg/team/10417/formulation-gaming",
     "role": "Duelista",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 383,
@@ -8423,7 +8805,8 @@
     "teamName": "FOKUS",
     "teamLink": "https://www.vlr.gg/team/6882/fokus",
     "role": "Iniciador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 384,
@@ -8445,7 +8828,8 @@
     "teamName": "BBL Esports",
     "teamLink": "https://www.vlr.gg/team/397/bbl-esports",
     "role": "Controlador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 385,
@@ -8467,7 +8851,8 @@
     "teamName": "EDGE",
     "teamLink": "https://www.vlr.gg/team/8448/bobo",
     "role": "Duelista",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 386,
@@ -8489,7 +8874,8 @@
     "teamName": "Fisher White",
     "teamLink": "https://www.vlr.gg/team/13682/fisher-white",
     "role": "Iniciador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 387,
@@ -8511,7 +8897,8 @@
     "teamName": "Global Esports",
     "teamLink": "https://www.vlr.gg/team/918/global-esports",
     "role": "Iniciador",
-    "value": 528
+    "value": 528,
+    "inMarket": false
   },
   {
     "id": 388,
@@ -8533,7 +8920,8 @@
     "teamName": "Turtle Troop",
     "teamLink": "https://www.vlr.gg/team/11836/turtle-troop",
     "role": "Sentinela",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 389,
@@ -8555,7 +8943,8 @@
     "teamName": "JFT",
     "teamLink": "https://www.vlr.gg/team/13849/jft",
     "role": "Controlador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 390,
@@ -8577,7 +8966,8 @@
     "teamName": "Cloud9",
     "teamLink": "https://www.vlr.gg/team/188/cloud9",
     "role": "Sentinela",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 391,
@@ -8599,7 +8989,8 @@
     "teamName": "BOBO",
     "teamLink": "https://www.vlr.gg/team/8448/bobo",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 392,
@@ -8621,7 +9012,8 @@
     "teamName": "MLT Esports",
     "teamLink": "https://www.vlr.gg/team/8030/mlt-esports",
     "role": "Sentinela",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 393,
@@ -8643,7 +9035,8 @@
     "teamName": "Odd 1 OUT",
     "teamLink": "https://www.vlr.gg/team/13226/odd-1-out",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 394,
@@ -8665,7 +9058,8 @@
     "teamName": "FLUFFY AIMERS",
     "teamLink": "https://www.vlr.gg/team/15606/fluffy-aimers",
     "role": "Sentinela",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 395,
@@ -8687,7 +9081,8 @@
     "teamName": "G2 Gozen",
     "teamLink": "https://www.vlr.gg/team/6530/g2-gozen",
     "role": "Duelista",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 396,
@@ -8709,7 +9104,8 @@
     "teamName": "Karmine Corp",
     "teamLink": "https://www.vlr.gg/team/8877/karmine-corp",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 397,
@@ -8731,7 +9127,8 @@
     "teamName": "Converse NBG",
     "teamLink": "https://www.vlr.gg/team/13637/converse-nbg",
     "role": "Controlador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 398,
@@ -8753,7 +9150,8 @@
     "teamName": "FENNEL",
     "teamLink": "https://www.vlr.gg/team/2934/fennel",
     "role": "Duelista",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 399,
@@ -8775,7 +9173,8 @@
     "teamName": "G2 Gozen",
     "teamLink": "https://www.vlr.gg/team/6530/g2-gozen",
     "role": "Duelista",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 400,
@@ -8797,7 +9196,8 @@
     "teamName": "FNATIC",
     "teamLink": "https://www.vlr.gg/team/2593/fnatic",
     "role": "Duelista",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 401,
@@ -8819,7 +9219,8 @@
     "teamName": "Diamant Esports",
     "teamLink": "https://www.vlr.gg/team/8049/diamant-esports",
     "role": "Controlador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 402,
@@ -8841,7 +9242,8 @@
     "teamName": "GIANTX",
     "teamLink": "https://www.vlr.gg/team/14419/giantx",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 403,
@@ -8863,7 +9265,8 @@
     "teamName": "Xperion NXT",
     "teamLink": "https://www.vlr.gg/team/14529/xperion-nxt",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 404,
@@ -8885,7 +9288,8 @@
     "teamName": "TeamOrangeGaming",
     "teamLink": "https://www.vlr.gg/team/9042/teamorangegaming",
     "role": "Duelista",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 405,
@@ -8907,7 +9311,8 @@
     "teamName": "Team Secret",
     "teamLink": "https://www.vlr.gg/team/6199/team-secret",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 406,
@@ -8929,7 +9334,8 @@
     "teamName": "Metizport",
     "teamLink": "https://www.vlr.gg/team/12489/metizport",
     "role": "Controlador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 407,
@@ -8951,7 +9357,8 @@
     "teamName": "Fisher Falcons",
     "teamLink": "https://www.vlr.gg/team/15121/fisher-falcons",
     "role": "Sentinela",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 408,
@@ -8973,7 +9380,8 @@
     "teamName": "Underground Gaming",
     "teamLink": "https://www.vlr.gg/team/10431/underground-gaming",
     "role": "Controlador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 409,
@@ -8995,7 +9403,8 @@
     "teamName": "BBL Esports",
     "teamLink": "https://www.vlr.gg/team/397/bbl-esports",
     "role": "Duelista",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 410,
@@ -9017,7 +9426,8 @@
     "teamName": "FlyQuest RED",
     "teamLink": "https://www.vlr.gg/team/6456/flyquest-red",
     "role": "Controlador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 411,
@@ -9039,7 +9449,8 @@
     "teamName": "VALIANT",
     "teamLink": "https://www.vlr.gg/team/10188/valiant",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 412,
@@ -9061,7 +9472,8 @@
     "teamName": "Sentinels",
     "teamLink": "https://www.vlr.gg/team/2/sentinels",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 413,
@@ -9083,7 +9495,8 @@
     "teamName": "G2 Esports",
     "teamLink": "https://www.vlr.gg/team/11058/g2-esports",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 414,
@@ -9105,7 +9518,8 @@
     "teamName": "Mizzou Esports",
     "teamLink": "https://www.vlr.gg/team/8614/mizzou-esports",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 415,
@@ -9127,7 +9541,8 @@
     "teamName": "Brewton Parker College",
     "teamLink": "https://www.vlr.gg/team/15350/brewton-parker-college",
     "role": "Controlador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 416,
@@ -9149,7 +9564,8 @@
     "teamName": "RED Canids",
     "teamLink": "https://www.vlr.gg/team/1124/red-canids",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 417,
@@ -9171,7 +9587,8 @@
     "teamName": "Requiem",
     "teamLink": "https://www.vlr.gg/team/14523/requiem",
     "role": "",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 418,
@@ -9193,7 +9610,8 @@
     "teamName": "Origami Team",
     "teamLink": "https://www.vlr.gg/team/12834/origami-team",
     "role": "Sentinela",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 419,
@@ -9215,7 +9633,8 @@
     "teamName": "Northwood University",
     "teamLink": "https://www.vlr.gg/team/10533/northwood-university",
     "role": "Controlador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 420,
@@ -9237,7 +9656,8 @@
     "teamName": "CSUF Orange",
     "teamLink": "https://www.vlr.gg/team/10573/csuf-orange",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 421,
@@ -9259,7 +9679,8 @@
     "teamName": "SweetNsour",
     "teamLink": "https://www.vlr.gg/team/14467/sweetnsour",
     "role": "Duelista",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 422,
@@ -9281,7 +9702,8 @@
     "teamName": "Karmine Corp GC",
     "teamLink": "https://www.vlr.gg/team/12255/karmine-corp-gc",
     "role": "Duelista",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 423,
@@ -9303,7 +9725,8 @@
     "teamName": "Oxygen Esports",
     "teamLink": "https://www.vlr.gg/team/10725/oxygen-esports",
     "role": "Controlador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 424,
@@ -9325,7 +9748,8 @@
     "teamName": "SweetNsour",
     "teamLink": "https://www.vlr.gg/team/14467/sweetnsour",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 425,
@@ -9347,7 +9771,8 @@
     "teamName": "Northwood University",
     "teamLink": "https://www.vlr.gg/team/10533/northwood-university",
     "role": "Sentinela",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 426,
@@ -9369,7 +9794,8 @@
     "teamName": "FLUFFY AIMERS",
     "teamLink": "https://www.vlr.gg/team/15606/fluffy-aimers",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 427,
@@ -9391,7 +9817,8 @@
     "teamName": "All Knights",
     "teamLink": "https://www.vlr.gg/team/364/all-knights",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 428,
@@ -9413,7 +9840,8 @@
     "teamName": "MIBR GC",
     "teamLink": "https://www.vlr.gg/team/8050/mibr-gc",
     "role": "Controlador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 429,
@@ -9435,7 +9863,8 @@
     "teamName": "MLT Esports",
     "teamLink": "https://www.vlr.gg/team/8030/mlt-esports",
     "role": "Iniciador",
-    "value": 520
+    "value": 520,
+    "inMarket": false
   },
   {
     "id": 430,
@@ -9457,7 +9886,8 @@
     "teamName": "Team Liquid Brazil",
     "teamLink": "https://www.vlr.gg/team/7055/team-liquid-brazil",
     "role": "Iniciador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 431,
@@ -9479,7 +9909,8 @@
     "teamName": "Thinking Men",
     "teamLink": "https://www.vlr.gg/team/14822/thinking-men",
     "role": "Controlador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 432,
@@ -9501,7 +9932,8 @@
     "teamName": "Ball State",
     "teamLink": "https://www.vlr.gg/team/13749/ball-state",
     "role": "Sentinela",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 433,
@@ -9523,7 +9955,8 @@
     "teamName": "FENNEL",
     "teamLink": "https://www.vlr.gg/team/2934/fennel",
     "role": "Controlador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 434,
@@ -9545,7 +9978,8 @@
     "teamName": "9z Team",
     "teamLink": "https://www.vlr.gg/team/367/9z-team",
     "role": "Iniciador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 435,
@@ -9567,7 +10001,8 @@
     "teamName": "NRG Esports",
     "teamLink": "https://www.vlr.gg/team/1034/nrg-esports",
     "role": "Sentinela",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 436,
@@ -9589,7 +10024,8 @@
     "teamName": "Leviatán",
     "teamLink": "https://www.vlr.gg/team/2359/leviat-n",
     "role": "Sentinela",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 437,
@@ -9611,7 +10047,8 @@
     "teamName": "Shopify Rebellion",
     "teamLink": "https://www.vlr.gg/team/14278/shopify-rebellion",
     "role": "Duelista",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 438,
@@ -9633,7 +10070,8 @@
     "teamName": "NOVO Esports",
     "teamLink": "https://www.vlr.gg/team/13161/novo-esports",
     "role": "Controlador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 439,
@@ -9655,7 +10093,8 @@
     "teamName": "Team Falcons",
     "teamLink": "https://www.vlr.gg/team/9737/team-saudi-arabia",
     "role": "Controlador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 440,
@@ -9677,7 +10116,8 @@
     "teamName": "RED Canids",
     "teamLink": "https://www.vlr.gg/team/1124/red-canids",
     "role": "Controlador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 441,
@@ -9699,7 +10139,8 @@
     "teamName": "Team Vitality",
     "teamLink": "https://www.vlr.gg/team/2059/team-vitality",
     "role": "Duelista",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 442,
@@ -9721,7 +10162,8 @@
     "teamName": "Galorys",
     "teamLink": "https://www.vlr.gg/team/10755/galorys",
     "role": "Sentinela",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 443,
@@ -9743,7 +10185,8 @@
     "teamName": "SHIFT",
     "teamLink": "https://www.vlr.gg/team/9535/shift",
     "role": "Sentinela",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 444,
@@ -9765,7 +10208,8 @@
     "teamName": "UST Esports",
     "teamLink": "https://www.vlr.gg/team/10505/ust-esports",
     "role": "Controlador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 445,
@@ -9787,7 +10231,8 @@
     "teamName": "GIANTX",
     "teamLink": "https://www.vlr.gg/team/14419/giantx",
     "role": "Duelista",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 446,
@@ -9809,7 +10254,8 @@
     "teamName": "NoodleSoupWarriors",
     "teamLink": "https://www.vlr.gg/team/15580/noodlesoupwarriors",
     "role": "Iniciador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 447,
@@ -9831,7 +10277,8 @@
     "teamName": "CGN Esports",
     "teamLink": "https://www.vlr.gg/team/5214/cgn-esports",
     "role": "Sentinela",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 448,
@@ -9853,7 +10300,8 @@
     "teamName": "2Game Esports",
     "teamLink": "https://www.vlr.gg/team/15072/2game-esports",
     "role": "Iniciador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 449,
@@ -9875,7 +10323,8 @@
     "teamName": "FOKUS",
     "teamLink": "https://www.vlr.gg/team/6882/fokus",
     "role": "Duelista",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 450,
@@ -9897,7 +10346,8 @@
     "teamName": "TBK Esports",
     "teamLink": "https://www.vlr.gg/team/6946/tbk-esports",
     "role": "Iniciador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 451,
@@ -9919,7 +10369,8 @@
     "teamName": "SweetNsour",
     "teamLink": "https://www.vlr.gg/team/14467/sweetnsour",
     "role": "Controlador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 452,
@@ -9941,7 +10392,8 @@
     "teamName": "Mercury Pink",
     "teamLink": "https://www.vlr.gg/team/13627/mercury-pink",
     "role": "Iniciador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 453,
@@ -9963,7 +10415,8 @@
     "teamName": "Talon Esports",
     "teamLink": "https://www.vlr.gg/team/8304/talon-esports",
     "role": "Controlador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 454,
@@ -9985,7 +10438,8 @@
     "teamName": "Team Heretics",
     "teamLink": "https://www.vlr.gg/team/1001/team-heretics",
     "role": "Sentinela",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 455,
@@ -10007,7 +10461,8 @@
     "teamName": "Reckoning Esports",
     "teamLink": "https://www.vlr.gg/team/1033/reckoning-esports",
     "role": "Iniciador",
-    "value": 512
+    "value": 512,
+    "inMarket": false
   },
   {
     "id": 456,
@@ -10029,7 +10484,8 @@
     "teamName": "Chipi Chapa's",
     "teamLink": "https://www.vlr.gg/team/14429/chipi-chapas",
     "role": "Controlador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 457,
@@ -10051,7 +10507,8 @@
     "teamName": "SOS Affenalarm",
     "teamLink": "https://www.vlr.gg/team/15486/sos-affenalarm",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 458,
@@ -10073,7 +10530,8 @@
     "teamName": "SLT Seongnam",
     "teamLink": "https://www.vlr.gg/team/12446/slt-seongnam",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 459,
@@ -10095,7 +10553,8 @@
     "teamName": "TSM",
     "teamLink": "https://www.vlr.gg/team/106/tsm",
     "role": "Controlador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 460,
@@ -10117,7 +10576,8 @@
     "teamName": "Thinking Men",
     "teamLink": "https://www.vlr.gg/team/14822/thinking-men",
     "role": "Sentinela",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 461,
@@ -10139,7 +10599,8 @@
     "teamName": "NRG Esports",
     "teamLink": "https://www.vlr.gg/team/1034/nrg-esports",
     "role": "Duelista",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 462,
@@ -10161,7 +10622,8 @@
     "teamName": "Maryville University",
     "teamLink": "https://www.vlr.gg/team/12900/maryville-university",
     "role": "Controlador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 463,
@@ -10183,7 +10645,8 @@
     "teamName": "Stellae Gaming",
     "teamLink": "https://www.vlr.gg/team/10727/stellae-gaming",
     "role": "Controlador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 464,
@@ -10205,7 +10668,8 @@
     "teamName": "SFU Pink",
     "teamLink": "https://www.vlr.gg/team/10568/sfu-pink",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 465,
@@ -10227,7 +10691,8 @@
     "teamName": "T1",
     "teamLink": "https://www.vlr.gg/team/14/t1",
     "role": "Duelista",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 466,
@@ -10249,7 +10714,8 @@
     "teamName": "mesos millionaires",
     "teamLink": "https://www.vlr.gg/team/14722/mesos-millionaires",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 467,
@@ -10271,7 +10737,8 @@
     "teamName": "CSUF Orange",
     "teamLink": "https://www.vlr.gg/team/10573/csuf-orange",
     "role": "Controlador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 468,
@@ -10293,7 +10760,8 @@
     "teamName": "Burger Boyz",
     "teamLink": "https://www.vlr.gg/team/15250/burger-boyz",
     "role": "Controlador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 469,
@@ -10315,7 +10783,8 @@
     "teamName": "Natus Vincere",
     "teamLink": "https://www.vlr.gg/team/4915/natus-vincere",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 470,
@@ -10337,7 +10806,8 @@
     "teamName": "NRG Esports",
     "teamLink": "https://www.vlr.gg/team/1034/nrg-esports",
     "role": "Controlador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 471,
@@ -10359,7 +10829,8 @@
     "teamName": "FlyQuest RED",
     "teamLink": "https://www.vlr.gg/team/6456/flyquest-red",
     "role": "Controlador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 472,
@@ -10381,7 +10852,8 @@
     "teamName": "Evil Geniuses",
     "teamLink": "https://www.vlr.gg/team/5248/evil-geniuses",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 473,
@@ -10403,7 +10875,8 @@
     "teamName": "SaD Purple",
     "teamLink": "https://www.vlr.gg/team/13847/sad-purple",
     "role": "Controlador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 474,
@@ -10425,7 +10898,8 @@
     "teamName": "Medal Esports",
     "teamLink": "https://www.vlr.gg/team/8484/medal-esports",
     "role": "Duelista",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 475,
@@ -10447,7 +10921,8 @@
     "teamName": "Winthrop University",
     "teamLink": "https://www.vlr.gg/team/10448/winthrop-university",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 476,
@@ -10469,7 +10944,8 @@
     "teamName": "Fisher Navy",
     "teamLink": "https://www.vlr.gg/team/10479/fisher-navy",
     "role": "Duelista",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 477,
@@ -10491,7 +10967,8 @@
     "teamName": "FENNEL GC",
     "teamLink": "https://www.vlr.gg/team/9516/fennel-gc",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 478,
@@ -10513,7 +10990,8 @@
     "teamName": "Galorys",
     "teamLink": "https://www.vlr.gg/team/10755/galorys",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 479,
@@ -10535,7 +11013,8 @@
     "teamName": "Gen.G",
     "teamLink": "https://www.vlr.gg/team/17/gen-g",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 480,
@@ -10557,7 +11036,8 @@
     "teamName": "iPGN",
     "teamLink": "https://www.vlr.gg/team/15197/ipgn",
     "role": "Sentinela",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 481,
@@ -10579,7 +11059,8 @@
     "teamName": "EDward Gaming",
     "teamLink": "https://www.vlr.gg/team/1120/edward-gaming",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 482,
@@ -10601,7 +11082,8 @@
     "teamName": "ARF TEAM",
     "teamLink": "https://www.vlr.gg/team/8925/arf-team",
     "role": "Duelista",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 483,
@@ -10623,7 +11105,8 @@
     "teamName": "Reckoning Esports",
     "teamLink": "https://www.vlr.gg/team/1033/reckoning-esports",
     "role": "Controlador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 484,
@@ -10645,7 +11128,8 @@
     "teamName": "Team Liquid",
     "teamLink": "https://www.vlr.gg/team/474/team-liquid",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 485,
@@ -10667,7 +11151,8 @@
     "teamName": "T1",
     "teamLink": "https://www.vlr.gg/team/14/t1",
     "role": "Sentinela",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 486,
@@ -10689,7 +11174,8 @@
     "teamName": "CO-OP.gg",
     "teamLink": "https://www.vlr.gg/team/15073/co-op-gg",
     "role": "Duelista",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 487,
@@ -10711,7 +11197,8 @@
     "teamName": "FURIA",
     "teamLink": "https://www.vlr.gg/team/2406/furia",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 488,
@@ -10733,7 +11220,8 @@
     "teamName": "Colors Esport",
     "teamLink": "https://www.vlr.gg/team/11972/colors-esport",
     "role": "Iniciador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 489,
@@ -10755,7 +11243,8 @@
     "teamName": "Karmine Corp",
     "teamLink": "https://www.vlr.gg/team/8877/karmine-corp",
     "role": "Controlador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 490,
@@ -10777,7 +11266,8 @@
     "teamName": "Van Lyn ",
     "teamLink": "https://www.vlr.gg/team/11455/van-lyn",
     "role": "Sentinela",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 491,
@@ -10799,7 +11289,8 @@
     "teamName": "2Game Esports",
     "teamLink": "https://www.vlr.gg/team/15072/2game-esports",
     "role": "Sentinela",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 492,
@@ -10821,7 +11312,8 @@
     "teamName": "Ball State",
     "teamLink": "https://www.vlr.gg/team/13749/ball-state",
     "role": "Sentinela",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 493,
@@ -10843,7 +11335,8 @@
     "teamName": "Colors Esport",
     "teamLink": "https://www.vlr.gg/team/11972/colors-esport",
     "role": "Sentinela",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 494,
@@ -10865,7 +11358,8 @@
     "teamName": "Diamant Esports",
     "teamLink": "https://www.vlr.gg/team/8049/diamant-esports",
     "role": "Controlador",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 495,
@@ -10887,7 +11381,8 @@
     "teamName": "YFP Gaming",
     "teamLink": "https://www.vlr.gg/team/5038/yfp-gaming",
     "role": "Sentinela",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 496,
@@ -10909,7 +11404,8 @@
     "teamName": "Winthrop University",
     "teamLink": "https://www.vlr.gg/team/10448/winthrop-university",
     "role": "Duelista",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 497,
@@ -10931,7 +11427,8 @@
     "teamName": "SOS Affenalarm",
     "teamLink": "https://www.vlr.gg/team/15486/sos-affenalarm",
     "role": "Sentinela",
-    "value": 504
+    "value": 504,
+    "inMarket": false
   },
   {
     "id": 498,
@@ -10953,7 +11450,8 @@
     "teamName": "T1",
     "teamLink": "https://www.vlr.gg/team/14/t1",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 499,
@@ -10975,7 +11473,8 @@
     "teamName": "Burger Boyz",
     "teamLink": "https://www.vlr.gg/team/15250/burger-boyz",
     "role": "Sentinela",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 500,
@@ -10997,7 +11496,8 @@
     "teamName": "SFU Pink",
     "teamLink": "https://www.vlr.gg/team/10568/sfu-pink",
     "role": "Sentinela",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 501,
@@ -11019,7 +11519,8 @@
     "teamName": "Brewton Parker College",
     "teamLink": "https://www.vlr.gg/team/15350/brewton-parker-college",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 502,
@@ -11041,7 +11542,8 @@
     "teamName": "00Nation",
     "teamLink": "https://www.vlr.gg/team/11195/00nation",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 503,
@@ -11063,7 +11565,8 @@
     "teamName": "Team Vitality",
     "teamLink": "https://www.vlr.gg/team/2059/team-vitality",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 504,
@@ -11085,7 +11588,8 @@
     "teamName": "Diamant Esports",
     "teamLink": "https://www.vlr.gg/team/8049/diamant-esports",
     "role": "Sentinela",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 505,
@@ -11107,7 +11611,8 @@
     "teamName": "Burger Boyz",
     "teamLink": "https://www.vlr.gg/team/15250/burger-boyz",
     "role": "Sentinela",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 506,
@@ -11129,7 +11634,8 @@
     "teamName": "BOBO",
     "teamLink": "https://www.vlr.gg/team/8448/bobo",
     "role": "Sentinela",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 507,
@@ -11151,7 +11657,8 @@
     "teamName": "FLUFFY AIMERS",
     "teamLink": "https://www.vlr.gg/team/15606/fluffy-aimers",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 508,
@@ -11173,7 +11680,8 @@
     "teamName": "CO-OP.gg",
     "teamLink": "https://www.vlr.gg/team/15073/co-op-gg",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 509,
@@ -11195,7 +11703,8 @@
     "teamName": "TeamOrangeGaming",
     "teamLink": "https://www.vlr.gg/team/9042/teamorangegaming",
     "role": "Duelista",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 510,
@@ -11217,7 +11726,8 @@
     "teamName": "Team Secret",
     "teamLink": "https://www.vlr.gg/team/6199/team-secret",
     "role": "Sentinela",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 511,
@@ -11239,7 +11749,8 @@
     "teamName": "Bigetron Arctic",
     "teamLink": "https://www.vlr.gg/team/2814/bigetron-arctic",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 512,
@@ -11261,7 +11772,8 @@
     "teamName": "KOI",
     "teamLink": "https://www.vlr.gg/team/7035/koi",
     "role": "Duelista",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 513,
@@ -11283,7 +11795,8 @@
     "teamName": "iPGN",
     "teamLink": "https://www.vlr.gg/team/15197/ipgn",
     "role": "Iniciador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 514,
@@ -11305,7 +11818,8 @@
     "teamName": "QoR",
     "teamLink": "https://www.vlr.gg/team/6985/qor",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 515,
@@ -11327,7 +11841,8 @@
     "teamName": "Legacy",
     "teamLink": "https://www.vlr.gg/team/15021/legacy",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 516,
@@ -11349,7 +11864,8 @@
     "teamName": "Six Karma",
     "teamLink": "https://www.vlr.gg/team/4094/six-karma",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 517,
@@ -11371,7 +11887,8 @@
     "teamName": "JFT",
     "teamLink": "https://www.vlr.gg/team/13849/jft",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 518,
@@ -11393,7 +11910,8 @@
     "teamName": "Van Lyn ",
     "teamLink": "https://www.vlr.gg/team/11455/van-lyn",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 519,
@@ -11415,7 +11933,8 @@
     "teamName": "Sila4i",
     "teamLink": "https://www.vlr.gg/team/12958/sila4i",
     "role": "Controlador",
-    "value": 496
+    "value": 496,
+    "inMarket": false
   },
   {
     "id": 520,
@@ -11437,7 +11956,8 @@
     "teamName": "MLT Esports",
     "teamLink": "https://www.vlr.gg/team/8030/mlt-esports",
     "role": "Sentinela",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 521,
@@ -11459,7 +11979,8 @@
     "teamName": "Leviatán",
     "teamLink": "https://www.vlr.gg/team/2359/leviat-n",
     "role": "Iniciador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 522,
@@ -11481,7 +12002,8 @@
     "teamName": "meow control",
     "teamLink": "https://www.vlr.gg/team/15251/meow-control",
     "role": "Sentinela",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 523,
@@ -11503,7 +12025,8 @@
     "teamName": "Xperion NXT",
     "teamLink": "https://www.vlr.gg/team/14529/xperion-nxt",
     "role": "Controlador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 524,
@@ -11525,7 +12048,8 @@
     "teamName": "FENNEL GC",
     "teamLink": "https://www.vlr.gg/team/9516/fennel-gc",
     "role": "Controlador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 525,
@@ -11547,7 +12071,8 @@
     "teamName": "SweetNsour",
     "teamLink": "https://www.vlr.gg/team/14467/sweetnsour",
     "role": "Sentinela",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 526,
@@ -11569,7 +12094,8 @@
     "teamName": "SweetNsour",
     "teamLink": "https://www.vlr.gg/team/14467/sweetnsour",
     "role": "Controlador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 527,
@@ -11591,7 +12117,8 @@
     "teamName": "BOBO",
     "teamLink": "https://www.vlr.gg/team/8448/bobo",
     "role": "Controlador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 528,
@@ -11613,7 +12140,8 @@
     "teamName": "G2 Esports",
     "teamLink": "https://www.vlr.gg/team/11058/g2-esports",
     "role": "Duelista",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 529,
@@ -11635,7 +12163,8 @@
     "teamName": "Evil Geniuses",
     "teamLink": "https://www.vlr.gg/team/5248/evil-geniuses",
     "role": "Duelista",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 530,
@@ -11657,7 +12186,8 @@
     "teamName": "NoodleSoupWarriors",
     "teamLink": "https://www.vlr.gg/team/15580/noodlesoupwarriors",
     "role": "Controlador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 531,
@@ -11679,7 +12209,8 @@
     "teamName": "Underground Gaming",
     "teamLink": "https://www.vlr.gg/team/10431/underground-gaming",
     "role": "Iniciador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 532,
@@ -11701,7 +12232,8 @@
     "teamName": "Talon Esports",
     "teamLink": "https://www.vlr.gg/team/8304/talon-esports",
     "role": "Iniciador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 533,
@@ -11723,7 +12255,8 @@
     "teamName": "RED Canids",
     "teamLink": "https://www.vlr.gg/team/1124/red-canids",
     "role": "Sentinela",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 534,
@@ -11745,7 +12278,8 @@
     "teamName": "FUT Esports",
     "teamLink": "https://www.vlr.gg/team/1184/fut-esports",
     "role": "Controlador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 535,
@@ -11767,7 +12301,8 @@
     "teamName": "ANTOSHKA",
     "teamLink": "https://www.vlr.gg/team/10241/antoshka",
     "role": "Sentinela",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 536,
@@ -11789,7 +12324,8 @@
     "teamName": "CGN Esports",
     "teamLink": "https://www.vlr.gg/team/5214/cgn-esports",
     "role": "Controlador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 537,
@@ -11811,7 +12347,8 @@
     "teamName": "MLT Esports GC",
     "teamLink": "https://www.vlr.gg/team/13462/mlt-esports-gc",
     "role": "Iniciador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 538,
@@ -11833,7 +12370,8 @@
     "teamName": "The Ultimates Odyssey",
     "teamLink": "https://www.vlr.gg/team/12633/the-ultimates-odyssey",
     "role": "Controlador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 539,
@@ -11855,7 +12393,8 @@
     "teamName": "Burger Boyz",
     "teamLink": "https://www.vlr.gg/team/15250/burger-boyz",
     "role": "Iniciador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 540,
@@ -11877,7 +12416,8 @@
     "teamName": "Furious Gaming",
     "teamLink": "https://www.vlr.gg/team/361/furious-gaming",
     "role": "Duelista",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 541,
@@ -11899,7 +12439,8 @@
     "teamName": "FOKUS",
     "teamLink": "https://www.vlr.gg/team/6882/fokus",
     "role": "Duelista",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 542,
@@ -11921,7 +12462,8 @@
     "teamName": "GIANTX",
     "teamLink": "https://www.vlr.gg/team/14419/giantx",
     "role": "Controlador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 543,
@@ -11943,7 +12485,8 @@
     "teamName": "Global Esports",
     "teamLink": "https://www.vlr.gg/team/918/global-esports",
     "role": "Sentinela",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 544,
@@ -11965,7 +12508,8 @@
     "teamName": "Paper Rex",
     "teamLink": "https://www.vlr.gg/team/624/paper-rex",
     "role": "Duelista",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 545,
@@ -11987,7 +12531,8 @@
     "teamName": "Twisted Minds Orchid",
     "teamLink": "https://www.vlr.gg/team/12934/twisted-minds-orchid",
     "role": "Controlador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 546,
@@ -12009,7 +12554,8 @@
     "teamName": "Van Lyn ",
     "teamLink": "https://www.vlr.gg/team/11455/van-lyn",
     "role": "Duelista",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 547,
@@ -12031,7 +12577,8 @@
     "teamName": "Oxygen Esports",
     "teamLink": "https://www.vlr.gg/team/10725/oxygen-esports",
     "role": "Iniciador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 548,
@@ -12053,7 +12600,8 @@
     "teamName": "Disguised",
     "teamLink": "https://www.vlr.gg/team/14773/disguised",
     "role": "Controlador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 549,
@@ -12075,7 +12623,8 @@
     "teamName": "T1",
     "teamLink": "https://www.vlr.gg/team/14/t1",
     "role": "Iniciador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 550,
@@ -12097,7 +12646,8 @@
     "teamName": "Stellae Gaming",
     "teamLink": "https://www.vlr.gg/team/10727/stellae-gaming",
     "role": "Iniciador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 551,
@@ -12119,7 +12669,8 @@
     "teamName": "2Game Esports",
     "teamLink": "https://www.vlr.gg/team/15072/2game-esports",
     "role": "Controlador",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 552,
@@ -12141,7 +12692,8 @@
     "teamName": "LOUD",
     "teamLink": "https://www.vlr.gg/team/6961/loud",
     "role": "Sentinela",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 553,
@@ -12163,7 +12715,8 @@
     "teamName": "Talon Esports",
     "teamLink": "https://www.vlr.gg/team/8304/talon-esports",
     "role": "Duelista",
-    "value": 488
+    "value": 488,
+    "inMarket": false
   },
   {
     "id": 554,
@@ -12185,7 +12738,8 @@
     "teamName": "SK Gaming",
     "teamLink": "https://www.vlr.gg/team/14479/sk-gaming",
     "role": "Iniciador",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 555,
@@ -12207,7 +12761,8 @@
     "teamName": "XLD Gaming",
     "teamLink": "https://www.vlr.gg/team/15074/xld-gaming",
     "role": "Iniciador",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 556,
@@ -12229,7 +12784,8 @@
     "teamName": "TeamOrangeGaming",
     "teamLink": "https://www.vlr.gg/team/9042/teamorangegaming",
     "role": "Controlador",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 557,
@@ -12251,7 +12807,8 @@
     "teamName": "JiJieHao",
     "teamLink": "https://www.vlr.gg/team/14469/jijiehao",
     "role": "Iniciador",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 558,
@@ -12273,7 +12830,8 @@
     "teamName": "Mizzou Esports",
     "teamLink": "https://www.vlr.gg/team/8614/mizzou-esports",
     "role": "Duelista",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 559,
@@ -12295,7 +12853,8 @@
     "teamName": "Team Liquid",
     "teamLink": "https://www.vlr.gg/team/474/team-liquid",
     "role": "Controlador",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 560,
@@ -12317,7 +12876,8 @@
     "teamName": "Cloud9",
     "teamLink": "https://www.vlr.gg/team/188/cloud9",
     "role": "Controlador",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 561,
@@ -12339,7 +12899,8 @@
     "teamName": "Six Karma",
     "teamLink": "https://www.vlr.gg/team/4094/six-karma",
     "role": "Sentinela",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 562,
@@ -12361,7 +12922,8 @@
     "teamName": "Stellae Gaming",
     "teamLink": "https://www.vlr.gg/team/10727/stellae-gaming",
     "role": "Sentinela",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 563,
@@ -12383,7 +12945,8 @@
     "teamName": "Legacy",
     "teamLink": "https://www.vlr.gg/team/15021/legacy",
     "role": "Sentinela",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 564,
@@ -12405,7 +12968,8 @@
     "teamName": "Mizzou Esports",
     "teamLink": "https://www.vlr.gg/team/8614/mizzou-esports",
     "role": "Controlador",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 565,
@@ -12427,7 +12991,8 @@
     "teamName": "Team Vitality",
     "teamLink": "https://www.vlr.gg/team/2059/team-vitality",
     "role": "",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 566,
@@ -12449,7 +13014,8 @@
     "teamName": "FNATIC",
     "teamLink": "https://www.vlr.gg/team/2593/fnatic",
     "role": "Controlador",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 567,
@@ -12471,7 +13037,8 @@
     "teamName": "Winthrop University",
     "teamLink": "https://www.vlr.gg/team/10448/winthrop-university",
     "role": "Duelista",
-    "value": 480
+    "value": 480,
+    "inMarket": false
   },
   {
     "id": 568,
@@ -12493,7 +13060,8 @@
     "teamName": "Twisted Minds Orchid",
     "teamLink": "https://www.vlr.gg/team/12934/twisted-minds-orchid",
     "role": "Iniciador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 569,
@@ -12515,7 +13083,8 @@
     "teamName": "DetonatioN FocusMe",
     "teamLink": "https://www.vlr.gg/team/278/detonation-focusme",
     "role": "Controlador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 570,
@@ -12537,7 +13106,8 @@
     "teamName": "Team Major Academy",
     "teamLink": "https://www.vlr.gg/team/9278/team-major-academy",
     "role": "Duelista",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 571,
@@ -12559,7 +13129,8 @@
     "teamName": "BBL Esports",
     "teamLink": "https://www.vlr.gg/team/397/bbl-esports",
     "role": "Iniciador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 572,
@@ -12581,7 +13152,8 @@
     "teamName": "Rex Regum Qeon",
     "teamLink": "https://www.vlr.gg/team/878/rex-regum-qeon",
     "role": "Controlador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 573,
@@ -12603,7 +13175,8 @@
     "teamName": "The Ultimates Odyssey",
     "teamLink": "https://www.vlr.gg/team/12633/the-ultimates-odyssey",
     "role": "Iniciador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 574,
@@ -12625,7 +13198,8 @@
     "teamName": "Resonate",
     "teamLink": "https://www.vlr.gg/team/6422/resonate",
     "role": "Iniciador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 575,
@@ -12647,7 +13221,8 @@
     "teamName": "2Game Esports",
     "teamLink": "https://www.vlr.gg/team/15072/2game-esports",
     "role": "Duelista",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 576,
@@ -12669,7 +13244,8 @@
     "teamName": "MIBR",
     "teamLink": "https://www.vlr.gg/team/7386/mibr",
     "role": "Sentinela",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 577,
@@ -12691,7 +13267,8 @@
     "teamName": "Ball State",
     "teamLink": "https://www.vlr.gg/team/13749/ball-state",
     "role": "Iniciador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 578,
@@ -12713,7 +13290,8 @@
     "teamName": "Revenant Esports",
     "teamLink": "https://www.vlr.gg/team/8369/revenant-esports",
     "role": "Controlador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 579,
@@ -12735,7 +13313,8 @@
     "teamName": "Orangutan",
     "teamLink": "https://www.vlr.gg/team/8904/orangutan",
     "role": "Controlador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 580,
@@ -12757,7 +13336,8 @@
     "teamName": "Life's a Game",
     "teamLink": "https://www.vlr.gg/team/12769/lifes-a-game",
     "role": "Controlador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 581,
@@ -12779,7 +13359,8 @@
     "teamName": "The Ultimates Odyssey",
     "teamLink": "https://www.vlr.gg/team/12633/the-ultimates-odyssey",
     "role": "Sentinela",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 582,
@@ -12801,7 +13382,8 @@
     "teamName": "KOI",
     "teamLink": "https://www.vlr.gg/team/7035/koi",
     "role": "Iniciador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 583,
@@ -12823,7 +13405,8 @@
     "teamName": "MIBR GC",
     "teamLink": "https://www.vlr.gg/team/8050/mibr-gc",
     "role": "Sentinela",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 584,
@@ -12845,7 +13428,8 @@
     "teamName": "Furious Gaming",
     "teamLink": "https://www.vlr.gg/team/361/furious-gaming",
     "role": "Controlador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 585,
@@ -12867,7 +13451,8 @@
     "teamName": "SaD Purple",
     "teamLink": "https://www.vlr.gg/team/13847/sad-purple",
     "role": "Duelista",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 586,
@@ -12889,7 +13474,8 @@
     "teamName": "R8 Blue",
     "teamLink": "https://www.vlr.gg/team/15243/r8-blue",
     "role": "Duelista",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 587,
@@ -12911,7 +13497,8 @@
     "teamName": "CO-OP.gg",
     "teamLink": "https://www.vlr.gg/team/15073/co-op-gg",
     "role": "Iniciador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 588,
@@ -12933,7 +13520,8 @@
     "teamName": "GEEKZ ENERGY eSPORTS",
     "teamLink": "https://www.vlr.gg/team/11978/geekz-energy-esports",
     "role": "Iniciador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 589,
@@ -12955,7 +13543,8 @@
     "teamName": "TAMU Maroon",
     "teamLink": "https://www.vlr.gg/team/2785/tamu-maroon",
     "role": "Iniciador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 590,
@@ -12977,7 +13566,8 @@
     "teamName": "LOUD",
     "teamLink": "https://www.vlr.gg/team/6961/loud",
     "role": "Duelista",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 591,
@@ -12999,7 +13589,8 @@
     "teamName": "Medal Esports",
     "teamLink": "https://www.vlr.gg/team/8484/medal-esports",
     "role": "Controlador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 592,
@@ -13021,7 +13612,8 @@
     "teamName": "NOVO Esports",
     "teamLink": "https://www.vlr.gg/team/13161/novo-esports",
     "role": "Iniciador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 593,
@@ -13043,7 +13635,8 @@
     "teamName": "Akroma",
     "teamLink": "https://www.vlr.gg/team/12256/akroma",
     "role": "Controlador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 594,
@@ -13065,7 +13658,8 @@
     "teamName": "Six Karma",
     "teamLink": "https://www.vlr.gg/team/4094/six-karma",
     "role": "Iniciador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 595,
@@ -13087,7 +13681,8 @@
     "teamName": "Team Liquid",
     "teamLink": "https://www.vlr.gg/team/474/team-liquid",
     "role": "Controlador",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 596,
@@ -13109,7 +13704,8 @@
     "teamName": "Mizzou Esports",
     "teamLink": "https://www.vlr.gg/team/8614/mizzou-esports",
     "role": "Sentinela",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 597,
@@ -13131,7 +13727,8 @@
     "teamName": "Chipi Chapa's",
     "teamLink": "https://www.vlr.gg/team/14429/chipi-chapas",
     "role": "Sentinela",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 598,
@@ -13153,7 +13750,8 @@
     "teamName": "NoodleSoupWarriors",
     "teamLink": "https://www.vlr.gg/team/15580/noodlesoupwarriors",
     "role": "Sentinela",
-    "value": 472
+    "value": 472,
+    "inMarket": false
   },
   {
     "id": 599,
@@ -13175,7 +13773,8 @@
     "teamName": "YFP Gaming",
     "teamLink": "https://www.vlr.gg/team/5038/yfp-gaming",
     "role": "Duelista",
-    "value": 348
+    "value": 348,
+    "inMarket": false
   },
   {
     "id": 600,
@@ -13197,7 +13796,8 @@
     "teamName": "DetonatioN FocusMe",
     "teamLink": "https://www.vlr.gg/team/278/detonation-focusme",
     "role": "Controlador",
-    "value": 348
+    "value": 348,
+    "inMarket": false
   },
   {
     "id": 601,
@@ -13219,7 +13819,8 @@
     "teamName": "meow control",
     "teamLink": "https://www.vlr.gg/team/15251/meow-control",
     "role": "Duelista",
-    "value": 348
+    "value": 348,
+    "inMarket": false
   },
   {
     "id": 602,
@@ -13241,7 +13842,8 @@
     "teamName": "Legacy",
     "teamLink": "https://www.vlr.gg/team/15021/legacy",
     "role": "Controlador",
-    "value": 348
+    "value": 348,
+    "inMarket": false
   },
   {
     "id": 603,
@@ -13263,7 +13865,8 @@
     "teamName": "Evil Geniuses",
     "teamLink": "https://www.vlr.gg/team/5248/evil-geniuses",
     "role": "Controlador",
-    "value": 348
+    "value": 348,
+    "inMarket": false
   },
   {
     "id": 604,
@@ -13285,7 +13888,8 @@
     "teamName": "100 Thieves",
     "teamLink": "https://www.vlr.gg/team/120/100-thieves",
     "role": "Sentinela",
-    "value": 348
+    "value": 348,
+    "inMarket": false
   },
   {
     "id": 605,
@@ -13307,7 +13911,8 @@
     "teamName": "GIANTX",
     "teamLink": "https://www.vlr.gg/team/14419/giantx",
     "role": "Sentinela",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 606,
@@ -13329,7 +13934,8 @@
     "teamName": "Dough Bros",
     "teamLink": "https://www.vlr.gg/team/13232/dough-bros",
     "role": "Duelista",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 607,
@@ -13351,7 +13957,8 @@
     "teamName": "DetonatioN FocusMe",
     "teamLink": "https://www.vlr.gg/team/278/detonation-focusme",
     "role": "Iniciador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 608,
@@ -13373,7 +13980,8 @@
     "teamName": "ARF TEAM",
     "teamLink": "https://www.vlr.gg/team/8925/arf-team",
     "role": "Controlador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 609,
@@ -13395,7 +14003,8 @@
     "teamName": "KRÜ Esports",
     "teamLink": "https://www.vlr.gg/team/2355/kr-esports",
     "role": "Controlador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 610,
@@ -13417,7 +14026,8 @@
     "teamName": "BLEED",
     "teamLink": "https://www.vlr.gg/team/6387/bleed",
     "role": "Controlador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 611,
@@ -13439,7 +14049,8 @@
     "teamName": "CSUF Orange",
     "teamLink": "https://www.vlr.gg/team/10573/csuf-orange",
     "role": "Duelista",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 612,
@@ -13461,7 +14072,8 @@
     "teamName": "OnlyFins",
     "teamLink": "https://www.vlr.gg/team/7932/onlyfins",
     "role": "Duelista",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 613,
@@ -13483,7 +14095,8 @@
     "teamName": "Six Karma",
     "teamLink": "https://www.vlr.gg/team/4094/six-karma",
     "role": "Controlador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 614,
@@ -13505,7 +14118,8 @@
     "teamName": "Reckoning Esports",
     "teamLink": "https://www.vlr.gg/team/1033/reckoning-esports",
     "role": "Sentinela",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 615,
@@ -13527,7 +14141,8 @@
     "teamName": "Rex Regum Qeon",
     "teamLink": "https://www.vlr.gg/team/878/rex-regum-qeon",
     "role": "Duelista",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 616,
@@ -13549,7 +14164,8 @@
     "teamName": "Akroma",
     "teamLink": "https://www.vlr.gg/team/12256/akroma",
     "role": "Duelista",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 617,
@@ -13571,7 +14187,8 @@
     "teamName": "Brewton Parker College",
     "teamLink": "https://www.vlr.gg/team/15350/brewton-parker-college",
     "role": "Iniciador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 618,
@@ -13593,7 +14210,8 @@
     "teamName": "Thinking Men",
     "teamLink": "https://www.vlr.gg/team/14822/thinking-men",
     "role": "Iniciador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 619,
@@ -13615,7 +14233,8 @@
     "teamName": "The Ultimates Odyssey",
     "teamLink": "https://www.vlr.gg/team/12633/the-ultimates-odyssey",
     "role": "Controlador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 620,
@@ -13637,7 +14256,8 @@
     "teamName": "Dough Bros",
     "teamLink": "https://www.vlr.gg/team/13232/dough-bros",
     "role": "Iniciador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 621,
@@ -13659,7 +14279,8 @@
     "teamName": "SaD Esports",
     "teamLink": "https://www.vlr.gg/team/13920/sad-esports",
     "role": "Duelista",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 622,
@@ -13681,7 +14302,8 @@
     "teamName": "SFU Pink",
     "teamLink": "https://www.vlr.gg/team/10568/sfu-pink",
     "role": "Duelista",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 623,
@@ -13703,7 +14325,8 @@
     "teamName": "SFU Pink",
     "teamLink": "https://www.vlr.gg/team/10568/sfu-pink",
     "role": "Controlador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 624,
@@ -13725,7 +14348,8 @@
     "teamName": "Onyx Ravens",
     "teamLink": "https://www.vlr.gg/team/6159/onyx-ravens",
     "role": "Sentinela",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 625,
@@ -13747,7 +14371,8 @@
     "teamName": "BBL Esports",
     "teamLink": "https://www.vlr.gg/team/397/bbl-esports",
     "role": "Iniciador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 626,
@@ -13769,7 +14394,8 @@
     "teamName": "SLT Seongnam",
     "teamLink": "https://www.vlr.gg/team/12446/slt-seongnam",
     "role": "Iniciador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 627,
@@ -13791,7 +14417,8 @@
     "teamName": "Akroma",
     "teamLink": "https://www.vlr.gg/team/12256/akroma",
     "role": "Iniciador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 628,
@@ -13813,7 +14440,8 @@
     "teamName": "ONLINERS",
     "teamLink": "https://www.vlr.gg/team/12948/onliners",
     "role": "Iniciador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 629,
@@ -13835,7 +14463,8 @@
     "teamName": "Oblivion Force",
     "teamLink": "https://www.vlr.gg/team/3108/oblivion-force",
     "role": "Iniciador",
-    "value": 342
+    "value": 342,
+    "inMarket": false
   },
   {
     "id": 630,
@@ -13857,7 +14486,8 @@
     "teamName": "Evil Geniuses",
     "teamLink": "https://www.vlr.gg/team/5248/evil-geniuses",
     "role": "Sentinela",
-    "value": 336
+    "value": 336,
+    "inMarket": false
   },
   {
     "id": 631,
@@ -13879,7 +14509,8 @@
     "teamName": "Akroma",
     "teamLink": "https://www.vlr.gg/team/12256/akroma",
     "role": "Controlador",
-    "value": 336
+    "value": 336,
+    "inMarket": false
   },
   {
     "id": 632,
@@ -13901,7 +14532,8 @@
     "teamName": "EDGE",
     "teamLink": "https://www.vlr.gg/team/15208/edge",
     "role": "Iniciador",
-    "value": 336
+    "value": 336,
+    "inMarket": false
   },
   {
     "id": 633,
@@ -13923,7 +14555,8 @@
     "teamName": "Orangutan",
     "teamLink": "https://www.vlr.gg/team/8904/orangutan",
     "role": "Iniciador",
-    "value": 336
+    "value": 336,
+    "inMarket": false
   },
   {
     "id": 634,
@@ -13945,7 +14578,8 @@
     "teamName": "BLEED",
     "teamLink": "https://www.vlr.gg/team/6387/bleed",
     "role": "Duelista",
-    "value": 336
+    "value": 336,
+    "inMarket": false
   },
   {
     "id": 635,
@@ -13967,7 +14601,8 @@
     "teamName": "MIBR",
     "teamLink": "https://www.vlr.gg/team/7386/mibr",
     "role": "Duelista",
-    "value": 336
+    "value": 336,
+    "inMarket": false
   },
   {
     "id": 636,
@@ -13989,7 +14624,8 @@
     "teamName": "BLEED",
     "teamLink": "https://www.vlr.gg/team/6387/bleed",
     "role": "Iniciador",
-    "value": 336
+    "value": 336,
+    "inMarket": false
   },
   {
     "id": 637,
@@ -14011,7 +14647,8 @@
     "teamName": "FENNEL",
     "teamLink": "https://www.vlr.gg/team/2934/fennel",
     "role": "Sentinela",
-    "value": 336
+    "value": 336,
+    "inMarket": false
   },
   {
     "id": 638,
@@ -14033,7 +14670,8 @@
     "teamName": "Kinetic",
     "teamLink": "https://www.vlr.gg/team/13623/kinetic",
     "role": "Controlador",
-    "value": 330
+    "value": 330,
+    "inMarket": false
   },
   {
     "id": 639,
@@ -14055,7 +14693,8 @@
     "teamName": "Gamax Lite",
     "teamLink": "https://www.vlr.gg/team/12595/gamax-lite",
     "role": "Sentinela",
-    "value": 330
+    "value": 330,
+    "inMarket": false
   },
   {
     "id": 640,
@@ -14077,7 +14716,8 @@
     "teamName": "BLEED",
     "teamLink": "https://www.vlr.gg/team/6387/bleed",
     "role": "Sentinela",
-    "value": 330
+    "value": 330,
+    "inMarket": false
   },
   {
     "id": 641,
@@ -14099,7 +14739,8 @@
     "teamName": "godiwnl",
     "teamLink": "https://www.vlr.gg/team/15492/godiwnl",
     "role": "Iniciador",
-    "value": 330
+    "value": 330,
+    "inMarket": false
   },
   {
     "id": 642,
@@ -14121,7 +14762,8 @@
     "teamName": "Furious Gaming",
     "teamLink": "https://www.vlr.gg/team/361/furious-gaming",
     "role": "Iniciador",
-    "value": 330
+    "value": 330,
+    "inMarket": false
   },
   {
     "id": 643,
@@ -14143,7 +14785,8 @@
     "teamName": "ZETA DIVISION",
     "teamLink": "https://www.vlr.gg/team/5448/zeta-division",
     "role": "Iniciador",
-    "value": 330
+    "value": 330,
+    "inMarket": false
   },
   {
     "id": 644,
@@ -14165,7 +14808,8 @@
     "teamName": "Dough Bros",
     "teamLink": "https://www.vlr.gg/team/13232/dough-bros",
     "role": "Iniciador",
-    "value": 330
+    "value": 330,
+    "inMarket": false
   },
   {
     "id": 645,
@@ -14187,7 +14831,8 @@
     "teamName": "XLD Gaming",
     "teamLink": "https://www.vlr.gg/team/15074/xld-gaming",
     "role": "Sentinela",
-    "value": 330
+    "value": 330,
+    "inMarket": false
   },
   {
     "id": 646,
@@ -14209,7 +14854,8 @@
     "teamName": "The Ultimates Odyssey",
     "teamLink": "https://www.vlr.gg/team/12633/the-ultimates-odyssey",
     "role": "Duelista",
-    "value": 330
+    "value": 330,
+    "inMarket": false
   },
   {
     "id": 647,
@@ -14231,7 +14877,8 @@
     "teamName": "FURIA",
     "teamLink": "https://www.vlr.gg/team/2406/furia",
     "role": "Controlador",
-    "value": 330
+    "value": 330,
+    "inMarket": false
   },
   {
     "id": 648,
@@ -14253,7 +14900,8 @@
     "teamName": "MIBR",
     "teamLink": "https://www.vlr.gg/team/7386/mibr",
     "role": "Iniciador",
-    "value": 330
+    "value": 330,
+    "inMarket": false
   },
   {
     "id": 649,
@@ -14275,7 +14923,8 @@
     "teamName": "Arena Internet Cafe",
     "teamLink": "https://www.vlr.gg/team/15289/arena-internet-cafe",
     "role": "Iniciador",
-    "value": 330
+    "value": 330,
+    "inMarket": false
   },
   {
     "id": 650,
@@ -14297,7 +14946,8 @@
     "teamName": "Diamant Esports",
     "teamLink": "https://www.vlr.gg/team/8049/diamant-esports",
     "role": "Iniciador",
-    "value": 318
+    "value": 318,
+    "inMarket": false
   },
   {
     "id": 651,
@@ -14319,7 +14969,8 @@
     "teamName": "Aster Army",
     "teamLink": "https://www.vlr.gg/team/12254/aster-army",
     "role": "Controlador",
-    "value": 312
+    "value": 312,
+    "inMarket": false
   },
   {
     "id": 652,
@@ -14341,7 +14992,8 @@
     "teamName": "Gamax Lite",
     "teamLink": "https://www.vlr.gg/team/12595/gamax-lite",
     "role": "Duelista",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 653,
@@ -14363,7 +15015,8 @@
     "teamName": "OnlyFins",
     "teamLink": "https://www.vlr.gg/team/7932/onlyfins",
     "role": "Controlador",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 654,
@@ -14385,7 +15038,8 @@
     "teamName": "Sila4i",
     "teamLink": "https://www.vlr.gg/team/12958/sila4i",
     "role": "Sentinela",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 655,
@@ -14407,7 +15061,8 @@
     "teamName": "Carnival Gaming",
     "teamLink": "https://www.vlr.gg/team/14819/carnival-gaming",
     "role": "Controlador",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 656,
@@ -14429,7 +15084,8 @@
     "teamName": "Orangutan",
     "teamLink": "https://www.vlr.gg/team/8904/orangutan",
     "role": "Sentinela",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 657,
@@ -14451,7 +15107,8 @@
     "teamName": "CO-OP.gg",
     "teamLink": "https://www.vlr.gg/team/15073/co-op-gg",
     "role": "Sentinela",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 658,
@@ -14473,7 +15130,8 @@
     "teamName": "MIBR",
     "teamLink": "https://www.vlr.gg/team/7386/mibr",
     "role": "Controlador",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 659,
@@ -14495,7 +15153,8 @@
     "teamName": "meow control",
     "teamLink": "https://www.vlr.gg/team/15251/meow-control",
     "role": "Iniciador",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 660,
@@ -14517,7 +15176,8 @@
     "teamName": "SOS Affenalarm",
     "teamLink": "https://www.vlr.gg/team/15486/sos-affenalarm",
     "role": "Iniciador",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 661,
@@ -14539,7 +15199,8 @@
     "teamName": "YFP Gaming",
     "teamLink": "https://www.vlr.gg/team/5038/yfp-gaming",
     "role": "Iniciador",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 662,
@@ -14561,7 +15222,8 @@
     "teamName": "Reckoning Esports",
     "teamLink": "https://www.vlr.gg/team/1033/reckoning-esports",
     "role": "Controlador",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 663,
@@ -14583,7 +15245,8 @@
     "teamName": "XLD Gaming",
     "teamLink": "https://www.vlr.gg/team/15074/xld-gaming",
     "role": "Controlador",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 664,
@@ -14605,7 +15268,8 @@
     "teamName": "Orangutan",
     "teamLink": "https://www.vlr.gg/team/8904/orangutan",
     "role": "Duelista",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 665,
@@ -14627,7 +15291,8 @@
     "teamName": "Carnival Gaming",
     "teamLink": "https://www.vlr.gg/team/14819/carnival-gaming",
     "role": "Controlador",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 666,
@@ -14649,7 +15314,8 @@
     "teamName": "DetonatioN FocusMe",
     "teamLink": "https://www.vlr.gg/team/278/detonation-focusme",
     "role": "Sentinela",
-    "value": 306
+    "value": 306,
+    "inMarket": false
   },
   {
     "id": 667,
@@ -14671,7 +15337,8 @@
     "teamName": "EDGE",
     "teamLink": "https://www.vlr.gg/team/15208/edge",
     "role": "Controlador",
-    "value": 300
+    "value": 300,
+    "inMarket": false
   },
   {
     "id": 668,
@@ -14693,7 +15360,8 @@
     "teamName": "FURIA",
     "teamLink": "https://www.vlr.gg/team/2406/furia",
     "role": "Duelista",
-    "value": 300
+    "value": 300,
+    "inMarket": false
   },
   {
     "id": 669,
@@ -14715,7 +15383,8 @@
     "teamName": "SOS Affenalarm",
     "teamLink": "https://www.vlr.gg/team/15486/sos-affenalarm",
     "role": "Controlador",
-    "value": 294
+    "value": 294,
+    "inMarket": false
   },
   {
     "id": 670,
@@ -14737,7 +15406,8 @@
     "teamName": "FURIA",
     "teamLink": "https://www.vlr.gg/team/2406/furia",
     "role": "Controlador",
-    "value": 288
+    "value": 288,
+    "inMarket": false
   },
   {
     "id": 671,
@@ -14759,7 +15429,8 @@
     "teamName": "FURIA",
     "teamLink": "https://www.vlr.gg/team/2406/furia",
     "role": "Sentinela",
-    "value": 282
+    "value": 282,
+    "inMarket": false
   },
   {
     "id": 672,
@@ -14781,7 +15452,8 @@
     "teamName": "Brewton Parker College",
     "teamLink": "https://www.vlr.gg/team/15350/brewton-parker-college",
     "role": "Sentinela",
-    "value": 276
+    "value": 276,
+    "inMarket": false
   },
   {
     "id": 673,
@@ -14803,7 +15475,8 @@
     "teamName": "Carnival Gaming",
     "teamLink": "https://www.vlr.gg/team/14819/carnival-gaming",
     "role": "Iniciador",
-    "value": 276
+    "value": 276,
+    "inMarket": false
   },
   {
     "id": 674,
@@ -14825,7 +15498,8 @@
     "teamName": "CGN Esports",
     "teamLink": "https://www.vlr.gg/team/5214/cgn-esports",
     "role": "Duelista",
-    "value": 270
+    "value": 270,
+    "inMarket": false
   },
   {
     "id": 675,
@@ -14847,7 +15521,8 @@
     "teamName": "EDward Gaming",
     "teamLink": "https://www.vlr.gg/team/1120/edward-gaming",
     "role": "Iniciador",
-    "value": 270
+    "value": 270,
+    "inMarket": false
   },
   {
     "id": 676,
@@ -14869,7 +15544,8 @@
     "teamName": "MIBR",
     "teamLink": "https://www.vlr.gg/team/7386/mibr",
     "role": "Controlador",
-    "value": 264
+    "value": 264,
+    "inMarket": false
   },
   {
     "id": 677,
@@ -14891,7 +15567,8 @@
     "teamName": "EDward Gaming",
     "teamLink": "https://www.vlr.gg/team/1120/edward-gaming",
     "role": "Sentinela",
-    "value": 252
+    "value": 252,
+    "inMarket": false
   },
   {
     "id": 678,
@@ -14913,7 +15590,8 @@
     "teamName": "EDward Gaming",
     "teamLink": "https://www.vlr.gg/team/1120/edward-gaming",
     "role": "Duelista",
-    "value": 140
+    "value": 140,
+    "inMarket": false
   },
   {
     "id": 679,
@@ -14935,7 +15613,8 @@
     "teamName": "EDward Gaming",
     "teamLink": "https://www.vlr.gg/team/1120/edward-gaming",
     "role": "Controlador",
-    "value": 100
+    "value": 100,
+    "inMarket": false
   },
   {
     "id": 680,
@@ -14957,7 +15636,8 @@
     "teamName": "FunPlus Phoenix",
     "teamLink": "https://www.vlr.gg/team/11328/funplus-phoenix",
     "role": "Controlador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 681,
@@ -14979,7 +15659,8 @@
     "teamName": "Bilibili Gaming",
     "teamLink": "https://www.vlr.gg/team/12010/bilibili-gaming",
     "role": "Duelista",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 682,
@@ -15001,7 +15682,8 @@
     "teamName": "FunPlus Phoenix",
     "teamLink": "https://www.vlr.gg/team/11328/funplus-phoenix",
     "role": "Controlador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 683,
@@ -15023,7 +15705,8 @@
     "teamName": "Dragon Ranger Gaming",
     "teamLink": "https://www.vlr.gg/team/11981/dragon-ranger-gaming",
     "role": "Iniciador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 684,
@@ -15045,7 +15728,8 @@
     "teamName": "Trace Esports",
     "teamLink": "https://www.vlr.gg/team/12685/trace-esports",
     "role": "Controlador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 685,
@@ -15067,7 +15751,8 @@
     "teamName": "Bilibili Gaming",
     "teamLink": "https://www.vlr.gg/team/12010/bilibili-gaming",
     "role": "Iniciador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 686,
@@ -15089,7 +15774,8 @@
     "teamName": "Trace Esports",
     "teamLink": "https://www.vlr.gg/team/12685/trace-esports",
     "role": "Iniciador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 687,
@@ -15111,7 +15797,8 @@
     "teamName": "Trace Esports",
     "teamLink": "https://www.vlr.gg/team/12685/trace-esports",
     "role": "Controlador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 688,
@@ -15133,7 +15820,8 @@
     "teamName": "Trace Esports",
     "teamLink": "https://www.vlr.gg/team/12685/trace-esports",
     "role": "Duelista",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 689,
@@ -15155,7 +15843,8 @@
     "teamName": "Bilibili Gaming",
     "teamLink": "https://www.vlr.gg/team/12010/bilibili-gaming",
     "role": "Sentinela",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 690,
@@ -15177,7 +15866,8 @@
     "teamName": "Bilibili Gaming",
     "teamLink": "https://www.vlr.gg/team/12010/bilibili-gaming",
     "role": "Controlador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 691,
@@ -15199,7 +15889,8 @@
     "teamName": "Dragon Ranger Gaming",
     "teamLink": "https://www.vlr.gg/team/11981/dragon-ranger-gaming",
     "role": "Controlador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 692,
@@ -15221,7 +15912,8 @@
     "teamName": "Dragon Ranger Gaming",
     "teamLink": "https://www.vlr.gg/team/11981/dragon-ranger-gaming",
     "role": "Sentinela",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 693,
@@ -15243,7 +15935,8 @@
     "teamName": "FunPlus Phoenix",
     "teamLink": "https://www.vlr.gg/team/11328/funplus-phoenix",
     "role": "Duelista",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 694,
@@ -15265,7 +15958,8 @@
     "teamName": "Dragon Ranger Gaming",
     "teamLink": "https://www.vlr.gg/team/11981/dragon-ranger-gaming",
     "role": "Duelista",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 695,
@@ -15287,7 +15981,8 @@
     "teamName": "Nova Esports",
     "teamLink": "https://www.vlr.gg/team/12064/nova-esports",
     "role": "Sentinela",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 696,
@@ -15309,7 +16004,8 @@
     "teamName": "Nova Esports",
     "teamLink": "https://www.vlr.gg/team/12064/nova-esports",
     "role": "Iniciador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 697,
@@ -15331,7 +16027,8 @@
     "teamName": "Nova Esports",
     "teamLink": "https://www.vlr.gg/team/12064/nova-esports",
     "role": "Controlador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 698,
@@ -15353,7 +16050,8 @@
     "teamName": "Nova Esports",
     "teamLink": "https://www.vlr.gg/team/12064/nova-esports",
     "role": "Controlador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 699,
@@ -15375,7 +16073,8 @@
     "teamName": "Nova Esports",
     "teamLink": "https://www.vlr.gg/team/12064/nova-esports",
     "role": "Duelista",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 700,
@@ -15397,7 +16096,8 @@
     "teamName": "Trace Esports",
     "teamLink": "https://www.vlr.gg/team/12685/trace-esports",
     "role": "Sentinela",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 701,
@@ -15419,7 +16119,8 @@
     "teamName": "Dragon Ranger Gaming",
     "teamLink": "https://www.vlr.gg/team/11981/dragon-ranger-gaming",
     "role": "Iniciador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 702,
@@ -15441,7 +16142,8 @@
     "teamName": "FunPlus Phoenix",
     "teamLink": "https://www.vlr.gg/team/11328/funplus-phoenix",
     "role": "Duelista",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   },
   {
     "id": 703,
@@ -15463,6 +16165,7 @@
     "teamName": "FunPlus Phoenix",
     "teamLink": "https://www.vlr.gg/team/11328/funplus-phoenix",
     "role": "Iniciador",
-    "value": 108
+    "value": 108,
+    "inMarket": false
   }
 ]

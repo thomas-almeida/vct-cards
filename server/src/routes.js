@@ -17,6 +17,8 @@ api.post('/game/choose-team-picture', playerController.chooseTeamPicture)
 api.post('/game/buy-pack', playerController.buyPack)
 api.post('/game/open-pack', playerController.openPack)
 api.post('/game/sell-player', playerController.sellPlayer)
+api.post('/game/market/submit-item', playerController.submitPlayerToMarket)
+api.get('/game/market/get-market-items', playerController.getMarketItems)
 
 // match AI RNG
 api.post('/match/testing-ai', matchController.testAI)

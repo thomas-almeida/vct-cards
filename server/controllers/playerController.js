@@ -1,11 +1,13 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import generateId from '../scripts/generateId.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const teamsDB = path.join(__dirname, '..', 'db', 'teams.json')
 const usersDB = path.join(__dirname, '..', 'db', 'users.json')
 const packsDB = path.join(__dirname, '..', 'db', 'packs.json')
+const marketDB = path.join(__dirname, '..', 'db', 'market.json')
 
 async function playersByRegion(req, res) {
 
@@ -323,11 +325,104 @@ async function sellPlayer(req, res) {
     }
 }
 
+async function submitPlayerToMarket(req, res) {
+
+    try {
+
+        const { userId, playerId, tradeValue } = req.body
+
+        let users = []
+        let market = []
+        const usersData = fs.readFileSync(usersDB, 'utf-8')
+        const marketData = fs.readFileSync(marketDB, 'utf-8')
+        users = usersData ? JSON.parse(usersData) : []
+        market = marketData ? JSON.parse(marketData) : []
+
+        let targetUser
+        let targetPlayer
+
+        users.forEach((user, index) => {
+
+            if (users[index] === userId) {
+                targetUser = users[index]
+            }
+
+            users[index].team.players.forEach((player) => {
+
+                if (player.id === playerId && player.inMarket === false) {
+
+                    targetPlayer = player
+                    player.inMarket = true
+
+                    let tradeItem = {
+                        id: generateId.generateExtenseId(market),
+                        playerData: player,
+                        tradeValue: tradeValue,
+                        createdAt: new Date(),
+                        user: {
+                            id: users[index].id,
+                            name: users[index].name,
+                            team: users[index].team.name,
+                            picture: users[index].team.picture
+                        },
+                        requests: []
+                    }
+
+                    market.push(tradeItem)
+
+                    res.status(200).json({
+                        message: 'success',
+                        tradeItem: tradeItem
+                    })
+
+                    fs.writeFileSync(usersDB, JSON.stringify(users, null, 2))
+                    fs.writeFileSync(marketDB, JSON.stringify(market, null, 2))
+                }
+            })
+
+        })
+
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({
+            message: 'internal server error'
+        })
+    }
+
+}
+
+async function getMarketItems(req, res) {
+    try {
+
+        let market = []
+        const marketData = fs.readFileSync(marketDB, 'utf-8')
+        market = marketData ? JSON.parse(marketData) : []
+
+        let items = []
+        market.forEach((item, index) => {
+            items.push(market[index])
+        })
+
+        res.status(200).json({
+            message: 'success',
+            items: items
+        })
+
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({
+            message: 'Internal server error'
+        })
+    }
+}
+
 export default {
     playersByRegion,
     getTeamPictures,
     chooseTeamPicture,
     buyPack,
     openPack,
-    sellPlayer
+    sellPlayer,
+    submitPlayerToMarket,
+    getMarketItems
 }

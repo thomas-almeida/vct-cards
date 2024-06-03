@@ -1,3 +1,37 @@
 [
-    
+  {
+    "id": "qilzhv531",
+    "playerData": {
+      "id": 157,
+      "name": "kiNgg",
+      "overall": "72",
+      "acs": "205.1",
+      "kd": "1.14",
+      "kast": "76%",
+      "adr": "136.6",
+      "agents": "https://www.vlr.gg//img/vlr/game/agents/viper.png",
+      "country": {
+        "name": "Chile",
+        "flag": "https://www.vlr.gg/img/icons/flags/16/cl.png"
+      },
+      "link": "https://www.vlr.gg/player/8549/kingg",
+      "playerPicture": "https://owcdn.net/img/639a594be8d04.png",
+      "teamPicture": "https://owcdn.net/img/61b8888cc3860.png",
+      "rating": "1.08",
+      "teamName": "Leviatán",
+      "teamLink": "https://www.vlr.gg/team/2359/leviat-n",
+      "role": "Controlador",
+      "value": 864,
+      "inMarket": true
+    },
+    "tradeValue": 1200,
+    "createdAt": "2024-06-03T00:22:25.841Z",
+    "user": {
+      "id": "oeonez113",
+      "name": "Thom",
+      "team": "Autobois",
+      "picture": "https://owcdn.net/img/632be843b7d51.png"
+    },
+    "requests": []
+  }
 ]
