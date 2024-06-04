@@ -391,6 +391,22 @@ async function submitPlayerToMarket(req, res) {
 
 }
 
+async function makeTradeRequest(req, res) {
+    try {
+
+        const { marketItemId, userId,  userCoins} = req.body
+
+        let marketItems = []
+        const marketData = fs.readFileSync(marketDB, 'utf-8')
+
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({
+            message: 'Internal server error'
+        })
+    }
+}
+
 async function getMarketItems(req, res) {
     try {
 
