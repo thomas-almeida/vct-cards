@@ -19,6 +19,7 @@ api.post('/game/open-pack', playerController.openPack)
 api.post('/game/sell-player', playerController.sellPlayer)
 api.post('/game/market/submit-item', playerController.submitPlayerToMarket)
 api.get('/game/market/get-market-items', playerController.getMarketItems)
+api.post('/game/market/make-trade-request', playerController.makeTradeRequest)
 
 // match AI RNG
 //api.post('/match/testing-ai', matchController.testAI)

@@ -397,7 +397,42 @@ async function makeTradeRequest(req, res) {
         const { marketItemId, userId,  userCoins} = req.body
 
         let marketItems = []
+        let users = []
         const marketData = fs.readFileSync(marketDB, 'utf-8')
+        const usersData = fs.readFileSync(usersDB, 'utf-8')
+        marketItems = marketData ? JSON.parse(marketData) : []
+        users = usersData ? JSON.parse(usersData) : []
+
+        let targetItem
+
+        marketItems.forEach((item, index) => {
+            if (marketItems[index].id === marketItemId && userCoins >= marketItems[index].tradeValue) {
+                targetItem = marketItems[index]
+
+                let requestData = {
+                    id: generateId.generateExtenseId(marketItems[index].requests),
+                    user: users.find(user => user.id === userId),
+                    value: userCoins,
+                    createdAt: new Date()
+                }
+
+                marketItems[index].requests.push(requestData)
+
+                res.status(200).json({
+                    message: 'success',
+                    request: requestData,
+                    marketItem: marketItems[index]
+                })
+
+                fs.writeFileSync(marketDB, JSON.stringify(marketItems, null, 2))
+                
+            } else {
+                res.status(409).json({
+                    message: 'You do not have enough coins'
+                })
+            }
+        })
+
 
     } catch (error) {
         console.error(error)
@@ -440,5 +475,6 @@ export default {
     openPack,
     sellPlayer,
     submitPlayerToMarket,
-    getMarketItems
+    getMarketItems,
+    makeTradeRequest
 }
