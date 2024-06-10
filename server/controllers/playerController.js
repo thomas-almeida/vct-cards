@@ -365,7 +365,8 @@ async function submitPlayerToMarket(req, res) {
                             team: users[index].team.name,
                             picture: users[index].team.picture
                         },
-                        requests: []
+                        requests: [],
+                        isOpened: true
                     }
 
                     market.push(tradeItem)
@@ -394,7 +395,7 @@ async function submitPlayerToMarket(req, res) {
 async function makeTradeRequest(req, res) {
     try {
 
-        const { marketItemId, userId,  userCoins} = req.body
+        const { marketItemId, userId, userCoins } = req.body
 
         let marketItems = []
         let users = []
@@ -406,14 +407,19 @@ async function makeTradeRequest(req, res) {
         let targetItem
 
         marketItems.forEach((item, index) => {
-            if (marketItems[index].id === marketItemId && userCoins >= marketItems[index].tradeValue) {
+            if (
+                marketItems[index].id === marketItemId && 
+                userCoins >= marketItems[index].tradeValue && 
+                marketItems[index].isOpened === true
+            ) {
                 targetItem = marketItems[index]
 
                 let requestData = {
                     id: generateId.generateExtenseId(marketItems[index].requests),
                     user: users.find(user => user.id === userId),
                     value: userCoins,
-                    createdAt: new Date()
+                    createdAt: new Date(),
+                    isAccepted: false
                 }
 
                 marketItems[index].requests.push(requestData)
@@ -425,10 +431,10 @@ async function makeTradeRequest(req, res) {
                 })
 
                 fs.writeFileSync(marketDB, JSON.stringify(marketItems, null, 2))
-                
+
             } else {
                 res.status(409).json({
-                    message: 'You do not have enough coins'
+                    message: 'You do not have enough coins or this trade is closed'
                 })
             }
         })
@@ -439,6 +445,78 @@ async function makeTradeRequest(req, res) {
         res.status(500).json({
             message: 'Internal server error'
         })
+    }
+}
+
+async function acceptTradeRequests(req, res) {
+    try {
+
+        const { marketItemId, requestId, userBuyerId, userTraderId } = req.body
+
+        let marketItems = []
+        let users = []
+
+        const marketData = fs.readFileSync(marketDB, 'utf-8')
+        const usersData = fs.readFileSync(usersDB, 'utf-8')
+
+        marketItems = marketData ? JSON.parse(marketData) : []
+        users = usersData ? JSON.parse(usersData) : []
+
+        let userBuyer = {}
+        let userTrader = {}
+        let playerBoughted = {}
+
+        users.forEach((user, index) => {
+            if (users[index].id === userBuyerId) {
+                userBuyer = users[index]
+            }
+        })
+
+        users.forEach((user, index) => {
+            if (users[index].id === userTraderId) {
+                userTrader = users[index]
+            }
+        })
+
+        marketItems.forEach((item, index) => {
+            if (marketItems[index].id === marketItemId) {
+                marketItems[index].requests.forEach(request => {
+                    if (request.id === requestId) {
+
+                        playerBoughted = marketItems[index].playerData
+
+                        marketItems[index].isOpened = false
+                        playerBoughted.inMarket = false
+
+                        userTrader.coins += request.value
+                        userBuyer.coins -= request.value
+                        userBuyer.team.players.push(playerBoughted)
+
+                        const playerIndex = userTrader.team.players.findIndex(player => player.id === playerBoughted.id)
+                        if (playerIndex !== -1) {
+                            userTrader.team.players.splice(playerIndex, 1)
+                        }
+
+                    }
+                })
+            }
+
+            fs.writeFileSync(usersDB, JSON.stringify(users, null, 2))
+            fs.writeFileSync(marketDB, JSON.stringify(marketItems, null, 2))
+
+            console.log(`Player [${playerBoughted.overall}]${playerBoughted.name} has traded between [${userTrader.id}]${userTrader.name} and [${userBuyer.id}]${userBuyer.name}`)
+        })
+
+        res.status(200).json({
+            message: 'trade realized with success',
+            playerBoughted: playerBoughted,
+            userBuyer: userBuyer.name,
+            userTrader: userTrader.name
+        })
+
+    } catch (error) {
+        console.error(error)
+        res.status(500)
     }
 }
 
@@ -467,6 +545,7 @@ async function getMarketItems(req, res) {
     }
 }
 
+
 export default {
     playersByRegion,
     getTeamPictures,
@@ -476,5 +555,6 @@ export default {
     sellPlayer,
     submitPlayerToMarket,
     getMarketItems,
-    makeTradeRequest
+    makeTradeRequest,
+    acceptTradeRequests
 }

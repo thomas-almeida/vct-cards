@@ -20,6 +20,7 @@ api.post('/game/sell-player', playerController.sellPlayer)
 api.post('/game/market/submit-item', playerController.submitPlayerToMarket)
 api.get('/game/market/get-market-items', playerController.getMarketItems)
 api.post('/game/market/make-trade-request', playerController.makeTradeRequest)
+api.post('/game/market/accept-trade-request', playerController.acceptTradeRequests)
 
 // match AI RNG
 //api.post('/match/testing-ai', matchController.testAI)
