@@ -15,5 +15,22 @@
     "packs": [],
     "coins": 250,
     "credits": 0
+  },
+  {
+    "id": "tqbgxb476",
+    "name": "Jão",
+    "email": "jao@gmail.com",
+    "password": "01E@sqsu",
+    "level": 1,
+    "xp": 0,
+    "team": {
+      "id": "tqbgxb476",
+      "name": "jaozin sports",
+      "players": [],
+      "picture": ""
+    },
+    "packs": [],
+    "coins": 250,
+    "credits": 0
   }
 ]

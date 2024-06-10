@@ -14,10 +14,6 @@ const charMap = {
     '8': 'y', '9': 'z'
 };
 
-const reverseCharMap = Object.fromEntries(
-    Object.entries(charMap).map(([k, v]) => [v, k])
-);
-
 function encrypt(input) {
     return input.split('').map(char => charMap[char] || char).join('');
 }
