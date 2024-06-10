@@ -1,4 +1,6 @@
 import generateId from '../scripts/generateId.js'
+import cript from '../scripts/encript.js'
+
 
 import fs from 'fs'
 import path from 'path'
@@ -29,12 +31,14 @@ async function signUp(req, res) {
             return res.status(409).json({ message: 'username or email alredy exist' })
         }
 
+        let encriptedPassword = cript.encrypt(password)
+
         const id = generateId.generateExtenseId(users)
         const newUser = {
             id,
             name,
             email,
-            password,
+            password: encriptedPassword,
             level: 1,
             xp: 0,
             team: {
@@ -70,7 +74,9 @@ async function signIn(req, res) {
             users = data ? JSON.parse(data) : []
         }
 
-        const userRegistered = users.find(user => user.email === email && user.password === password)
+        let encriptedPassword = cript.encrypt(password)
+        
+        const userRegistered = users.find(user => user.email === email && user.password === encriptedPassword)
 
         if (userRegistered) {
             console.log(`user [${userRegistered.id}]${userRegistered.name} has logged in`)
