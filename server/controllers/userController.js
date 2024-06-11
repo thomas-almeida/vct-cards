@@ -45,6 +45,7 @@ async function signUp(req, res) {
                 id: id,
                 name: teamName,
                 players: [],
+                stage: [],
                 picture: '',
             },
             packs: [],
