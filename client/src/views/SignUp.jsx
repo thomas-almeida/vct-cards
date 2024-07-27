@@ -1,14 +1,19 @@
 import { useEffect, useState } from "react"
 import axios from 'axios'
+import { useNavigate } from "react-router-dom"
 
 export default function SignIn() {
 
+    const redirect = useNavigate()
+
     const [branding, setBranding] = useState([])
-    const [selectedRegion, setRegion] = useState(null)
+    const [regionSelected, setRegionToSelect] = useState(null)
     const [selectedBrand, setBrand] = useState(null)
     const [inStep1, setStep1] = useState(true)
     const [inStep2, setStep2] = useState(false)
     const [inStep3, setStep3] = useState(false)
+
+    const [user, setUser] = useState('')
 
     const [userName, setUserName] = useState('')
     const [userEmail, setUserEmail] = useState('')
@@ -26,20 +31,20 @@ export default function SignIn() {
 
     const regions = [
         {
+            name: 'AMERICAS',
             picture: '/logo-americas.png',
-            name: 'AMERICAS'
         },
         {
+            name: 'EMEA',
             picture: '/logo-emea.png',
-            name: 'EMEA'
         },
         {
+            name: 'PACIFICO',
             picture: '/logo-pacific.png',
-            name: 'PACIFICO'
         },
         {
+            name: 'CHINA',
             picture: '/logo-china.png',
-            name: 'CHINA'
         },
     ]
 
@@ -56,7 +61,7 @@ export default function SignIn() {
         fetchData();
     }, [])
 
-    function nextStep() {
+    async function nextStep() {
         if (inStep1) {
 
             if (userName === '' || !userEmail.includes('@') === true || userTeamName === '' || userPassword === '') {
@@ -64,24 +69,82 @@ export default function SignIn() {
                 return
             }
 
-            setStep2(true)
-            setStep1(false)
+            try {
+                const response = await axios.post("http://localhost:3002/users/sign-up", userDataPayload)
+
+                if (response.status === '409') {
+                    setAlertInfo(response.data?.message)
+                    return
+                }
+
+                setUser(response.data)
+                console.log(user)
+
+                setStep2(true)
+                setStep1(false)
+
+            } catch (error) {
+                console.error(error)
+            }
+
         }
 
         if (inStep2) {
-            setStep3(true)
-            setStep2(false)
-        }
-    }
+            console.log(regionSelected)
+            if (regionSelected === null) {
+                setAlertInfo('Selecione Uma Região Inicial')
+                return
+            }
 
-    const selectRegion = (region) => {
-        setRegion(region)
-        console.log(selectedRegion, region)
+            try {
+                const response = await axios.get(`http://localhost:3002/game/sort-players-by-region/${user?.id}/${regionSelected?.name.toLowerCase()}`)
+
+                if (response.status === '409') {
+                    setAlertInfo(response.data?.message)
+                    return
+                }
+
+                setStep3(true)
+                setStep2(false)
+
+            } catch (error) {
+                console.error(error)
+            }
+        }
+
+        if (inStep3) {
+            
+            const teamPicurePayload = {
+                userId: user?.id,
+                pictureLink: selectedBrand?.picture
+            }
+
+            try {
+                const response = await axios.post("http://localhost:3002/game/choose-team-picture", teamPicurePayload)
+
+                if (response.status === '409') {
+                    setAlertInfo(response.data?.message)
+                    return
+                }
+
+                setAlertInfo('usuario criado com sucesso')
+                redirect(`/home?id=${user?.id}`)
+
+            } catch (error) {
+                console.error(error)
+            }
+
+        }
     }
 
     const selectBranding = (brand) => {
         setBrand(brand)
         console.log(selectedBrand, brand)
+    }
+
+    async function chooseRegion(region) {
+        setRegionToSelect(region)
+        console.log(user.id, region.name.toLowerCase())
     }
 
     return (
@@ -152,8 +215,8 @@ export default function SignIn() {
 
                                         <li
                                             key={`${region.picture}${region.name}`}
-                                            className={`border bg-[#ffffff0d] border-gray-400 cursor-pointer rounded-sm m-2 flex justify-center items-center flex-col p-5 transition hover:scale-110 hover:uk-box-shadow-hover-xlarge ${selectedRegion === region ? "border-green-500 border-4" : ""}`}
-                                            onClick={() => selectRegion(region)}
+                                            className={`border bg-[#ffffff0d] border-gray-400 cursor-pointer rounded-sm m-2 flex justify-center items-center flex-col p-5 transition hover:scale-110 hover:uk-box-shadow-hover-xlarge ${regionSelected === region ? "border-green-500 border-4" : ""}`}
+                                            onClick={() => chooseRegion(region)}
                                         >
 
                                             <img
@@ -207,11 +270,12 @@ export default function SignIn() {
 
                     <br />
 
-                    <p className="font-mono mb-2 text-yellow-400 italic text-[9pt]">{alertInfo}</p>
+                    <p className={`font-mono mb-2 text-[9pt] text-yellow-400 ${inStep2 && selectedBrand !== null ? 'text-green-400' : ''}`}>{alertInfo}</p>
 
                     <button
                         className="uk-button uk-button-default w-80"
                         onClick={() => nextStep()}
+                        disabled={regionSelected === null && inStep2}
                     >
                         {inStep1 || inStep2 ? 'Continuar' : 'Finalizar'}
                     </button>

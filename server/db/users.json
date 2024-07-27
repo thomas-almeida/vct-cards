@@ -1,1 +1,182 @@
-[]
+[
+    {
+        "id": "glwrkh757",
+        "name": "Thomas Almeida",
+        "email": "vutgame@gmail.com",
+        "password": "rstrst",
+        "level": 1,
+        "xp": 0,
+        "team": {
+            "id": "glwrkh757",
+            "name": "AUTOBOIS",
+            "players": [
+                {
+                    "id": 359,
+                    "name": "sarahcat",
+                    "overall": "66",
+                    "acs": "201.1",
+                    "kd": "0.95",
+                    "kast": "74%",
+                    "adr": "131.5",
+                    "agents": "https://www.vlr.gg//img/vlr/game/agents/sova.png",
+                    "country": {
+                        "name": "Canada",
+                        "flag": "https://www.vlr.gg/img/icons/flags/16/ca.png"
+                    },
+                    "link": "https://www.vlr.gg/player/21486/sarahcat",
+                    "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+                    "teamPicture": "https://owcdn.net/img/62ba0611a4912.png",
+                    "rating": "0.99",
+                    "teamName": "Shopify Rebellion",
+                    "teamLink": "https://www.vlr.gg/team/14278/shopify-rebellion",
+                    "role": "Iniciador",
+                    "value": 528,
+                    "inMarket": false
+                },
+                {
+                    "id": 81,
+                    "name": "Nanners",
+                    "overall": "75",
+                    "acs": "231.6",
+                    "kd": "1.19",
+                    "kast": "73%",
+                    "adr": "153.0",
+                    "agents": "https://www.vlr.gg//img/vlr/game/agents/reyna.png",
+                    "country": {
+                        "name": "United States",
+                        "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
+                    },
+                    "link": "https://www.vlr.gg/player/2125/nanners",
+                    "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+                    "teamPicture": "https://owcdn.net/img/63b525814a4ef.png",
+                    "rating": "1.13",
+                    "teamName": "Fisher Falcons",
+                    "teamLink": "https://www.vlr.gg/team/15121/fisher-falcons",
+                    "role": "Duelista",
+                    "value": 900,
+                    "inMarket": false
+                },
+                {
+                    "id": 397,
+                    "name": "zeek",
+                    "overall": "65",
+                    "acs": "189.6",
+                    "kd": "0.89",
+                    "kast": "67%",
+                    "adr": "121.2",
+                    "agents": "https://www.vlr.gg//img/vlr/game/agents/omen.png",
+                    "country": {
+                        "name": "Canada",
+                        "flag": "https://www.vlr.gg/img/icons/flags/16/ca.png"
+                    },
+                    "link": "https://www.vlr.gg/player/26848/zeek",
+                    "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+                    "teamPicture": "https://owcdn.net/img/63712d16b27e2.png",
+                    "rating": "0.98",
+                    "teamName": "Converse NBG",
+                    "teamLink": "https://www.vlr.gg/team/13637/converse-nbg",
+                    "role": "Controlador",
+                    "value": 520,
+                    "inMarket": false
+                },
+                {
+                    "id": 348,
+                    "name": "Zoestol",
+                    "overall": "67",
+                    "acs": "173.4",
+                    "kd": "0.93",
+                    "kast": "76%",
+                    "adr": "111.5",
+                    "agents": "https://www.vlr.gg//img/vlr/game/agents/viper.png",
+                    "country": {
+                        "name": "United States",
+                        "flag": "https://www.vlr.gg/img/icons/flags/16/us.png"
+                    },
+                    "link": "https://www.vlr.gg/player/11696/zoestol",
+                    "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+                    "teamPicture": "https://owcdn.net/img/6528e9505cb61.png",
+                    "rating": "1.00",
+                    "teamName": "SaD Esports",
+                    "teamLink": "https://www.vlr.gg/team/13920/sad-esports",
+                    "role": "Controlador",
+                    "value": 536,
+                    "inMarket": false
+                },
+                {
+                    "id": 40,
+                    "name": "wedid",
+                    "overall": "79",
+                    "acs": "222.5",
+                    "kd": "1.16",
+                    "kast": "75%",
+                    "adr": "147.5",
+                    "agents": "https://www.vlr.gg//img/vlr/game/agents/omen.png",
+                    "country": {
+                        "name": "Poland",
+                        "flag": "https://www.vlr.gg/img/icons/flags/16/pl.png"
+                    },
+                    "link": "https://www.vlr.gg/player/1856/wedid",
+                    "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+                    "teamPicture": "https://owcdn.net/img/63d552c5dd028.png",
+                    "rating": "1.18",
+                    "teamName": "Turtle Troop",
+                    "teamLink": "https://www.vlr.gg/team/11836/turtle-troop",
+                    "role": "Controlador",
+                    "value": 948,
+                    "inMarket": false
+                },
+                {
+                    "id": 274,
+                    "name": "StarBound",
+                    "overall": "68",
+                    "acs": "208.3",
+                    "kd": "1.05",
+                    "kast": "71%",
+                    "adr": "140.0",
+                    "agents": "https://www.vlr.gg//img/vlr/game/agents/killjoy.png",
+                    "country": {
+                        "name": "Canada",
+                        "flag": "https://www.vlr.gg/img/icons/flags/16/ca.png"
+                    },
+                    "link": "https://www.vlr.gg/player/8329/starbound",
+                    "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+                    "teamPicture": "https://owcdn.net/img/6478e8607ca46.png",
+                    "rating": "1.02",
+                    "teamName": "FlyQuest RED",
+                    "teamLink": "https://www.vlr.gg/team/6456/flyquest-red",
+                    "role": "Sentinela",
+                    "value": 544,
+                    "inMarket": false
+                },
+                {
+                    "id": 540,
+                    "name": "Neon",
+                    "overall": "61",
+                    "acs": "211.7",
+                    "kd": "0.91",
+                    "kast": "66%",
+                    "adr": "145.0",
+                    "agents": "https://www.vlr.gg//img/vlr/game/agents/raze.png",
+                    "country": {
+                        "name": "Argentina",
+                        "flag": "https://www.vlr.gg/img/icons/flags/16/ar.png"
+                    },
+                    "link": "https://www.vlr.gg/player/29243/neon",
+                    "playerPicture": "https://www.vlr.gg/img/base/ph/sil.png",
+                    "teamPicture": "https://owcdn.net/img/639441ed93cc5.png",
+                    "rating": "0.91",
+                    "teamName": "Furious Gaming",
+                    "teamLink": "https://www.vlr.gg/team/361/furious-gaming",
+                    "role": "Duelista",
+                    "value": 488,
+                    "inMarket": false
+                }
+            ],
+            "stage": [],
+            "picture": "https://owcdn.net/img/6610f026c1a9e.png"
+        },
+        "packs": [],
+        "coins": 250,
+        "credits": 0
+    }
+]
