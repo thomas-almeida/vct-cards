@@ -1,5 +1,8 @@
+import { useNavigate } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 export default function SignIn() {
+
     return (
         <>
             <div className="bg-black h-screen text-white text-center flex justify-center items-center">
@@ -15,8 +18,12 @@ export default function SignIn() {
                         <br />
                         <button className="uk-button uk-button-default w-80 my-4">Entrar</button>
                         <br />
-                        <button className="uk-button uk-button-default w-80">
-                            Criar Novo Time
+                        <button
+                            className="uk-button uk-button-default w-80"
+                        >
+                            <NavLink to="/sign-up">
+                                Criar Novo Time
+                            </NavLink>
                         </button>
 
                     </form>

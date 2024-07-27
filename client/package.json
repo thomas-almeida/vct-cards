@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.7.2",
     "franken-ui": "^0.0.13",
     "postcss-combine-duplicated-selectors": "^10.0.3",
     "postcss-sort-media-queries": "^5.2.0",
