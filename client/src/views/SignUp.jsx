@@ -62,6 +62,7 @@ export default function SignIn() {
     }, [])
 
     async function nextStep() {
+        
         if (inStep1) {
 
             if (userName === '' || !userEmail.includes('@') === true || userTeamName === '' || userPassword === '') {
@@ -73,7 +74,7 @@ export default function SignIn() {
                 const response = await axios.post("http://localhost:3002/users/sign-up", userDataPayload)
 
                 if (response.status === '409') {
-                    setAlertInfo(response.data?.message)
+                    setAlertInfo(response)
                     return
                 }
 
