@@ -28,13 +28,13 @@ export default function SideBar(props) {
                 </div>
                 <div className="px-4 mt-8">
                     <ul>
-                        <li className="p-2 my-2 cursor-pointer font-semibold text-lg hover:font-extrabold"><a href="#">Início</a></li>
-                        <li className="p-2 my-2 cursor-pointer font-semibold text-lg hover:font-extrabold"><a href="#">Meu Time</a></li>
-                        <li className="p-2 my-2 cursor-pointer font-semibold text-lg hover:font-extrabold"><a href="#">Pacotes</a></li>
-                        <li className="p-2 my-2 cursor-pointer font-semibold text-lg hover:font-extrabold"><a href="#">Online League</a></li>
-                        <li className="p-2 my-2 cursor-pointer font-semibold text-lg hover:font-extrabold"><a href="#">Mercado</a></li>
-                        <li className="p-2 my-2 cursor-pointer font-semibold text-lg hover:font-extrabold"><a href="#">Labs</a></li>
-                        <li className="p-2 my-2 cursor-pointer font-semibold text-lg hover:font-extrabold"><a href="#">Configurações</a></li>
+                        <li className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"><a href="#">Início</a></li>
+                        <li className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"><a href="#">Meu Time</a></li>
+                        <li className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"><a href="#">Pacotes</a></li>
+                        <li className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"><a href="#">Online League</a></li>
+                        <li className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"><a href="#">Mercado</a></li>
+                        <li className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"><a href="#">Labs</a></li>
+                        <li className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"><a href="#">Configurações</a></li>
                     </ul>
                 </div>
             </div>

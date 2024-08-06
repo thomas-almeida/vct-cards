@@ -22,7 +22,7 @@ export default function Home() {
 
     return (
         <>
-            <div className="text-white flex items-center h-svh">
+            <div className="bg-[#0f0f0f] text-white flex items-center h-svh">
                 <SideBar
                     userTeamPic={userData?.team?.picture}
                     userTeamName={userData?.team?.name.toUpperCase()}
@@ -30,8 +30,13 @@ export default function Home() {
                     userCoins={userData?.coins}
                     userCredits={userData?.credits}
                 />
-                <div className="bg-[#0f0f0f] w-[100%] h-svh p-12 flex items-center justify-center">
-                    <h1>Menu</h1>
+                <div className="bg-[#0f0f0f] w-[100%]">
+                    <div className="flex items-center px-8 py-3">
+                        <h1 className="text-3xl font-bold italic">VUT</h1>
+                    </div>
+                    <div className="p-8 flex items-center justify-center h-[90vh]">
+                        <h1>Menu</h1>
+                    </div>
                 </div>
             </div>
         </>
