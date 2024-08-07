@@ -3,7 +3,12 @@ import { useEffect, useState } from "react";
 import SideBar from "../components/SideBar";
 import axios from "axios"
 
-import Menu from "./Menu";
+import Menu from "./modules/Menu";
+import MyTeam from "./modules/MyTeam";
+import Packs from "./modules/Packs"
+import OnlineLeague from "./modules/OnlineLeague"
+import Market from "./modules/Market"
+import Settings from "./modules/Settings"
 
 export default function Home() {
 
@@ -39,6 +44,11 @@ export default function Home() {
                     </div>
                     <div className="p-8 flex items-center justify-center h-[90vh]">
                         <Menu visible={true} />
+                        <MyTeam visible={false} />
+                        <Packs visible={false} />
+                        <OnlineLeague visible={false} />
+                        <Market visible={false} />
+                        <Settings visible={false} />
                     </div>
                 </div>
             </div>
