@@ -33,6 +33,7 @@ export default function Home() {
                     userCoins={userData?.coins}
                     userCredits={userData?.credits}
                     setActiveScreen={setActiveScreen}
+                    activeScreen={activeScreen}
                 />
                 <div className="bg-[#0f0f0f] w-[100%]">
                     <div className="flex items-center px-8 py-3">

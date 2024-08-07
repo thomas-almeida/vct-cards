@@ -1,6 +1,7 @@
 export default function SideBar(
     {
         setActiveScreen,
+        activeScreen,
         userTeamPic,
         userTeamName,
         userCoins,
@@ -30,40 +31,40 @@ export default function SideBar(
                     </div>
                 </div>
             </div>
-            <div className="px-4 mt-8">
+            <div className="px-4 mt-8 text-gray-400">
                 <ul>
                     <li
-                        className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"
+                        className={`p-2 my-2 cursor-pointer font-normal text-lg hover:text-white ${activeScreen === 'menu' ? 'text-white font-bold' : ''}`}
                         onClick={() => setActiveScreen('menu')}
                     >
                         <a href="#">Início</a>
                     </li>
                     <li
-                        className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"
+                        className={`p-2 my-2 cursor-pointer font-normal text-lg hover:text-white ${activeScreen === 'team' ? 'text-white font-bold' : ''}`}
                         onClick={() => setActiveScreen('team')}
                     >
                         <a href="#">Meu Time</a>
                     </li>
                     <li
-                        className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"
+                        className={`p-2 my-2 cursor-pointer font-normal text-lg hover:text-white ${activeScreen === 'packs' ? 'text-white font-bold' : ''}`}
                         onClick={() => setActiveScreen('packs')}
                     >
                         <a href="#">Pacotes</a>
                     </li>
                     <li
-                        className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"
+                        className={`p-2 my-2 cursor-pointer font-normal text-lg hover:text-white ${activeScreen === 'online' ? 'text-white font-bold' : ''}`}
                         onClick={() => setActiveScreen('online')}
                     >
                         <a href="#">Online League</a>
                     </li>
                     <li
-                        className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"
+                        className={`p-2 my-2 cursor-pointer font-normal text-lg hover:text-white ${activeScreen === 'market' ? 'text-white font-bold' : ''}`}
                         onClick={() => setActiveScreen('market')}
                     >
                         <a href="#">Mercado</a>
                     </li>
                     <li
-                        className="p-2 my-2 cursor-pointer font-normal text-lg hover:font-bold"
+                        className={`p-2 my-2 cursor-pointer font-normal text-lg hover:text-white ${activeScreen === 'settings' ? 'text-white font-bold' : ''}`}
                         onClick={() => setActiveScreen('settings')}
                     >
                         <a href="#">Configurações</a>
