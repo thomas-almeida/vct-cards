@@ -1,4 +1,6 @@
+
 export default function SideBar(props) {
+
     return (
         <>
             <div className="bg-[#1d1d1d] h-svh w-[350px]">

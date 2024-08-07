@@ -1,6 +1,9 @@
+
 import { useEffect, useState } from "react";
 import SideBar from "../components/SideBar";
 import axios from "axios"
+
+import Menu from "./Menu";
 
 export default function Home() {
 
@@ -35,7 +38,7 @@ export default function Home() {
                         <h1 className="text-3xl font-bold italic">VUT</h1>
                     </div>
                     <div className="p-8 flex items-center justify-center h-[90vh]">
-                        <h1>Menu</h1>
+                        <Menu visible={true} />
                     </div>
                 </div>
             </div>
