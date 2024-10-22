@@ -6408,7 +6408,8 @@
                 "role": "Duelista",
                 "value": 140
             }
-        ]
+        ],
+        "cover":"/packs/begginer-pack.png"
     },
     {
         "id": "lrbwao310",
@@ -12577,7 +12578,8 @@
                 "role": "Iniciador",
                 "value": 520
             }
-        ]
+        ],
+        "cover":"/packs/medium-pack.png"
     },
     {
         "id": "zbyesp154",
@@ -15424,9 +15426,10 @@
                 "role": "Sentinela",
                 "value": 864
             }
-        ]
+        ],
+        "cover":"/packs/high-pack.png"
     },
-    {
+    { 
         "id": "lkyqhs479",
         "name": "Pro Pack",
         "description": "Pacote dos melhores jogadores de Valorant",
@@ -16247,6 +16250,7 @@
                 "role": "Controlador",
                 "value": 1185
             }
-        ]
+        ],
+        "cover":"/packs/pro-pack.png"
     }
 ]
