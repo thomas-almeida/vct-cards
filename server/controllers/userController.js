@@ -47,6 +47,8 @@ async function signUp(req, res) {
                 players: [],
                 stage: [],
                 picture: '',
+                overall: 0,
+                value: 0
             },
             packs: [],
             coins: 250,
@@ -76,7 +78,7 @@ async function signIn(req, res) {
         }
 
         let encriptedPassword = cript.encrypt(password)
-        
+
         const userRegistered = users.find(user => user.email === email && user.password === encriptedPassword)
 
         if (userRegistered) {

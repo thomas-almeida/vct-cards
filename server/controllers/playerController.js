@@ -36,14 +36,13 @@ async function playersByRegion(req, res) {
 
         teams.forEach(team => {
 
-            console.log(team?.region?.name)
             let teamRegion = team?.region?.name.toLowerCase().replace(/\s/g, '-')
 
             let isPacific = region === 'pacific' && (teamRegion === 'singapore' || teamRegion === 'australia' || teamRegion === 'south-korea' || teamRegion === 'japan' || teamRegion === 'Bangladesh' || teamRegion === 'india' || teamByRegion === 'saudi-arabia')
             let isAmericas = region === 'americas' && (teamRegion === 'chile' || teamRegion === 'argentina' || teamRegion === 'canada' || teamRegion === 'brazil' || teamRegion === 'united-states' || teamRegion === 'mexico')
             let isChina = region === 'china' && (teamRegion === 'china')
             let isEmea = region === 'emea' && (teamRegion === 'europe')
-            let isWorld = region === undefined  
+            let isWorld = region === undefined
 
             if (teamRegion === region || isAmericas || isEmea || isPacific || isChina || isWorld) {
                 teamByRegion.push(team)
@@ -57,7 +56,7 @@ async function playersByRegion(req, res) {
             })
         })
 
-        while (randomPlayers.length < 7) {
+        while (randomPlayers.length < 8) {
             let index = Math.floor(Math.random() * players.length)
             let playerRole = players[index].role
 
@@ -72,13 +71,30 @@ async function playersByRegion(req, res) {
             randomPlayers.push(players[index])
         }
 
+        let stagePlayers = randomPlayers.slice(0, 5)
+        let totalValue = 0
+        let totalOverall = 0
+        let teamOv = 0
+
         users.forEach((user, index) => {
 
             if (users[index].id === userId) {
+
                 randomPlayers.forEach(player => {
                     users[index].team.players.push(player)
                 })
+
+                stagePlayers.forEach(player => {
+                    users[index].team.stage.push(player)
+                    totalValue += Number(player.value)
+                    totalOverall += parseFloat(player.overall)
+                })
+
             }
+
+            teamOv = totalOverall / 5
+            users[index].team.value += totalValue
+            users[index].team.overall += teamOv
 
             fs.writeFileSync(usersDB, JSON.stringify(users), null, 2)
         })
@@ -410,8 +426,8 @@ async function makeTradeRequest(req, res) {
 
         marketItems.forEach((item, index) => {
             if (
-                marketItems[index].id === marketItemId && 
-                userCoins >= marketItems[index].tradeValue && 
+                marketItems[index].id === marketItemId &&
+                userCoins >= marketItems[index].tradeValue &&
                 marketItems[index].isOpened === true
             ) {
                 targetItem = marketItems[index]
