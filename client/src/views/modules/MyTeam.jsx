@@ -41,13 +41,14 @@ export default function MyTeam({
                                     {userData?.team?.name}
                                 </h2>
                             </div>
-                            <div className="grid grid-cols-8 w-[80%]">
+                            <div className="grid grid-cols-10 w-[80%]">
                                 {
                                     userData?.team?.players?.map((card) => (
                                         <Card
                                             cardData={card}
                                             borderColor={colorizeCard(card?.overall)}
                                             key={card.id}
+                                            inStage={card.inStage}
                                         />
                                     ))
                                 }
