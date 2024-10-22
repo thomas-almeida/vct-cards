@@ -1,6 +1,6 @@
 import Tilt from 'react-parallax-tilt'
 
-export default function Card({ cardData, borderColor }) {
+export default function Card({ cardData, borderColor, inStage }) {
     return (
         <>
             <div className='hover:z-[99999]'>
@@ -49,8 +49,13 @@ export default function Card({ cardData, borderColor }) {
                                     </div>
                                 </div>
                             </h2>
+                            <div className='flex justify-center items-center p-1'>
+                                <p className='border border-[#dddddd2f] px-4 py-0 rounded-sm text-sm font-semibold'>
+                                    {cardData?.role}
+                                </p>
+                            </div>
                             <div className=''>
-                                <ul className='list-none grid grid-cols-2 justify-center items-center text-center relative top-[15px]'>
+                                <ul className='list-none grid grid-cols-2 justify-center items-center text-center relative'>
                                     <li className='mx-2 my-1 px-4 w-[130px] flex items-center' id="rw-tooltip">
                                         <p className='mr-2'>RW</p>
                                         <b>{cardData?.adr}%</b>
