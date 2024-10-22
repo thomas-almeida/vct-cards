@@ -62,11 +62,23 @@ export default function SideBar(
                 <div className="flex justify-start items-center px-4">
                     <div className="text-right">
                         <div className="flex items-center font-normal">
-                            <p className="mr-4 border px-2 rounded-md">GC {userCoins}</p>
-                            <p className="mr-4 border px-2 rounded-md">UC {userCredits}</p>
-                            <p className="mr-4 border px-2 rounded-md">LV {userLevel}</p>
-                            <p className="font-bold">{userTeamName}</p>
-                            <img src={userTeamPic} className="w-[40px] ml-2" />
+                            <p className="mr-4 rounded-md flex justify-center items-center">
+                                <img
+                                    src="/vc-icon.png"
+                                    className="w-[15px] mr-1"
+                                />
+                                <p className="font-bold">{userCoins}</p>
+                            </p>
+                            <p className="mr-4 rounded-md flex justify-center items-center">
+                                <img
+                                    src="/vp-icon.png"
+                                    className="w-[18px] mr-1"
+                                />
+                                <p className="font-bold">{userCredits}</p>
+                            </p>
+                            <p className="mr-4 px-2 border border-[#dddddd49] rounded-md font-semibold italic">LV {userLevel}</p>
+                            <p className="font-bold">{userName}</p>
+                            <img src={userTeamPic} className="w-[30px] ml-2" />
                         </div>
                     </div>
                 </div>
