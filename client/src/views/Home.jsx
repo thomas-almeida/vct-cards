@@ -7,6 +7,7 @@ import Screens from "./screens";
 export default function Home() {
 
     const [userData, setUserData] = useState('')
+    const [packData, setPackData] = useState('')
     const [activeScreen, setActiveScreen] = useState('menu')
 
     useEffect(() => {
@@ -19,7 +20,13 @@ export default function Home() {
             setUserData(response.data?.user)
         }
 
+        async function getPacks() {
+            const response = await axios.get(`http://localhost:3002/packs/get-packs`)
+            setPackData(response.data?.packs)
+        }
+
         getUserData()
+        getPacks()
 
     }, [])
 
@@ -41,6 +48,7 @@ export default function Home() {
                         <Screens
                             activeScreen={activeScreen}
                             userData={userData}
+                            packData={packData}
                         />
                     </div>
                 </div>
