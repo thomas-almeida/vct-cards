@@ -1,6 +1,7 @@
 import { Router } from "express"
 import userController from "../controllers/userController.js"
 import playerController from "../controllers/playerController.js"
+import packController from "../controllers/packController.js"
 //import matchController from "../controllers/matchController.js"
 
 const api = Router()
@@ -21,6 +22,9 @@ api.post('/game/market/submit-item', playerController.submitPlayerToMarket)
 api.get('/game/market/get-market-items', playerController.getMarketItems)
 api.post('/game/market/make-trade-request', playerController.makeTradeRequest)
 api.post('/game/market/accept-trade-request', playerController.acceptTradeRequests)
+
+//packs
+api.get('/packs/get-packs', packController.getPacks)
 
 // match AI RNG
 //api.post('/match/testing-ai', matchController.testAI)

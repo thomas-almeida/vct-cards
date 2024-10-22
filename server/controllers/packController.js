@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs, { cpSync } from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import generateId from '../scripts/generateId.js'
@@ -97,4 +97,29 @@ async function createNewPacks() {
     fs.writeFileSync(packsDB, JSON.stringify(packs), null, 2)
 }
 
+async function getPacks(req, res) {
+    try {
+
+        let packs = []
+        const packsData = fs.readFileSync(packsDB, 'utf-8')
+        packs = packsData ? JSON.parse(packsData) : []
+
+        res.status(200).json({
+            message: 'success',
+            packs: packs
+        })
+
+
+    } catch (error) {
+        console.error(error)
+        res.status(500).json({
+            message: 'internal server error'
+        })
+    }
+}
+
 createNewPacks()
+
+export default  {
+    getPacks
+}
