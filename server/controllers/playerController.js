@@ -36,14 +36,16 @@ async function playersByRegion(req, res) {
 
         teams.forEach(team => {
 
-            let teamRegion = team.region.name.toLowerCase().replace(/\s/g, '-')
+            console.log(team?.region?.name)
+            let teamRegion = team?.region?.name.toLowerCase().replace(/\s/g, '-')
 
             let isPacific = region === 'pacific' && (teamRegion === 'singapore' || teamRegion === 'australia' || teamRegion === 'south-korea' || teamRegion === 'japan' || teamRegion === 'Bangladesh' || teamRegion === 'india' || teamByRegion === 'saudi-arabia')
             let isAmericas = region === 'americas' && (teamRegion === 'chile' || teamRegion === 'argentina' || teamRegion === 'canada' || teamRegion === 'brazil' || teamRegion === 'united-states' || teamRegion === 'mexico')
             let isChina = region === 'china' && (teamRegion === 'china')
             let isEmea = region === 'emea' && (teamRegion === 'europe')
+            let isWorld = region === undefined  
 
-            if (teamRegion === region || isAmericas || isEmea || isPacific || isChina) {
+            if (teamRegion === region || isAmericas || isEmea || isPacific || isChina || isWorld) {
                 teamByRegion.push(team)
             }
 

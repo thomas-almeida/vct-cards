@@ -25,23 +25,22 @@ export default function Home() {
 
     return (
         <>
-            <div className="bg-[#0f0f0f] text-white flex items-center h-svh">
-                <SideBar
-                    userTeamPic={userData?.team?.picture}
-                    userTeamName={userData?.team?.name.toUpperCase()}
-                    userLevel={userData?.level}
-                    userCoins={userData?.coins}
-                    userCredits={userData?.credits}
-                    setActiveScreen={setActiveScreen}
-                    activeScreen={activeScreen}
-                />
-                <div className="bg-[#0f0f0f] w-[100%]">
-                    <div className="flex items-center px-8 py-3">
-                        <h1 className="text-3xl font-bold italic">VUT</h1>
-                    </div>
-                    <div className="p-8 flex items-center justify-center h-[90vh]">
-                        <Screens 
+            <div className="bg-[#141414] text-white flex justify-center items-center h-svh">
+                <div className="bg-[#141414] w-[100%]">
+                    <div className="">
+                        <SideBar
+                            userTeamPic={userData?.team?.picture}
+                            userTeamName={userData?.team?.name.toUpperCase()}
+                            userLevel={userData?.level}
+                            userCoins={userData?.coins}
+                            userCredits={userData?.credits}
+                            userName={userData?.name}
+                            setActiveScreen={setActiveScreen}
                             activeScreen={activeScreen}
+                        />
+                        <Screens
+                            activeScreen={activeScreen}
+                            userData={userData}
                         />
                     </div>
                 </div>

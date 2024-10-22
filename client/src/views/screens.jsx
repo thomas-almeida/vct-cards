@@ -6,15 +6,20 @@ import OnlineLeague from "./modules/OnlineLeague"
 import Market from "./modules/Market"
 import Settings from "./modules/Settings"
 
-export default function Screens({ activeScreen }) {
+export default function Screens(
+    {
+        activeScreen,
+        userData
+    }
+) {
     return (
         <>
-            {activeScreen === 'menu' && <Menu visible={true} />}
-            {activeScreen === 'team' && <MyTeam visible={true} />}
-            {activeScreen === 'packs' && <Packs visible={true} />}
-            {activeScreen === 'online' && <OnlineLeague visible={true} />}
-            {activeScreen === 'market' && <Market visible={true} />}
-            {activeScreen === 'settings' && <Settings visible={true} />}
+            {activeScreen === 'menu' && <Menu visible={true} userData={userData} />}
+            {activeScreen === 'team' && <MyTeam visible={true} userData={userData} />}
+            {activeScreen === 'packs' && <Packs visible={true} userData={userData} />}
+            {activeScreen === 'online' && <OnlineLeague visible={true} userData={userData} />}
+            {activeScreen === 'market' && <Market visible={true} userData={userData} />}
+            {activeScreen === 'settings' && <Settings visible={true} userData={userData} />}
         </>
     )
 }
