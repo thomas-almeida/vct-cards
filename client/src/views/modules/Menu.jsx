@@ -1,28 +1,11 @@
 import Card from "../../components/Card";
+import colorize from "../../utils/colorize.js";
 
 export default function Menu({
     visible,
     userData
 }) {
 
-    function colorizeCard(overall) {
-
-        if (overall === undefined) {
-            return '#f53c3d'
-        } else if (overall <= 30) {
-            return '#bf868f'
-        } else if (overall > 30 && overall <= 50) {
-            return '#a7c6cc'
-        } else if (overall > 50 && overall <= 75) {
-            return '#e6bc5c'
-        } else if (overall > 75 && overall <= 85) {
-            return '#5ee790'
-        } else if (overall > 85 && overall <= 88) {
-            return '#3ecbff'
-        } else if (overall > 88) {
-            return '#f53c3d'
-        }
-    }
 
     return (
         <>
@@ -48,7 +31,7 @@ export default function Menu({
                                 userData?.team?.stage?.map((card) => (
                                     <Card
                                         cardData={card}
-                                        borderColor={colorizeCard(card?.overall)}
+                                        borderColor={colorize.colorizeItem(card?.overall)}
                                         key={card.id}
                                         inStage={false}
                                     />
@@ -78,8 +61,8 @@ export default function Menu({
                                     <div className="w-[50%] flex justify-center items-center flex-col">
                                         <h2
                                             style={{
-                                                borderColor: colorizeCard(userData?.team?.overall.toFixed(0)),
-                                                color: colorizeCard(userData?.team?.overall.toFixed(0))
+                                                borderColor: colorize.colorizeItem(userData?.team?.overall.toFixed(0)),
+                                                color: colorize.colorizeItem(userData?.team?.overall.toFixed(0))
                                             }}
                                             className="bg-[#dddddd0b] border-2 text-center w-[100px] p-4 text-5xl font-bold italic rounded-s-xl rounded-e-xl rounded-tr-none rounded-es-none"
                                         >

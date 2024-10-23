@@ -1,29 +1,11 @@
 import Card from "../../components/Card"
+import colorize from "../../utils/colorize.js"
 
 export default function MyTeam({
     visible,
     userData
 }) {
 
-
-    function colorizeCard(overall) {
-
-        if (overall === undefined) {
-            return '#f53c3d'
-        } else if (overall <= 30) {
-            return '#bf868f'
-        } else if (overall > 30 && overall <= 50) {
-            return '#a7c6cc'
-        } else if (overall > 50 && overall <= 75) {
-            return '#e6bc5c'
-        } else if (overall > 75 && overall <= 85) {
-            return '#5ee790'
-        } else if (overall > 85 && overall <= 88) {
-            return '#3ecbff'
-        } else if (overall > 88) {
-            return '#f53c3d'
-        }
-    }
 
     return (
         <>
@@ -46,7 +28,7 @@ export default function MyTeam({
                                     userData?.team?.players?.map((card) => (
                                         <Card
                                             cardData={card}
-                                            borderColor={colorizeCard(card?.overall)}
+                                            borderColor={colorize.colorizeItem(card?.overall)}
                                             key={card.id}
                                             inStage={card.inStage}
                                         />
