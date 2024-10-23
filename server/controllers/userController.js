@@ -125,8 +125,29 @@ async function getUser(req, res) {
 
 }
 
+async function getUsers(req, res) {
+    try {
+
+        let users = []
+        const data = fs.readFileSync(dbPath, 'utf-8')
+        users = data ? JSON.parse(data) : []
+
+        res.status(200).json({
+            message: 'success',
+            teams: users
+        })
+
+    } catch (error) {
+        console.error(error)
+        res.status(200).json({
+            message: `internal server error: ${error}`
+        })
+    }
+}
+
 export default {
     signUp,
     signIn,
-    getUser
+    getUser,
+    getUsers
 }
