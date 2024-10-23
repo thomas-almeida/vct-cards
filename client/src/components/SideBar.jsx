@@ -49,7 +49,7 @@ export default function SideBar(
                             className={`p-2 px-4 my-2 cursor-pointer font-bold text-lg hover:text-white hover:font-bold  ${activeScreen === 'online' ? 'text-white font-bold' : ''}`}
                             onClick={() => setActiveScreen('online')}
                         >
-                            <a href="#">Competir</a>
+                            <a href="#">Liga Online</a>
                         </li>
                         <li
                             className={`p-2 px-4 my-2 cursor-pointer font-bold text-lg hover:text-white hover:font-bold  ${activeScreen === 'settings' ? 'text-white font-bold' : ''}`}
