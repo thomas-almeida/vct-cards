@@ -10,6 +10,7 @@ const api = Router()
 api.post('/users/sign-up', userController.signUp)
 api.post('/users/sign-in', userController.signIn)
 api.get('/users/get-user-by-id/:id', userController.getUser)
+api.get('/league/get-teams', userController.getUsers)
 
 //game
 api.get('/game/sort-players-by-region/:userId/:region', playerController.playersByRegion)
