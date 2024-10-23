@@ -10,7 +10,8 @@ export default function Screens(
     {
         activeScreen,
         userData,
-        packData
+        packData,
+        teamsData
     }
 ) {
     return (
@@ -18,7 +19,7 @@ export default function Screens(
             {activeScreen === 'menu' && <Menu visible={true} userData={userData} />}
             {activeScreen === 'team' && <MyTeam visible={true} userData={userData} />}
             {activeScreen === 'packs' && <Packs visible={true} userData={userData} packData={packData} />}
-            {activeScreen === 'online' && <OnlineLeague visible={true} userData={userData} />}
+            {activeScreen === 'online' && <OnlineLeague visible={true} userData={userData} teamsData={teamsData} />}
             {activeScreen === 'market' && <Market visible={true} userData={userData} />}
             {activeScreen === 'settings' && <Settings visible={true} userData={userData} />}
         </>
