@@ -8,6 +8,7 @@ export default function Home() {
 
     const [userData, setUserData] = useState('')
     const [packData, setPackData] = useState('')
+    const [teamsData, setTeamsData] = useState('')
     const [activeScreen, setActiveScreen] = useState('menu')
 
     useEffect(() => {
@@ -25,8 +26,15 @@ export default function Home() {
             setPackData(response.data?.packs)
         }
 
+        async function getUsers() {
+            const response = await axios.get(`http://localhost:3002/league/get-teams`)
+            setTeamsData(response.data?.teams)
+            console.log(teamsData)
+        }
+
         getUserData()
         getPacks()
+        getUsers()
 
     }, [])
 
@@ -49,6 +57,7 @@ export default function Home() {
                             activeScreen={activeScreen}
                             userData={userData}
                             packData={packData}
+                            teamsData={teamsData}
                         />
                     </div>
                 </div>
